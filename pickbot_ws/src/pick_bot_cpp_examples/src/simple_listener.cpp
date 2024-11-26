@@ -1,6 +1,5 @@
-#include <memory>
-#include <rclcpp/rclcpp.hpp>
-#include <std_msgs/msg/string.hpp>
+#include <std_msgs/std_msgs/msg/string.h>
+#include <rclcpp/rclcpp/rclcpp.hpp>
 
 class SimpleListener : public rclcpp::Node
 {

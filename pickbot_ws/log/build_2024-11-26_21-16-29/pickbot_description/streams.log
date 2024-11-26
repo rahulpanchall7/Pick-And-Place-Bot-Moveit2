@@ -1,0 +1,20 @@
+[0.103s] Invoking command in '/home/rahul/pick_bot/pickbot_ws/build/pickbot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/rahul/pick_bot/pickbot_ws/build/pickbot_description -- -j12 -l12
+[0.472s] Invoked command in '/home/rahul/pick_bot/pickbot_ws/build/pickbot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/rahul/pick_bot/pickbot_ws/build/pickbot_description -- -j12 -l12
+[0.511s] Invoking command in '/home/rahul/pick_bot/pickbot_ws/build/pickbot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/rahul/pick_bot/pickbot_ws/build/pickbot_description
+[0.523s] -- Install configuration: ""
+[0.523s] -- Up-to-date: /home/rahul/pick_bot/pickbot_ws/install/pickbot_description/share/ament_index/resource_index/package_run_dependencies/pickbot_description
+[0.524s] -- Up-to-date: /home/rahul/pick_bot/pickbot_ws/install/pickbot_description/share/ament_index/resource_index/parent_prefix_path/pickbot_description
+[0.524s] -- Up-to-date: /home/rahul/pick_bot/pickbot_ws/install/pickbot_description/share/pickbot_description/environment/ament_prefix_path.sh
+[0.524s] -- Up-to-date: /home/rahul/pick_bot/pickbot_ws/install/pickbot_description/share/pickbot_description/environment/ament_prefix_path.dsv
+[0.524s] -- Up-to-date: /home/rahul/pick_bot/pickbot_ws/install/pickbot_description/share/pickbot_description/environment/path.sh
+[0.524s] -- Up-to-date: /home/rahul/pick_bot/pickbot_ws/install/pickbot_description/share/pickbot_description/environment/path.dsv
+[0.524s] -- Up-to-date: /home/rahul/pick_bot/pickbot_ws/install/pickbot_description/share/pickbot_description/local_setup.bash
+[0.525s] -- Up-to-date: /home/rahul/pick_bot/pickbot_ws/install/pickbot_description/share/pickbot_description/local_setup.sh
+[0.525s] -- Up-to-date: /home/rahul/pick_bot/pickbot_ws/install/pickbot_description/share/pickbot_description/local_setup.zsh
+[0.525s] -- Up-to-date: /home/rahul/pick_bot/pickbot_ws/install/pickbot_description/share/pickbot_description/local_setup.dsv
+[0.525s] -- Up-to-date: /home/rahul/pick_bot/pickbot_ws/install/pickbot_description/share/pickbot_description/package.dsv
+[0.525s] -- Up-to-date: /home/rahul/pick_bot/pickbot_ws/install/pickbot_description/share/ament_index/resource_index/packages/pickbot_description
+[0.525s] -- Up-to-date: /home/rahul/pick_bot/pickbot_ws/install/pickbot_description/share/pickbot_description/cmake/pickbot_descriptionConfig.cmake
+[0.525s] -- Up-to-date: /home/rahul/pick_bot/pickbot_ws/install/pickbot_description/share/pickbot_description/cmake/pickbot_descriptionConfig-version.cmake
+[0.525s] -- Up-to-date: /home/rahul/pick_bot/pickbot_ws/install/pickbot_description/share/pickbot_description/package.xml
+[0.563s] Invoked command in '/home/rahul/pick_bot/pickbot_ws/build/pickbot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/rahul/pick_bot/pickbot_ws/build/pickbot_description

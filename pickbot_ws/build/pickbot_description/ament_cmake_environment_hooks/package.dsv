@@ -1,0 +1,4 @@
+source;share/pickbot_description/local_setup.bash
+source;share/pickbot_description/local_setup.dsv
+source;share/pickbot_description/local_setup.sh
+source;share/pickbot_description/local_setup.zsh
