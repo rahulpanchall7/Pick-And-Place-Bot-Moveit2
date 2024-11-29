@@ -24,8 +24,7 @@ install(TARGETS
   simple_publisher
   simple_listener
   simple_parameter
-  DESTINATION lib/${PREOJECT_NAME})
-
+  DESTINATION lib/${PROJECT_NAME})
 
 if(BUILD_TESTING)
   find_package(ament_lint_auto REQUIRED)

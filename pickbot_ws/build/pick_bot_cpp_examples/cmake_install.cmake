@@ -43,61 +43,61 @@ if(NOT DEFINED CMAKE_OBJDUMP)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/simple_publisher" AND
-     NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/simple_publisher")
+  if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/pick_bot_cpp_examples/simple_publisher" AND
+     NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/pick_bot_cpp_examples/simple_publisher")
     file(RPATH_CHECK
-         FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/simple_publisher"
+         FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/pick_bot_cpp_examples/simple_publisher"
          RPATH "")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE EXECUTABLE FILES "/home/rahul/pick_bot/pickbot_ws/build/pick_bot_cpp_examples/simple_publisher")
-  if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/simple_publisher" AND
-     NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/simple_publisher")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pick_bot_cpp_examples" TYPE EXECUTABLE FILES "/home/rahul/pick_bot/pickbot_ws/build/pick_bot_cpp_examples/simple_publisher")
+  if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/pick_bot_cpp_examples/simple_publisher" AND
+     NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/pick_bot_cpp_examples/simple_publisher")
     file(RPATH_CHANGE
-         FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/simple_publisher"
+         FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/pick_bot_cpp_examples/simple_publisher"
          OLD_RPATH "/opt/ros/humble/lib:"
          NEW_RPATH "")
     if(CMAKE_INSTALL_DO_STRIP)
-      execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/simple_publisher")
+      execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/pick_bot_cpp_examples/simple_publisher")
     endif()
   endif()
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/simple_listener" AND
-     NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/simple_listener")
+  if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/pick_bot_cpp_examples/simple_listener" AND
+     NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/pick_bot_cpp_examples/simple_listener")
     file(RPATH_CHECK
-         FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/simple_listener"
+         FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/pick_bot_cpp_examples/simple_listener"
          RPATH "")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE EXECUTABLE FILES "/home/rahul/pick_bot/pickbot_ws/build/pick_bot_cpp_examples/simple_listener")
-  if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/simple_listener" AND
-     NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/simple_listener")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pick_bot_cpp_examples" TYPE EXECUTABLE FILES "/home/rahul/pick_bot/pickbot_ws/build/pick_bot_cpp_examples/simple_listener")
+  if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/pick_bot_cpp_examples/simple_listener" AND
+     NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/pick_bot_cpp_examples/simple_listener")
     file(RPATH_CHANGE
-         FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/simple_listener"
+         FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/pick_bot_cpp_examples/simple_listener"
          OLD_RPATH "/opt/ros/humble/lib:"
          NEW_RPATH "")
     if(CMAKE_INSTALL_DO_STRIP)
-      execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/simple_listener")
+      execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/pick_bot_cpp_examples/simple_listener")
     endif()
   endif()
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/simple_parameter" AND
-     NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/simple_parameter")
+  if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/pick_bot_cpp_examples/simple_parameter" AND
+     NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/pick_bot_cpp_examples/simple_parameter")
     file(RPATH_CHECK
-         FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/simple_parameter"
+         FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/pick_bot_cpp_examples/simple_parameter"
          RPATH "")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE EXECUTABLE FILES "/home/rahul/pick_bot/pickbot_ws/build/pick_bot_cpp_examples/simple_parameter")
-  if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/simple_parameter" AND
-     NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/simple_parameter")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pick_bot_cpp_examples" TYPE EXECUTABLE FILES "/home/rahul/pick_bot/pickbot_ws/build/pick_bot_cpp_examples/simple_parameter")
+  if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/pick_bot_cpp_examples/simple_parameter" AND
+     NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/pick_bot_cpp_examples/simple_parameter")
     file(RPATH_CHANGE
-         FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/simple_parameter"
+         FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/pick_bot_cpp_examples/simple_parameter"
          OLD_RPATH "/opt/ros/humble/lib:"
          NEW_RPATH "")
     if(CMAKE_INSTALL_DO_STRIP)
-      execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/simple_parameter")
+      execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/pick_bot_cpp_examples/simple_parameter")
     endif()
   endif()
 endif()
