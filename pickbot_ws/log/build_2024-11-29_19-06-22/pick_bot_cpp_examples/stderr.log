@@ -1,0 +1,43 @@
+[01m[K/home/rahul/pick_bot/pickbot_ws/src/pick_bot_cpp_examples/src/simple_listener.cpp:1:10:[m[K [01;31m[Kfatal error: [m[Kstd_msgs/std_msgs/msg/string.h: No such file or directory
+    1 | #include [01;31m[K<std_msgs/std_msgs/msg/string.h>[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/rahul/pick_bot/pickbot_ws/src/pick_bot_cpp_examples/src/simple_publisher.cpp:1:10:[m[K [01;31m[Kfatal error: [m[Kstd_msgs/std_msgs/msg/string.h: No such file or directory
+    1 | #include [01;31m[K<std_msgs/std_msgs/msg/string.h>[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+compilation terminated.
+gmake[2]: *** [CMakeFiles/simple_listener.dir/build.make:76: CMakeFiles/simple_listener.dir/src/simple_listener.cpp.o] Error 1
+gmake[2]: *** [CMakeFiles/simple_publisher.dir/build.make:76: CMakeFiles/simple_publisher.dir/src/simple_publisher.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:141: CMakeFiles/simple_publisher.dir/all] Error 2
+gmake[1]: *** Waiting for unfinished jobs....
+gmake[1]: *** [CMakeFiles/Makefile2:167: CMakeFiles/simple_listener.dir/all] Error 2
+[01m[K/home/rahul/pick_bot/pickbot_ws/src/pick_bot_cpp_examples/src/simple_parameter.cpp:6:28:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[Kclass[m[K’
+    6 | using std::placeholders::_1
+      |                            [01;31m[K^[m[K
+      |                            [32m[K;[m[K
+    7 | 
+    8 | [32m[Kclass[m[K SimpleParameter : public rclcpp::Node
+      | [32m[K~~~~~[m[K                       
+[01m[K/home/rahul/pick_bot/pickbot_ws/src/pick_bot_cpp_examples/src/simple_parameter.cpp:22:5:[m[K [01;31m[Kerror: [m[KISO C++ forbids declaration of ‘[01m[KparamChangeCallback[m[K’ with no type [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+   22 |     [01;31m[KparamChangeCallback[m[K(const std::vector<rclcpp::Parameter> &parameters)
+      |     [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/rahul/pick_bot/pickbot_ws/src/pick_bot_cpp_examples/src/simple_parameter.cpp:[m[K In constructor ‘[01m[KSimpleParameter::SimpleParameter()[m[K’:
+[01m[K/home/rahul/pick_bot/pickbot_ws/src/pick_bot_cpp_examples/src/simple_parameter.cpp:16:74:[m[K [01;31m[Kerror: [m[Kcannot convert ‘[01m[Kstd::_Bind_helper<false, int (SimpleParameter::*)(const std::vector<rclcpp::Parameter>&), SimpleParameter*, const std::_Placeholder<1>&>::type[m[K’ to ‘[01m[Krclcpp::Node::OnParametersSetCallbackType[m[K’ {aka ‘[01m[Kstd::function<rcl_interfaces::msg::SetParametersResult_<std::allocator<void> >(const std::vector<rclcpp::Parameter>&)>[m[K’}
+   16 |         param_callback_handle_ = add_on_set_parameters_callback([01;31m[Kstd::bind(&SimpleParameter::paramChangeCallback, this, _1)[m[K);
+      |                                                                 [01;31m[K~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+      |                                                                          [01;31m[K|[m[K
+      |                                                                          [01;31m[Kstd::_Bind_helper<false, int (SimpleParameter::*)(const std::vector<rclcpp::Parameter>&), SimpleParameter*, const std::_Placeholder<1>&>::type[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/rahul/pick_bot/pickbot_ws/src/pick_bot_cpp_examples/src/simple_parameter.cpp:1[m[K:
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:934:62:[m[K [01;36m[Knote: [m[K  initializing argument 1 of ‘[01m[Krclcpp::node_interfaces::OnSetParametersCallbackHandle::SharedPtr rclcpp::Node::add_on_set_parameters_callback(rclcpp::Node::OnParametersSetCallbackType)[m[K’
+  934 |   add_on_set_parameters_callback([01;36m[KOnParametersSetCallbackType callback[m[K);
+      |                                  [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~[m[K
+[01m[K/home/rahul/pick_bot/pickbot_ws/src/pick_bot_cpp_examples/src/simple_parameter.cpp:[m[K In member function ‘[01m[Kint SimpleParameter::paramChangeCallback(const std::vector<rclcpp::Parameter>&)[m[K’:
+[01m[K/home/rahul/pick_bot/pickbot_ws/src/pick_bot_cpp_examples/src/simple_parameter.cpp:39:16:[m[K [01;31m[Kerror: [m[Kcannot convert ‘[01m[Krcl_interfaces::msg::SetParametersResult[m[K’ {aka ‘[01m[Krcl_interfaces::msg::SetParametersResult_<std::allocator<void> >[m[K’} to ‘[01m[Kint[m[K’ in return
+   39 |         return [01;31m[Kresult[m[K;
+      |                [01;31m[K^~~~~~[m[K
+gmake[2]: *** [CMakeFiles/simple_parameter.dir/build.make:76: CMakeFiles/simple_parameter.dir/src/simple_parameter.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:193: CMakeFiles/simple_parameter.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

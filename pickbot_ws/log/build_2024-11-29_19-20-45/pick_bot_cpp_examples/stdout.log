@@ -1,0 +1,33 @@
+[35m[1mConsolidate compiler generated dependencies of target simple_publisher[0m
+[35m[1mConsolidate compiler generated dependencies of target simple_parameter[0m
+[ 16%] [32mBuilding CXX object CMakeFiles/simple_listener.dir/src/simple_listener.cpp.o[0m
+[ 33%] [32mBuilding CXX object CMakeFiles/simple_publisher.dir/src/simple_publisher.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/simple_parameter.dir/src/simple_parameter.cpp.o[0m
+[ 66%] [32m[1mLinking CXX executable simple_parameter[0m
+[ 83%] [32m[1mLinking CXX executable simple_publisher[0m
+[ 83%] Built target simple_parameter
+[ 83%] Built target simple_publisher
+[100%] [32m[1mLinking CXX executable simple_listener[0m
+[100%] Built target simple_listener
+-- Install configuration: ""
+-- Installing: /home/rahul/pick_bot/pickbot_ws/install/pick_bot_cpp_examples/lib/simple_publisher
+-- Set runtime path of "/home/rahul/pick_bot/pickbot_ws/install/pick_bot_cpp_examples/lib/simple_publisher" to ""
+-- Installing: /home/rahul/pick_bot/pickbot_ws/install/pick_bot_cpp_examples/lib/simple_listener
+-- Set runtime path of "/home/rahul/pick_bot/pickbot_ws/install/pick_bot_cpp_examples/lib/simple_listener" to ""
+-- Installing: /home/rahul/pick_bot/pickbot_ws/install/pick_bot_cpp_examples/lib/simple_parameter
+-- Set runtime path of "/home/rahul/pick_bot/pickbot_ws/install/pick_bot_cpp_examples/lib/simple_parameter" to ""
+-- Installing: /home/rahul/pick_bot/pickbot_ws/install/pick_bot_cpp_examples/share/ament_index/resource_index/package_run_dependencies/pick_bot_cpp_examples
+-- Installing: /home/rahul/pick_bot/pickbot_ws/install/pick_bot_cpp_examples/share/ament_index/resource_index/parent_prefix_path/pick_bot_cpp_examples
+-- Up-to-date: /home/rahul/pick_bot/pickbot_ws/install/pick_bot_cpp_examples/share/pick_bot_cpp_examples/environment/ament_prefix_path.sh
+-- Installing: /home/rahul/pick_bot/pickbot_ws/install/pick_bot_cpp_examples/share/pick_bot_cpp_examples/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/rahul/pick_bot/pickbot_ws/install/pick_bot_cpp_examples/share/pick_bot_cpp_examples/environment/path.sh
+-- Installing: /home/rahul/pick_bot/pickbot_ws/install/pick_bot_cpp_examples/share/pick_bot_cpp_examples/environment/path.dsv
+-- Up-to-date: /home/rahul/pick_bot/pickbot_ws/install/pick_bot_cpp_examples/share/pick_bot_cpp_examples/local_setup.bash
+-- Up-to-date: /home/rahul/pick_bot/pickbot_ws/install/pick_bot_cpp_examples/share/pick_bot_cpp_examples/local_setup.sh
+-- Up-to-date: /home/rahul/pick_bot/pickbot_ws/install/pick_bot_cpp_examples/share/pick_bot_cpp_examples/local_setup.zsh
+-- Installing: /home/rahul/pick_bot/pickbot_ws/install/pick_bot_cpp_examples/share/pick_bot_cpp_examples/local_setup.dsv
+-- Installing: /home/rahul/pick_bot/pickbot_ws/install/pick_bot_cpp_examples/share/pick_bot_cpp_examples/package.dsv
+-- Up-to-date: /home/rahul/pick_bot/pickbot_ws/install/pick_bot_cpp_examples/share/ament_index/resource_index/packages/pick_bot_cpp_examples
+-- Up-to-date: /home/rahul/pick_bot/pickbot_ws/install/pick_bot_cpp_examples/share/pick_bot_cpp_examples/cmake/pick_bot_cpp_examplesConfig.cmake
+-- Up-to-date: /home/rahul/pick_bot/pickbot_ws/install/pick_bot_cpp_examples/share/pick_bot_cpp_examples/cmake/pick_bot_cpp_examplesConfig-version.cmake
+-- Installing: /home/rahul/pick_bot/pickbot_ws/install/pick_bot_cpp_examples/share/pick_bot_cpp_examples/package.xml

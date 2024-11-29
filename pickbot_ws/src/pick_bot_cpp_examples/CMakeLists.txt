@@ -8,15 +8,28 @@ endif()
 # find dependencies
 find_package(ament_cmake REQUIRED)
 find_package(rclcpp REQUIRED)
+find_package(std_msgs REQUIRED) 
+find_package(rcl_interfaces REQUIRED)
+
+add_executable(simple_publisher src/simple_publisher.cpp)
+ament_target_dependencies(simple_publisher rclcpp std_msgs)
+
+add_executable(simple_listener src/simple_listener.cpp)
+ament_target_dependencies(simple_listener rclcpp std_msgs)
+
+add_executable(simple_parameter src/simple_parameter.cpp)
+ament_target_dependencies(simple_parameter rclcpp rcl_interfaces)
+
+install(TARGETS
+  simple_publisher
+  simple_listener
+  simple_parameter
+  DESTINATION lib/${PREOJECT_NAME})
+
 
 if(BUILD_TESTING)
   find_package(ament_lint_auto REQUIRED)
-  # the following line skips the linter which checks for copyrights
-  # comment the line when a copyright and license is added to all source files
   set(ament_cmake_copyright_FOUND TRUE)
-  # the following line skips cpplint (only works in a git repo)
-  # comment the line when this package is in a git repo and when
-  # a copyright and license is added to all source files
   set(ament_cmake_cpplint_FOUND TRUE)
   ament_lint_auto_find_test_dependencies()
 endif()
