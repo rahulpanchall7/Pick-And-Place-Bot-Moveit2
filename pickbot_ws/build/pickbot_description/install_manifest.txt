@@ -12,6 +12,8 @@
 /home/rahul/pick_bot/pickbot_ws/install/pickbot_description/share/pickbot_description/meshes/right_finger.STL
 /home/rahul/pick_bot/pickbot_ws/install/pickbot_description/share/pickbot_description/meshes/servo_plate.STL
 /home/rahul/pick_bot/pickbot_ws/install/pickbot_description/share/pickbot_description/urdf/pickbot.urdf.xacro
+/home/rahul/pick_bot/pickbot_ws/install/pickbot_description/share/pickbot_description/launch/display.launch.py
+/home/rahul/pick_bot/pickbot_ws/install/pickbot_description/share/pickbot_description/rviz/display.rviz
 /home/rahul/pick_bot/pickbot_ws/install/pickbot_description/share/ament_index/resource_index/package_run_dependencies/pickbot_description
 /home/rahul/pick_bot/pickbot_ws/install/pickbot_description/share/ament_index/resource_index/parent_prefix_path/pickbot_description
 /home/rahul/pick_bot/pickbot_ws/install/pickbot_description/share/pickbot_description/environment/ament_prefix_path.sh

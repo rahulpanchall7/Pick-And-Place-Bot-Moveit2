@@ -46,6 +46,8 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/pickbot_description" TYPE DIRECTORY FILES
     "/home/rahul/pick_bot/pickbot_ws/src/pickbot_description/meshes"
     "/home/rahul/pick_bot/pickbot_ws/src/pickbot_description/urdf"
+    "/home/rahul/pick_bot/pickbot_ws/src/pickbot_description/launch"
+    "/home/rahul/pick_bot/pickbot_ws/src/pickbot_description/rviz"
     )
 endif()
 
