@@ -1,0 +1,230 @@
+[0.000000] (-) TimerEvent: {}
+[0.000775] (pick_bot_cpp_examples) JobQueued: {'identifier': 'pick_bot_cpp_examples', 'dependencies': OrderedDict()}
+[0.000848] (pickbot_description) JobQueued: {'identifier': 'pickbot_description', 'dependencies': OrderedDict()}
+[0.000889] (pick_bot_cpp_examples) JobStarted: {'identifier': 'pick_bot_cpp_examples'}
+[0.024292] (pickbot_description) JobStarted: {'identifier': 'pickbot_description'}
+[0.030844] (pick_bot_cpp_examples) JobProgress: {'identifier': 'pick_bot_cpp_examples', 'progress': 'cmake'}
+[0.058023] (pick_bot_cpp_examples) JobProgress: {'identifier': 'pick_bot_cpp_examples', 'progress': 'build'}
+[0.058671] (pick_bot_cpp_examples) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/rahul/pick_bot/pickbot_ws/build/pick_bot_cpp_examples', '--', '-j12', '-l12'], 'cwd': '/home/rahul/pick_bot/pickbot_ws/build/pick_bot_cpp_examples', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'rahul'), ('LC_TIME', 'de_DE.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/rahul'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'de_DE.UTF-8'), ('MANAGERPID', '1142'), ('SYSTEMD_EXEC_PID', '1973'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator21a9d5db22c73a993ff0b42f64b396873'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '109509'), ('COLCON_PREFIX_PATH', '/home/rahul/pick_bot/pickbot_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'rahul'), ('JOURNAL_STREAM', '8:8162'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'rahul'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/home/rahul/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/rahul-HP-Pavilion-Gaming-Laptop-15-ec1xxx:@/tmp/.ICE-unix/1948,unix/rahul-HP-Pavilion-Gaming-Laptop-15-ec1xxx:/tmp/.ICE-unix/1948'), ('INVOCATION_ID', '09414f980e7c42eea997ce230ac17527'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'de_DE.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'de_DE.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/rahul/pick_bot/pickbot_ws/install/pickbot_description:/home/rahul/pick_bot/pickbot_ws/install/pick_bot_cpp_examples:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'de_DE.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:d1651659-bcbb-465f-94d0-b8a28fe651c0'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'de_DE.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'de_DE.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/rahul/pick_bot/pickbot_ws/build/pick_bot_cpp_examples'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'de_DE.UTF-8'), ('LC_PAPER', 'de_DE.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/rahul/pick_bot/pickbot_ws/install/pickbot_description:/home/rahul/pick_bot/pickbot_ws/install/pick_bot_cpp_examples:/opt/ros/humble')]), 'shell': False}
+[0.062756] (pickbot_description) JobProgress: {'identifier': 'pickbot_description', 'progress': 'cmake'}
+[0.063253] (pickbot_description) JobProgress: {'identifier': 'pickbot_description', 'progress': 'build'}
+[0.063434] (pickbot_description) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/rahul/pick_bot/pickbot_ws/build/pickbot_description', '--', '-j12', '-l12'], 'cwd': '/home/rahul/pick_bot/pickbot_ws/build/pickbot_description', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'rahul'), ('LC_TIME', 'de_DE.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/rahul'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'de_DE.UTF-8'), ('MANAGERPID', '1142'), ('SYSTEMD_EXEC_PID', '1973'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator21a9d5db22c73a993ff0b42f64b396873'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '109509'), ('COLCON_PREFIX_PATH', '/home/rahul/pick_bot/pickbot_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'rahul'), ('JOURNAL_STREAM', '8:8162'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'rahul'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/home/rahul/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/rahul-HP-Pavilion-Gaming-Laptop-15-ec1xxx:@/tmp/.ICE-unix/1948,unix/rahul-HP-Pavilion-Gaming-Laptop-15-ec1xxx:/tmp/.ICE-unix/1948'), ('INVOCATION_ID', '09414f980e7c42eea997ce230ac17527'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'de_DE.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'de_DE.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/rahul/pick_bot/pickbot_ws/install/pickbot_description:/home/rahul/pick_bot/pickbot_ws/install/pick_bot_cpp_examples:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'de_DE.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:d1651659-bcbb-465f-94d0-b8a28fe651c0'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'de_DE.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'de_DE.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/rahul/pick_bot/pickbot_ws/build/pickbot_description'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'de_DE.UTF-8'), ('LC_PAPER', 'de_DE.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/rahul/pick_bot/pickbot_ws/install/pickbot_description:/home/rahul/pick_bot/pickbot_ws/install/pick_bot_cpp_examples:/opt/ros/humble')]), 'shell': False}
+[0.099772] (-) TimerEvent: {}
+[0.200116] (-) TimerEvent: {}
+[0.300562] (-) TimerEvent: {}
+[0.401108] (-) TimerEvent: {}
+[0.501921] (-) TimerEvent: {}
+[0.541957] (pickbot_description) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.602129] (-) TimerEvent: {}
+[0.664109] (pick_bot_cpp_examples) StdoutLine: {'line': b'[ 83%] Built target simple_parameter\n'}
+[0.664411] (pick_bot_cpp_examples) StdoutLine: {'line': b'[ 83%] \x1b[32mBuilding CXX object CMakeFiles/simple_listener.dir/src/simple_listener.cpp.o\x1b[0m\n'}
+[0.664488] (pick_bot_cpp_examples) StdoutLine: {'line': b'[ 83%] Built target simple_publisher\n'}
+[0.702335] (-) TimerEvent: {}
+[0.727813] (pickbot_description) StdoutLine: {'line': b'-- Found urdf: 2.6.1 (/opt/ros/humble/share/urdf/cmake)\n'}
+[0.802601] (-) TimerEvent: {}
+[0.837002] (pickbot_description) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[0.902759] (-) TimerEvent: {}
+[0.927703] (pickbot_description) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[0.928218] (pickbot_description) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[0.928639] (pickbot_description) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[0.930746] (pickbot_description) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[0.940275] (pickbot_description) StdoutLine: {'line': b'-- Configuring done\n'}
+[0.944698] (pickbot_description) StdoutLine: {'line': b'-- Generating done\n'}
+[0.961750] (pickbot_description) StdoutLine: {'line': b'-- Build files have been written to: /home/rahul/pick_bot/pickbot_ws/build/pickbot_description\n'}
+[1.003060] (-) TimerEvent: {}
+[1.005090] (pickbot_description) CommandEnded: {'returncode': 0}
+[1.037908] (pickbot_description) JobProgress: {'identifier': 'pickbot_description', 'progress': 'install'}
+[1.051799] (pickbot_description) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/rahul/pick_bot/pickbot_ws/build/pickbot_description'], 'cwd': '/home/rahul/pick_bot/pickbot_ws/build/pickbot_description', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'rahul'), ('LC_TIME', 'de_DE.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/rahul'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'de_DE.UTF-8'), ('MANAGERPID', '1142'), ('SYSTEMD_EXEC_PID', '1973'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator21a9d5db22c73a993ff0b42f64b396873'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '109509'), ('COLCON_PREFIX_PATH', '/home/rahul/pick_bot/pickbot_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'rahul'), ('JOURNAL_STREAM', '8:8162'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'rahul'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/home/rahul/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/rahul-HP-Pavilion-Gaming-Laptop-15-ec1xxx:@/tmp/.ICE-unix/1948,unix/rahul-HP-Pavilion-Gaming-Laptop-15-ec1xxx:/tmp/.ICE-unix/1948'), ('INVOCATION_ID', '09414f980e7c42eea997ce230ac17527'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'de_DE.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'de_DE.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/rahul/pick_bot/pickbot_ws/install/pickbot_description:/home/rahul/pick_bot/pickbot_ws/install/pick_bot_cpp_examples:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'de_DE.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:d1651659-bcbb-465f-94d0-b8a28fe651c0'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'de_DE.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'de_DE.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/rahul/pick_bot/pickbot_ws/build/pickbot_description'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'de_DE.UTF-8'), ('LC_PAPER', 'de_DE.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/rahul/pick_bot/pickbot_ws/install/pickbot_description:/home/rahul/pick_bot/pickbot_ws/install/pick_bot_cpp_examples:/opt/ros/humble')]), 'shell': False}
+[1.059939] (pickbot_description) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[1.060234] (pickbot_description) StdoutLine: {'line': b'-- Up-to-date: /home/rahul/pick_bot/pickbot_ws/install/pickbot_description/share/pickbot_description/meshes\n'}
+[1.060318] (pickbot_description) StdoutLine: {'line': b'-- Up-to-date: /home/rahul/pick_bot/pickbot_ws/install/pickbot_description/share/pickbot_description/meshes/left_finger.STL\n'}
+[1.060402] (pickbot_description) StdoutLine: {'line': b'-- Up-to-date: /home/rahul/pick_bot/pickbot_ws/install/pickbot_description/share/pickbot_description/meshes/plate.STL\n'}
+[1.060478] (pickbot_description) StdoutLine: {'line': b'-- Up-to-date: /home/rahul/pick_bot/pickbot_ws/install/pickbot_description/share/pickbot_description/meshes/pi_camera.STL\n'}
+[1.060553] (pickbot_description) StdoutLine: {'line': b'-- Up-to-date: /home/rahul/pick_bot/pickbot_ws/install/pickbot_description/share/pickbot_description/meshes/triangular_link.STL\n'}
+[1.060627] (pickbot_description) StdoutLine: {'line': b'-- Up-to-date: /home/rahul/pick_bot/pickbot_ws/install/pickbot_description/share/pickbot_description/meshes/horizontal_arm.STL\n'}
+[1.060706] (pickbot_description) StdoutLine: {'line': b'-- Up-to-date: /home/rahul/pick_bot/pickbot_ws/install/pickbot_description/share/pickbot_description/meshes/round_plate.STL\n'}
+[1.060824] (pickbot_description) StdoutLine: {'line': b'-- Up-to-date: /home/rahul/pick_bot/pickbot_ws/install/pickbot_description/share/pickbot_description/meshes/claw_support.STL\n'}
+[1.061002] (pickbot_description) StdoutLine: {'line': b'-- Up-to-date: /home/rahul/pick_bot/pickbot_ws/install/pickbot_description/share/pickbot_description/meshes/basement.STL\n'}
+[1.061096] (pickbot_description) StdoutLine: {'line': b'-- Up-to-date: /home/rahul/pick_bot/pickbot_ws/install/pickbot_description/share/pickbot_description/meshes/link.STL\n'}
+[1.061185] (pickbot_description) StdoutLine: {'line': b'-- Up-to-date: /home/rahul/pick_bot/pickbot_ws/install/pickbot_description/share/pickbot_description/meshes/forward_drive_arm.STL\n'}
+[1.061339] (pickbot_description) StdoutLine: {'line': b'-- Up-to-date: /home/rahul/pick_bot/pickbot_ws/install/pickbot_description/share/pickbot_description/meshes/base_plate.STL\n'}
+[1.061428] (pickbot_description) StdoutLine: {'line': b'-- Up-to-date: /home/rahul/pick_bot/pickbot_ws/install/pickbot_description/share/pickbot_description/meshes/vertical_drive_arm.STL\n'}
+[1.061501] (pickbot_description) StdoutLine: {'line': b'-- Up-to-date: /home/rahul/pick_bot/pickbot_ws/install/pickbot_description/share/pickbot_description/meshes/right_finger.STL\n'}
+[1.061575] (pickbot_description) StdoutLine: {'line': b'-- Up-to-date: /home/rahul/pick_bot/pickbot_ws/install/pickbot_description/share/pickbot_description/meshes/servo_plate.STL\n'}
+[1.061736] (pickbot_description) StdoutLine: {'line': b'-- Up-to-date: /home/rahul/pick_bot/pickbot_ws/install/pickbot_description/share/pickbot_description/urdf\n'}
+[1.061812] (pickbot_description) StdoutLine: {'line': b'-- Installing: /home/rahul/pick_bot/pickbot_ws/install/pickbot_description/share/pickbot_description/urdf/pickbot.urdf.xacro\n'}
+[1.061882] (pickbot_description) StdoutLine: {'line': b'-- Up-to-date: /home/rahul/pick_bot/pickbot_ws/install/pickbot_description/share/pickbot_description/launch\n'}
+[1.061954] (pickbot_description) StdoutLine: {'line': b'-- Up-to-date: /home/rahul/pick_bot/pickbot_ws/install/pickbot_description/share/pickbot_description/launch/display.launch.py\n'}
+[1.062072] (pickbot_description) StdoutLine: {'line': b'-- Installing: /home/rahul/pick_bot/pickbot_ws/install/pickbot_description/share/pickbot_description/launch/gazebo.launch.py\n'}
+[1.062168] (pickbot_description) StdoutLine: {'line': b'-- Up-to-date: /home/rahul/pick_bot/pickbot_ws/install/pickbot_description/share/pickbot_description/rviz\n'}
+[1.062320] (pickbot_description) StdoutLine: {'line': b'-- Up-to-date: /home/rahul/pick_bot/pickbot_ws/install/pickbot_description/share/pickbot_description/rviz/display.rviz\n'}
+[1.062413] (pickbot_description) StdoutLine: {'line': b'-- Installing: /home/rahul/pick_bot/pickbot_ws/install/pickbot_description/share/ament_index/resource_index/package_run_dependencies/pickbot_description\n'}
+[1.062505] (pickbot_description) StdoutLine: {'line': b'-- Up-to-date: /home/rahul/pick_bot/pickbot_ws/install/pickbot_description/share/ament_index/resource_index/parent_prefix_path/pickbot_description\n'}
+[1.062650] (pickbot_description) StdoutLine: {'line': b'-- Up-to-date: /home/rahul/pick_bot/pickbot_ws/install/pickbot_description/share/pickbot_description/environment/ament_prefix_path.sh\n'}
+[1.062731] (pickbot_description) StdoutLine: {'line': b'-- Installing: /home/rahul/pick_bot/pickbot_ws/install/pickbot_description/share/pickbot_description/environment/ament_prefix_path.dsv\n'}
+[1.062805] (pickbot_description) StdoutLine: {'line': b'-- Up-to-date: /home/rahul/pick_bot/pickbot_ws/install/pickbot_description/share/pickbot_description/environment/path.sh\n'}
+[1.062909] (pickbot_description) StdoutLine: {'line': b'-- Installing: /home/rahul/pick_bot/pickbot_ws/install/pickbot_description/share/pickbot_description/environment/path.dsv\n'}
+[1.063022] (pickbot_description) StdoutLine: {'line': b'-- Up-to-date: /home/rahul/pick_bot/pickbot_ws/install/pickbot_description/share/pickbot_description/local_setup.bash\n'}
+[1.063106] (pickbot_description) StdoutLine: {'line': b'-- Up-to-date: /home/rahul/pick_bot/pickbot_ws/install/pickbot_description/share/pickbot_description/local_setup.sh\n'}
+[1.063183] (pickbot_description) StdoutLine: {'line': b'-- Up-to-date: /home/rahul/pick_bot/pickbot_ws/install/pickbot_description/share/pickbot_description/local_setup.zsh\n'}
+[1.063260] (pickbot_description) StdoutLine: {'line': b'-- Installing: /home/rahul/pick_bot/pickbot_ws/install/pickbot_description/share/pickbot_description/local_setup.dsv\n'}
+[1.063341] (pickbot_description) StdoutLine: {'line': b'-- Installing: /home/rahul/pick_bot/pickbot_ws/install/pickbot_description/share/pickbot_description/package.dsv\n'}
+[1.063493] (pickbot_description) StdoutLine: {'line': b'-- Up-to-date: /home/rahul/pick_bot/pickbot_ws/install/pickbot_description/share/ament_index/resource_index/packages/pickbot_description\n'}
+[1.063772] (pickbot_description) StdoutLine: {'line': b'-- Up-to-date: /home/rahul/pick_bot/pickbot_ws/install/pickbot_description/share/pickbot_description/cmake/pickbot_descriptionConfig.cmake\n'}
+[1.063846] (pickbot_description) StdoutLine: {'line': b'-- Up-to-date: /home/rahul/pick_bot/pickbot_ws/install/pickbot_description/share/pickbot_description/cmake/pickbot_descriptionConfig-version.cmake\n'}
+[1.063914] (pickbot_description) StdoutLine: {'line': b'-- Installing: /home/rahul/pick_bot/pickbot_ws/install/pickbot_description/share/pickbot_description/package.xml\n'}
+[1.067232] (pickbot_description) CommandEnded: {'returncode': 0}
+[1.103239] (-) TimerEvent: {}
+[1.133644] (pickbot_description) JobEnded: {'identifier': 'pickbot_description', 'rc': 0}
+[1.203578] (-) TimerEvent: {}
+[1.304087] (-) TimerEvent: {}
+[1.404408] (-) TimerEvent: {}
+[1.504960] (-) TimerEvent: {}
+[1.605368] (-) TimerEvent: {}
+[1.706137] (-) TimerEvent: {}
+[1.806978] (-) TimerEvent: {}
+[1.907474] (-) TimerEvent: {}
+[2.008245] (-) TimerEvent: {}
+[2.108942] (-) TimerEvent: {}
+[2.209592] (-) TimerEvent: {}
+[2.310082] (-) TimerEvent: {}
+[2.410463] (-) TimerEvent: {}
+[2.510957] (-) TimerEvent: {}
+[2.611526] (-) TimerEvent: {}
+[2.711973] (-) TimerEvent: {}
+[2.812425] (-) TimerEvent: {}
+[2.912823] (-) TimerEvent: {}
+[3.013174] (-) TimerEvent: {}
+[3.113617] (-) TimerEvent: {}
+[3.214062] (-) TimerEvent: {}
+[3.314447] (-) TimerEvent: {}
+[3.414860] (-) TimerEvent: {}
+[3.515352] (-) TimerEvent: {}
+[3.615784] (-) TimerEvent: {}
+[3.716181] (-) TimerEvent: {}
+[3.816583] (-) TimerEvent: {}
+[3.917127] (-) TimerEvent: {}
+[4.017578] (-) TimerEvent: {}
+[4.118095] (-) TimerEvent: {}
+[4.218726] (-) TimerEvent: {}
+[4.319832] (-) TimerEvent: {}
+[4.420342] (-) TimerEvent: {}
+[4.520695] (-) TimerEvent: {}
+[4.621106] (-) TimerEvent: {}
+[4.721815] (-) TimerEvent: {}
+[4.822527] (-) TimerEvent: {}
+[4.923108] (-) TimerEvent: {}
+[5.023456] (-) TimerEvent: {}
+[5.123802] (-) TimerEvent: {}
+[5.224213] (-) TimerEvent: {}
+[5.324610] (-) TimerEvent: {}
+[5.424989] (-) TimerEvent: {}
+[5.525369] (-) TimerEvent: {}
+[5.625721] (-) TimerEvent: {}
+[5.726086] (-) TimerEvent: {}
+[5.826468] (-) TimerEvent: {}
+[5.926835] (-) TimerEvent: {}
+[6.027212] (-) TimerEvent: {}
+[6.127633] (-) TimerEvent: {}
+[6.228268] (-) TimerEvent: {}
+[6.328980] (-) TimerEvent: {}
+[6.429400] (-) TimerEvent: {}
+[6.529807] (-) TimerEvent: {}
+[6.630296] (-) TimerEvent: {}
+[6.730665] (-) TimerEvent: {}
+[6.831081] (-) TimerEvent: {}
+[6.931464] (-) TimerEvent: {}
+[7.031842] (-) TimerEvent: {}
+[7.132315] (-) TimerEvent: {}
+[7.232691] (-) TimerEvent: {}
+[7.333097] (-) TimerEvent: {}
+[7.433496] (-) TimerEvent: {}
+[7.533993] (-) TimerEvent: {}
+[7.634621] (-) TimerEvent: {}
+[7.735045] (-) TimerEvent: {}
+[7.835495] (-) TimerEvent: {}
+[7.935957] (-) TimerEvent: {}
+[8.036439] (-) TimerEvent: {}
+[8.136871] (-) TimerEvent: {}
+[8.237277] (-) TimerEvent: {}
+[8.337642] (-) TimerEvent: {}
+[8.438050] (-) TimerEvent: {}
+[8.538483] (-) TimerEvent: {}
+[8.638903] (-) TimerEvent: {}
+[8.739355] (-) TimerEvent: {}
+[8.839840] (-) TimerEvent: {}
+[8.940255] (-) TimerEvent: {}
+[9.040720] (-) TimerEvent: {}
+[9.141296] (-) TimerEvent: {}
+[9.241674] (-) TimerEvent: {}
+[9.342082] (-) TimerEvent: {}
+[9.442500] (-) TimerEvent: {}
+[9.542910] (-) TimerEvent: {}
+[9.643424] (-) TimerEvent: {}
+[9.743932] (-) TimerEvent: {}
+[9.844653] (-) TimerEvent: {}
+[9.945115] (-) TimerEvent: {}
+[10.045581] (-) TimerEvent: {}
+[10.145960] (-) TimerEvent: {}
+[10.246310] (-) TimerEvent: {}
+[10.346636] (-) TimerEvent: {}
+[10.446968] (-) TimerEvent: {}
+[10.547335] (-) TimerEvent: {}
+[10.647670] (-) TimerEvent: {}
+[10.748063] (-) TimerEvent: {}
+[10.848448] (-) TimerEvent: {}
+[10.948827] (-) TimerEvent: {}
+[11.049483] (-) TimerEvent: {}
+[11.149864] (-) TimerEvent: {}
+[11.250304] (-) TimerEvent: {}
+[11.350660] (-) TimerEvent: {}
+[11.451293] (-) TimerEvent: {}
+[11.552084] (-) TimerEvent: {}
+[11.652514] (-) TimerEvent: {}
+[11.753154] (-) TimerEvent: {}
+[11.854118] (-) TimerEvent: {}
+[11.954753] (-) TimerEvent: {}
+[12.055298] (-) TimerEvent: {}
+[12.155852] (-) TimerEvent: {}
+[12.256330] (-) TimerEvent: {}
+[12.346873] (pick_bot_cpp_examples) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable simple_listener\x1b[0m\n'}
+[12.356475] (-) TimerEvent: {}
+[12.456855] (-) TimerEvent: {}
+[12.557425] (-) TimerEvent: {}
+[12.657966] (-) TimerEvent: {}
+[12.758482] (-) TimerEvent: {}
+[12.859132] (-) TimerEvent: {}
+[12.959676] (-) TimerEvent: {}
+[13.060558] (-) TimerEvent: {}
+[13.161006] (-) TimerEvent: {}
+[13.261441] (-) TimerEvent: {}
+[13.330100] (pick_bot_cpp_examples) StdoutLine: {'line': b'[100%] Built target simple_listener\n'}
+[13.351157] (pick_bot_cpp_examples) CommandEnded: {'returncode': 0}
+[13.361547] (-) TimerEvent: {}
+[13.386384] (pick_bot_cpp_examples) JobProgress: {'identifier': 'pick_bot_cpp_examples', 'progress': 'install'}
+[13.386635] (pick_bot_cpp_examples) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/rahul/pick_bot/pickbot_ws/build/pick_bot_cpp_examples'], 'cwd': '/home/rahul/pick_bot/pickbot_ws/build/pick_bot_cpp_examples', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'rahul'), ('LC_TIME', 'de_DE.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/rahul'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'de_DE.UTF-8'), ('MANAGERPID', '1142'), ('SYSTEMD_EXEC_PID', '1973'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator21a9d5db22c73a993ff0b42f64b396873'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '109509'), ('COLCON_PREFIX_PATH', '/home/rahul/pick_bot/pickbot_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'rahul'), ('JOURNAL_STREAM', '8:8162'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'rahul'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/home/rahul/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/rahul-HP-Pavilion-Gaming-Laptop-15-ec1xxx:@/tmp/.ICE-unix/1948,unix/rahul-HP-Pavilion-Gaming-Laptop-15-ec1xxx:/tmp/.ICE-unix/1948'), ('INVOCATION_ID', '09414f980e7c42eea997ce230ac17527'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'de_DE.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'de_DE.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/rahul/pick_bot/pickbot_ws/install/pickbot_description:/home/rahul/pick_bot/pickbot_ws/install/pick_bot_cpp_examples:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'de_DE.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:d1651659-bcbb-465f-94d0-b8a28fe651c0'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'de_DE.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'de_DE.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/rahul/pick_bot/pickbot_ws/build/pick_bot_cpp_examples'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'de_DE.UTF-8'), ('LC_PAPER', 'de_DE.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/rahul/pick_bot/pickbot_ws/install/pickbot_description:/home/rahul/pick_bot/pickbot_ws/install/pick_bot_cpp_examples:/opt/ros/humble')]), 'shell': False}
+[13.428189] (pick_bot_cpp_examples) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[13.443968] (pick_bot_cpp_examples) StdoutLine: {'line': b'-- Up-to-date: /home/rahul/pick_bot/pickbot_ws/install/pick_bot_cpp_examples/lib/pick_bot_cpp_examples/simple_publisher\n'}
+[13.461918] (-) TimerEvent: {}
+[13.472164] (pick_bot_cpp_examples) StdoutLine: {'line': b'-- Installing: /home/rahul/pick_bot/pickbot_ws/install/pick_bot_cpp_examples/lib/pick_bot_cpp_examples/simple_listener\n'}
+[13.477787] (pick_bot_cpp_examples) StdoutLine: {'line': b'-- Set runtime path of "/home/rahul/pick_bot/pickbot_ws/install/pick_bot_cpp_examples/lib/pick_bot_cpp_examples/simple_listener" to ""\n'}
+[13.488089] (pick_bot_cpp_examples) StdoutLine: {'line': b'-- Up-to-date: /home/rahul/pick_bot/pickbot_ws/install/pick_bot_cpp_examples/lib/pick_bot_cpp_examples/simple_parameter\n'}
+[13.488393] (pick_bot_cpp_examples) StdoutLine: {'line': b'-- Up-to-date: /home/rahul/pick_bot/pickbot_ws/install/pick_bot_cpp_examples/share/ament_index/resource_index/package_run_dependencies/pick_bot_cpp_examples\n'}
+[13.488565] (pick_bot_cpp_examples) StdoutLine: {'line': b'-- Up-to-date: /home/rahul/pick_bot/pickbot_ws/install/pick_bot_cpp_examples/share/ament_index/resource_index/parent_prefix_path/pick_bot_cpp_examples\n'}
+[13.488697] (pick_bot_cpp_examples) StdoutLine: {'line': b'-- Up-to-date: /home/rahul/pick_bot/pickbot_ws/install/pick_bot_cpp_examples/share/pick_bot_cpp_examples/environment/ament_prefix_path.sh\n'}
+[13.488818] (pick_bot_cpp_examples) StdoutLine: {'line': b'-- Up-to-date: /home/rahul/pick_bot/pickbot_ws/install/pick_bot_cpp_examples/share/pick_bot_cpp_examples/environment/ament_prefix_path.dsv\n'}
+[13.488986] (pick_bot_cpp_examples) StdoutLine: {'line': b'-- Up-to-date: /home/rahul/pick_bot/pickbot_ws/install/pick_bot_cpp_examples/share/pick_bot_cpp_examples/environment/path.sh\n'}
+[13.489230] (pick_bot_cpp_examples) StdoutLine: {'line': b'-- Up-to-date: /home/rahul/pick_bot/pickbot_ws/install/pick_bot_cpp_examples/share/pick_bot_cpp_examples/environment/path.dsv\n'}
+[13.489456] (pick_bot_cpp_examples) StdoutLine: {'line': b'-- Up-to-date: /home/rahul/pick_bot/pickbot_ws/install/pick_bot_cpp_examples/share/pick_bot_cpp_examples/local_setup.bash\n'}
+[13.489734] (pick_bot_cpp_examples) StdoutLine: {'line': b'-- Up-to-date: /home/rahul/pick_bot/pickbot_ws/install/pick_bot_cpp_examples/share/pick_bot_cpp_examples/local_setup.sh\n'}
+[13.489941] (pick_bot_cpp_examples) StdoutLine: {'line': b'-- Up-to-date: /home/rahul/pick_bot/pickbot_ws/install/pick_bot_cpp_examples/share/pick_bot_cpp_examples/local_setup.zsh\n'}
+[13.490177] (pick_bot_cpp_examples) StdoutLine: {'line': b'-- Up-to-date: /home/rahul/pick_bot/pickbot_ws/install/pick_bot_cpp_examples/share/pick_bot_cpp_examples/local_setup.dsv\n'}
+[13.490339] (pick_bot_cpp_examples) StdoutLine: {'line': b'-- Installing: /home/rahul/pick_bot/pickbot_ws/install/pick_bot_cpp_examples/share/pick_bot_cpp_examples/package.dsv\n'}
+[13.498733] (pick_bot_cpp_examples) StdoutLine: {'line': b'-- Up-to-date: /home/rahul/pick_bot/pickbot_ws/install/pick_bot_cpp_examples/share/ament_index/resource_index/packages/pick_bot_cpp_examples\n'}
+[13.499204] (pick_bot_cpp_examples) StdoutLine: {'line': b'-- Up-to-date: /home/rahul/pick_bot/pickbot_ws/install/pick_bot_cpp_examples/share/pick_bot_cpp_examples/cmake/pick_bot_cpp_examplesConfig.cmake\n'}
+[13.499386] (pick_bot_cpp_examples) StdoutLine: {'line': b'-- Up-to-date: /home/rahul/pick_bot/pickbot_ws/install/pick_bot_cpp_examples/share/pick_bot_cpp_examples/cmake/pick_bot_cpp_examplesConfig-version.cmake\n'}
+[13.499551] (pick_bot_cpp_examples) StdoutLine: {'line': b'-- Up-to-date: /home/rahul/pick_bot/pickbot_ws/install/pick_bot_cpp_examples/share/pick_bot_cpp_examples/package.xml\n'}
+[13.503826] (pick_bot_cpp_examples) CommandEnded: {'returncode': 0}
+[13.562062] (-) TimerEvent: {}
+[13.565431] (pick_bot_cpp_examples) JobEnded: {'identifier': 'pick_bot_cpp_examples', 'rc': 0}
+[13.566513] (-) EventReactorShutdown: {}
