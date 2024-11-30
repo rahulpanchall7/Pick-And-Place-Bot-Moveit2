@@ -1,5 +1,6 @@
 /home/rahul/pick_bot/pickbot_ws/install/pickbot_description/share/pickbot_description/meshes/left_finger.STL
 /home/rahul/pick_bot/pickbot_ws/install/pickbot_description/share/pickbot_description/meshes/plate.STL
+/home/rahul/pick_bot/pickbot_ws/install/pickbot_description/share/pickbot_description/meshes/pi_camera.STL
 /home/rahul/pick_bot/pickbot_ws/install/pickbot_description/share/pickbot_description/meshes/triangular_link.STL
 /home/rahul/pick_bot/pickbot_ws/install/pickbot_description/share/pickbot_description/meshes/horizontal_arm.STL
 /home/rahul/pick_bot/pickbot_ws/install/pickbot_description/share/pickbot_description/meshes/round_plate.STL
