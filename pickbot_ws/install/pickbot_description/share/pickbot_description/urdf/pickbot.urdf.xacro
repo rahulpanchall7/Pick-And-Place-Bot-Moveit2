@@ -183,6 +183,7 @@
     </joint>
 
     <link name="rgb_camera">
+        <xacro:default_inertial mass="0.001"/>
         <visual>
             <origin rpy="-${PI/2} 0 -${PI/2}" xyz="-0.1 0.125 0.15"/>
             <geometry>
