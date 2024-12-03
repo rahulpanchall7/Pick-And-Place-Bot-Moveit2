@@ -1,3 +1,4 @@
+/home/rahul/pick_bot/pickbot_ws/install/pickbot_controller/share/pickbot_controller/config/pickbot_controllers.yaml
 /home/rahul/pick_bot/pickbot_ws/install/pickbot_controller/share/ament_index/resource_index/package_run_dependencies/pickbot_controller
 /home/rahul/pick_bot/pickbot_ws/install/pickbot_controller/share/ament_index/resource_index/parent_prefix_path/pickbot_controller
 /home/rahul/pick_bot/pickbot_ws/install/pickbot_controller/share/pickbot_controller/environment/ament_prefix_path.sh
