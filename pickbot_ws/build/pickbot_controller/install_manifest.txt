@@ -1,0 +1,15 @@
+/home/rahul/pick_bot/pickbot_ws/install/pickbot_controller/share/ament_index/resource_index/package_run_dependencies/pickbot_controller
+/home/rahul/pick_bot/pickbot_ws/install/pickbot_controller/share/ament_index/resource_index/parent_prefix_path/pickbot_controller
+/home/rahul/pick_bot/pickbot_ws/install/pickbot_controller/share/pickbot_controller/environment/ament_prefix_path.sh
+/home/rahul/pick_bot/pickbot_ws/install/pickbot_controller/share/pickbot_controller/environment/ament_prefix_path.dsv
+/home/rahul/pick_bot/pickbot_ws/install/pickbot_controller/share/pickbot_controller/environment/path.sh
+/home/rahul/pick_bot/pickbot_ws/install/pickbot_controller/share/pickbot_controller/environment/path.dsv
+/home/rahul/pick_bot/pickbot_ws/install/pickbot_controller/share/pickbot_controller/local_setup.bash
+/home/rahul/pick_bot/pickbot_ws/install/pickbot_controller/share/pickbot_controller/local_setup.sh
+/home/rahul/pick_bot/pickbot_ws/install/pickbot_controller/share/pickbot_controller/local_setup.zsh
+/home/rahul/pick_bot/pickbot_ws/install/pickbot_controller/share/pickbot_controller/local_setup.dsv
+/home/rahul/pick_bot/pickbot_ws/install/pickbot_controller/share/pickbot_controller/package.dsv
+/home/rahul/pick_bot/pickbot_ws/install/pickbot_controller/share/ament_index/resource_index/packages/pickbot_controller
+/home/rahul/pick_bot/pickbot_ws/install/pickbot_controller/share/pickbot_controller/cmake/pickbot_controllerConfig.cmake
+/home/rahul/pick_bot/pickbot_ws/install/pickbot_controller/share/pickbot_controller/cmake/pickbot_controllerConfig-version.cmake
+/home/rahul/pick_bot/pickbot_ws/install/pickbot_controller/share/pickbot_controller/package.xml
