@@ -1,0 +1,20 @@
+-- Install configuration: ""
+-- Up-to-date: /home/rahul/pick_bot/pickbot_ws/install/pickbot_controller/share/pickbot_controller/config
+-- Up-to-date: /home/rahul/pick_bot/pickbot_ws/install/pickbot_controller/share/pickbot_controller/config/pickbot_controllers.yaml
+-- Up-to-date: /home/rahul/pick_bot/pickbot_ws/install/pickbot_controller/share/pickbot_controller/launch
+-- Installing: /home/rahul/pick_bot/pickbot_ws/install/pickbot_controller/share/pickbot_controller/launch/controller.launch.py
+-- Up-to-date: /home/rahul/pick_bot/pickbot_ws/install/pickbot_controller/share/ament_index/resource_index/package_run_dependencies/pickbot_controller
+-- Up-to-date: /home/rahul/pick_bot/pickbot_ws/install/pickbot_controller/share/ament_index/resource_index/parent_prefix_path/pickbot_controller
+-- Up-to-date: /home/rahul/pick_bot/pickbot_ws/install/pickbot_controller/share/pickbot_controller/environment/ament_prefix_path.sh
+-- Up-to-date: /home/rahul/pick_bot/pickbot_ws/install/pickbot_controller/share/pickbot_controller/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/rahul/pick_bot/pickbot_ws/install/pickbot_controller/share/pickbot_controller/environment/path.sh
+-- Up-to-date: /home/rahul/pick_bot/pickbot_ws/install/pickbot_controller/share/pickbot_controller/environment/path.dsv
+-- Up-to-date: /home/rahul/pick_bot/pickbot_ws/install/pickbot_controller/share/pickbot_controller/local_setup.bash
+-- Up-to-date: /home/rahul/pick_bot/pickbot_ws/install/pickbot_controller/share/pickbot_controller/local_setup.sh
+-- Up-to-date: /home/rahul/pick_bot/pickbot_ws/install/pickbot_controller/share/pickbot_controller/local_setup.zsh
+-- Up-to-date: /home/rahul/pick_bot/pickbot_ws/install/pickbot_controller/share/pickbot_controller/local_setup.dsv
+-- Installing: /home/rahul/pick_bot/pickbot_ws/install/pickbot_controller/share/pickbot_controller/package.dsv
+-- Up-to-date: /home/rahul/pick_bot/pickbot_ws/install/pickbot_controller/share/ament_index/resource_index/packages/pickbot_controller
+-- Up-to-date: /home/rahul/pick_bot/pickbot_ws/install/pickbot_controller/share/pickbot_controller/cmake/pickbot_controllerConfig.cmake
+-- Up-to-date: /home/rahul/pick_bot/pickbot_ws/install/pickbot_controller/share/pickbot_controller/cmake/pickbot_controllerConfig-version.cmake
+-- Up-to-date: /home/rahul/pick_bot/pickbot_ws/install/pickbot_controller/share/pickbot_controller/package.xml

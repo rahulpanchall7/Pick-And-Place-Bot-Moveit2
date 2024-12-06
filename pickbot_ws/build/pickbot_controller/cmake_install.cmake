@@ -43,7 +43,10 @@ if(NOT DEFINED CMAKE_OBJDUMP)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/pickbot_controller" TYPE DIRECTORY FILES "/home/rahul/pick_bot/pickbot_ws/src/pickbot_controller/config")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/pickbot_controller" TYPE DIRECTORY FILES
+    "/home/rahul/pick_bot/pickbot_ws/src/pickbot_controller/config"
+    "/home/rahul/pick_bot/pickbot_ws/src/pickbot_controller/launch"
+    )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
