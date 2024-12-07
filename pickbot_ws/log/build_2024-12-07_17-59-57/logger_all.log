@@ -1,0 +1,401 @@
+[1.028s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[1.028s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=12, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x7f8adad3fbb0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f8adad3f5e0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f8adad3f5e0>>, mixin_verb=('build',))
+[5.868s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[5.869s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[5.869s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[5.869s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[5.869s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[5.869s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[5.869s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/rahul/pick_bot/pickbot_ws'
+[5.869s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[5.869s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[5.869s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[5.869s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[5.870s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[5.870s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[5.870s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[5.870s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[5.870s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[5.891s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[5.892s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[5.892s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[5.892s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[5.892s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[5.892s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[5.892s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[5.892s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[5.892s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[5.893s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[5.893s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[5.893s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[5.893s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[5.893s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[5.893s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[5.893s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[5.893s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[5.893s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[5.893s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[5.893s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[5.893s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[5.893s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[5.893s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[5.893s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[5.893s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[5.893s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[5.894s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[5.894s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[5.894s] Level 1:colcon.colcon_core.package_identification:_identify(src/pick_bot_cpp_examples) by extensions ['ignore', 'ignore_ament_install']
+[5.894s] Level 1:colcon.colcon_core.package_identification:_identify(src/pick_bot_cpp_examples) by extension 'ignore'
+[5.894s] Level 1:colcon.colcon_core.package_identification:_identify(src/pick_bot_cpp_examples) by extension 'ignore_ament_install'
+[5.894s] Level 1:colcon.colcon_core.package_identification:_identify(src/pick_bot_cpp_examples) by extensions ['colcon_pkg']
+[5.894s] Level 1:colcon.colcon_core.package_identification:_identify(src/pick_bot_cpp_examples) by extension 'colcon_pkg'
+[5.894s] Level 1:colcon.colcon_core.package_identification:_identify(src/pick_bot_cpp_examples) by extensions ['colcon_meta']
+[5.894s] Level 1:colcon.colcon_core.package_identification:_identify(src/pick_bot_cpp_examples) by extension 'colcon_meta'
+[5.894s] Level 1:colcon.colcon_core.package_identification:_identify(src/pick_bot_cpp_examples) by extensions ['ros']
+[5.894s] Level 1:colcon.colcon_core.package_identification:_identify(src/pick_bot_cpp_examples) by extension 'ros'
+[5.896s] DEBUG:colcon.colcon_core.package_identification:Package 'src/pick_bot_cpp_examples' with type 'ros.ament_cmake' and name 'pick_bot_cpp_examples'
+[5.897s] Level 1:colcon.colcon_core.package_identification:_identify(src/pickbot_controller) by extensions ['ignore', 'ignore_ament_install']
+[5.897s] Level 1:colcon.colcon_core.package_identification:_identify(src/pickbot_controller) by extension 'ignore'
+[5.897s] Level 1:colcon.colcon_core.package_identification:_identify(src/pickbot_controller) by extension 'ignore_ament_install'
+[5.897s] Level 1:colcon.colcon_core.package_identification:_identify(src/pickbot_controller) by extensions ['colcon_pkg']
+[5.897s] Level 1:colcon.colcon_core.package_identification:_identify(src/pickbot_controller) by extension 'colcon_pkg'
+[5.897s] Level 1:colcon.colcon_core.package_identification:_identify(src/pickbot_controller) by extensions ['colcon_meta']
+[5.897s] Level 1:colcon.colcon_core.package_identification:_identify(src/pickbot_controller) by extension 'colcon_meta'
+[5.897s] Level 1:colcon.colcon_core.package_identification:_identify(src/pickbot_controller) by extensions ['ros']
+[5.897s] Level 1:colcon.colcon_core.package_identification:_identify(src/pickbot_controller) by extension 'ros'
+[5.898s] DEBUG:colcon.colcon_core.package_identification:Package 'src/pickbot_controller' with type 'ros.ament_cmake' and name 'pickbot_controller'
+[5.898s] Level 1:colcon.colcon_core.package_identification:_identify(src/pickbot_description) by extensions ['ignore', 'ignore_ament_install']
+[5.898s] Level 1:colcon.colcon_core.package_identification:_identify(src/pickbot_description) by extension 'ignore'
+[5.898s] Level 1:colcon.colcon_core.package_identification:_identify(src/pickbot_description) by extension 'ignore_ament_install'
+[5.898s] Level 1:colcon.colcon_core.package_identification:_identify(src/pickbot_description) by extensions ['colcon_pkg']
+[5.898s] Level 1:colcon.colcon_core.package_identification:_identify(src/pickbot_description) by extension 'colcon_pkg'
+[5.898s] Level 1:colcon.colcon_core.package_identification:_identify(src/pickbot_description) by extensions ['colcon_meta']
+[5.898s] Level 1:colcon.colcon_core.package_identification:_identify(src/pickbot_description) by extension 'colcon_meta'
+[5.898s] Level 1:colcon.colcon_core.package_identification:_identify(src/pickbot_description) by extensions ['ros']
+[5.898s] Level 1:colcon.colcon_core.package_identification:_identify(src/pickbot_description) by extension 'ros'
+[5.900s] DEBUG:colcon.colcon_core.package_identification:Package 'src/pickbot_description' with type 'ros.ament_cmake' and name 'pickbot_description'
+[5.901s] Level 1:colcon.colcon_core.package_identification:_identify(src/pickbot_msgs) by extensions ['ignore', 'ignore_ament_install']
+[5.901s] Level 1:colcon.colcon_core.package_identification:_identify(src/pickbot_msgs) by extension 'ignore'
+[5.901s] Level 1:colcon.colcon_core.package_identification:_identify(src/pickbot_msgs) by extension 'ignore_ament_install'
+[5.901s] Level 1:colcon.colcon_core.package_identification:_identify(src/pickbot_msgs) by extensions ['colcon_pkg']
+[5.901s] Level 1:colcon.colcon_core.package_identification:_identify(src/pickbot_msgs) by extension 'colcon_pkg'
+[5.901s] Level 1:colcon.colcon_core.package_identification:_identify(src/pickbot_msgs) by extensions ['colcon_meta']
+[5.901s] Level 1:colcon.colcon_core.package_identification:_identify(src/pickbot_msgs) by extension 'colcon_meta'
+[5.901s] Level 1:colcon.colcon_core.package_identification:_identify(src/pickbot_msgs) by extensions ['ros']
+[5.901s] Level 1:colcon.colcon_core.package_identification:_identify(src/pickbot_msgs) by extension 'ros'
+[5.912s] DEBUG:colcon.colcon_core.package_identification:Package 'src/pickbot_msgs' with type 'ros.ament_cmake' and name 'pickbot_msgs'
+[5.913s] Level 1:colcon.colcon_core.package_identification:_identify(src/pickbot_utils) by extensions ['ignore', 'ignore_ament_install']
+[5.913s] Level 1:colcon.colcon_core.package_identification:_identify(src/pickbot_utils) by extension 'ignore'
+[5.913s] Level 1:colcon.colcon_core.package_identification:_identify(src/pickbot_utils) by extension 'ignore_ament_install'
+[5.913s] Level 1:colcon.colcon_core.package_identification:_identify(src/pickbot_utils) by extensions ['colcon_pkg']
+[5.913s] Level 1:colcon.colcon_core.package_identification:_identify(src/pickbot_utils) by extension 'colcon_pkg'
+[5.913s] Level 1:colcon.colcon_core.package_identification:_identify(src/pickbot_utils) by extensions ['colcon_meta']
+[5.913s] Level 1:colcon.colcon_core.package_identification:_identify(src/pickbot_utils) by extension 'colcon_meta'
+[5.913s] Level 1:colcon.colcon_core.package_identification:_identify(src/pickbot_utils) by extensions ['ros']
+[5.913s] Level 1:colcon.colcon_core.package_identification:_identify(src/pickbot_utils) by extension 'ros'
+[5.913s] DEBUG:colcon.colcon_core.package_identification:Package 'src/pickbot_utils' with type 'ros.ament_cmake' and name 'pickbot_utils'
+[5.914s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[5.914s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[5.914s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[5.914s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[5.914s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[6.063s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[6.063s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[6.067s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 4 installed packages in /home/rahul/pick_bot/pickbot_ws/install
+[6.069s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 389 installed packages in /opt/ros/humble
+[6.071s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[6.116s] Level 5:colcon.colcon_core.verb:set package 'pickbot_controller' build argument 'cmake_args' from command line to 'None'
+[6.117s] Level 5:colcon.colcon_core.verb:set package 'pickbot_controller' build argument 'cmake_target' from command line to 'None'
+[6.117s] Level 5:colcon.colcon_core.verb:set package 'pickbot_controller' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[6.117s] Level 5:colcon.colcon_core.verb:set package 'pickbot_controller' build argument 'cmake_clean_cache' from command line to 'False'
+[6.117s] Level 5:colcon.colcon_core.verb:set package 'pickbot_controller' build argument 'cmake_clean_first' from command line to 'False'
+[6.117s] Level 5:colcon.colcon_core.verb:set package 'pickbot_controller' build argument 'cmake_force_configure' from command line to 'False'
+[6.117s] Level 5:colcon.colcon_core.verb:set package 'pickbot_controller' build argument 'ament_cmake_args' from command line to 'None'
+[6.117s] Level 5:colcon.colcon_core.verb:set package 'pickbot_controller' build argument 'catkin_cmake_args' from command line to 'None'
+[6.117s] Level 5:colcon.colcon_core.verb:set package 'pickbot_controller' build argument 'catkin_skip_building_tests' from command line to 'False'
+[6.117s] DEBUG:colcon.colcon_core.verb:Building package 'pickbot_controller' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/rahul/pick_bot/pickbot_ws/build/pickbot_controller', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/rahul/pick_bot/pickbot_ws/install/pickbot_controller', 'merge_install': False, 'path': '/home/rahul/pick_bot/pickbot_ws/src/pickbot_controller', 'symlink_install': False, 'test_result_base': None}
+[6.117s] Level 5:colcon.colcon_core.verb:set package 'pickbot_description' build argument 'cmake_args' from command line to 'None'
+[6.117s] Level 5:colcon.colcon_core.verb:set package 'pickbot_description' build argument 'cmake_target' from command line to 'None'
+[6.117s] Level 5:colcon.colcon_core.verb:set package 'pickbot_description' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[6.117s] Level 5:colcon.colcon_core.verb:set package 'pickbot_description' build argument 'cmake_clean_cache' from command line to 'False'
+[6.117s] Level 5:colcon.colcon_core.verb:set package 'pickbot_description' build argument 'cmake_clean_first' from command line to 'False'
+[6.117s] Level 5:colcon.colcon_core.verb:set package 'pickbot_description' build argument 'cmake_force_configure' from command line to 'False'
+[6.117s] Level 5:colcon.colcon_core.verb:set package 'pickbot_description' build argument 'ament_cmake_args' from command line to 'None'
+[6.117s] Level 5:colcon.colcon_core.verb:set package 'pickbot_description' build argument 'catkin_cmake_args' from command line to 'None'
+[6.117s] Level 5:colcon.colcon_core.verb:set package 'pickbot_description' build argument 'catkin_skip_building_tests' from command line to 'False'
+[6.117s] DEBUG:colcon.colcon_core.verb:Building package 'pickbot_description' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/rahul/pick_bot/pickbot_ws/build/pickbot_description', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/rahul/pick_bot/pickbot_ws/install/pickbot_description', 'merge_install': False, 'path': '/home/rahul/pick_bot/pickbot_ws/src/pickbot_description', 'symlink_install': False, 'test_result_base': None}
+[6.118s] Level 5:colcon.colcon_core.verb:set package 'pickbot_msgs' build argument 'cmake_args' from command line to 'None'
+[6.118s] Level 5:colcon.colcon_core.verb:set package 'pickbot_msgs' build argument 'cmake_target' from command line to 'None'
+[6.118s] Level 5:colcon.colcon_core.verb:set package 'pickbot_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[6.118s] Level 5:colcon.colcon_core.verb:set package 'pickbot_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[6.118s] Level 5:colcon.colcon_core.verb:set package 'pickbot_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[6.118s] Level 5:colcon.colcon_core.verb:set package 'pickbot_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[6.118s] Level 5:colcon.colcon_core.verb:set package 'pickbot_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[6.118s] Level 5:colcon.colcon_core.verb:set package 'pickbot_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[6.118s] Level 5:colcon.colcon_core.verb:set package 'pickbot_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[6.118s] DEBUG:colcon.colcon_core.verb:Building package 'pickbot_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/rahul/pick_bot/pickbot_ws/build/pickbot_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/rahul/pick_bot/pickbot_ws/install/pickbot_msgs', 'merge_install': False, 'path': '/home/rahul/pick_bot/pickbot_ws/src/pickbot_msgs', 'symlink_install': False, 'test_result_base': None}
+[6.118s] Level 5:colcon.colcon_core.verb:set package 'pickbot_utils' build argument 'cmake_args' from command line to 'None'
+[6.118s] Level 5:colcon.colcon_core.verb:set package 'pickbot_utils' build argument 'cmake_target' from command line to 'None'
+[6.118s] Level 5:colcon.colcon_core.verb:set package 'pickbot_utils' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[6.118s] Level 5:colcon.colcon_core.verb:set package 'pickbot_utils' build argument 'cmake_clean_cache' from command line to 'False'
+[6.118s] Level 5:colcon.colcon_core.verb:set package 'pickbot_utils' build argument 'cmake_clean_first' from command line to 'False'
+[6.118s] Level 5:colcon.colcon_core.verb:set package 'pickbot_utils' build argument 'cmake_force_configure' from command line to 'False'
+[6.118s] Level 5:colcon.colcon_core.verb:set package 'pickbot_utils' build argument 'ament_cmake_args' from command line to 'None'
+[6.118s] Level 5:colcon.colcon_core.verb:set package 'pickbot_utils' build argument 'catkin_cmake_args' from command line to 'None'
+[6.118s] Level 5:colcon.colcon_core.verb:set package 'pickbot_utils' build argument 'catkin_skip_building_tests' from command line to 'False'
+[6.118s] DEBUG:colcon.colcon_core.verb:Building package 'pickbot_utils' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/rahul/pick_bot/pickbot_ws/build/pickbot_utils', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/rahul/pick_bot/pickbot_ws/install/pickbot_utils', 'merge_install': False, 'path': '/home/rahul/pick_bot/pickbot_ws/src/pickbot_utils', 'symlink_install': False, 'test_result_base': None}
+[6.119s] Level 5:colcon.colcon_core.verb:set package 'pick_bot_cpp_examples' build argument 'cmake_args' from command line to 'None'
+[6.119s] Level 5:colcon.colcon_core.verb:set package 'pick_bot_cpp_examples' build argument 'cmake_target' from command line to 'None'
+[6.119s] Level 5:colcon.colcon_core.verb:set package 'pick_bot_cpp_examples' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[6.119s] Level 5:colcon.colcon_core.verb:set package 'pick_bot_cpp_examples' build argument 'cmake_clean_cache' from command line to 'False'
+[6.119s] Level 5:colcon.colcon_core.verb:set package 'pick_bot_cpp_examples' build argument 'cmake_clean_first' from command line to 'False'
+[6.119s] Level 5:colcon.colcon_core.verb:set package 'pick_bot_cpp_examples' build argument 'cmake_force_configure' from command line to 'False'
+[6.119s] Level 5:colcon.colcon_core.verb:set package 'pick_bot_cpp_examples' build argument 'ament_cmake_args' from command line to 'None'
+[6.119s] Level 5:colcon.colcon_core.verb:set package 'pick_bot_cpp_examples' build argument 'catkin_cmake_args' from command line to 'None'
+[6.119s] Level 5:colcon.colcon_core.verb:set package 'pick_bot_cpp_examples' build argument 'catkin_skip_building_tests' from command line to 'False'
+[6.119s] DEBUG:colcon.colcon_core.verb:Building package 'pick_bot_cpp_examples' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/rahul/pick_bot/pickbot_ws/build/pick_bot_cpp_examples', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/rahul/pick_bot/pickbot_ws/install/pick_bot_cpp_examples', 'merge_install': False, 'path': '/home/rahul/pick_bot/pickbot_ws/src/pick_bot_cpp_examples', 'symlink_install': False, 'test_result_base': None}
+[6.119s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[6.121s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[6.121s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/rahul/pick_bot/pickbot_ws/src/pickbot_msgs' with build type 'ament_cmake'
+[6.121s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/rahul/pick_bot/pickbot_ws/src/pickbot_msgs'
+[6.126s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[6.126s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[6.126s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[6.131s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/rahul/pick_bot/pickbot_ws/src/pickbot_controller' with build type 'ament_cmake'
+[6.132s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/rahul/pick_bot/pickbot_ws/src/pickbot_controller'
+[6.132s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[6.132s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[6.136s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/rahul/pick_bot/pickbot_ws/src/pickbot_description' with build type 'ament_cmake'
+[6.137s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/rahul/pick_bot/pickbot_ws/src/pickbot_description'
+[6.137s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[6.137s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[6.142s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/rahul/pick_bot/pickbot_ws/src/pickbot_utils' with build type 'ament_cmake'
+[6.142s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/rahul/pick_bot/pickbot_ws/src/pickbot_utils'
+[6.142s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[6.142s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[6.157s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/rahul/pick_bot/pickbot_ws/build/pickbot_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/rahul/pick_bot/pickbot_ws/build/pickbot_msgs -- -j12 -l12
+[6.163s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/rahul/pick_bot/pickbot_ws/build/pickbot_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/rahul/pick_bot/pickbot_ws/build/pickbot_controller -- -j12 -l12
+[6.167s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/rahul/pick_bot/pickbot_ws/build/pickbot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/rahul/pick_bot/pickbot_ws/build/pickbot_description -- -j12 -l12
+[6.174s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/rahul/pick_bot/pickbot_ws/build/pickbot_utils': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/rahul/pick_bot/pickbot_ws/src/pickbot_utils -DCMAKE_INSTALL_PREFIX=/home/rahul/pick_bot/pickbot_ws/install/pickbot_utils
+[6.244s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/rahul/pick_bot/pickbot_ws/build/pickbot_controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/rahul/pick_bot/pickbot_ws/build/pickbot_controller -- -j12 -l12
+[6.262s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/rahul/pick_bot/pickbot_ws/build/pickbot_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/rahul/pick_bot/pickbot_ws/build/pickbot_controller
+[6.266s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/rahul/pick_bot/pickbot_ws/build/pickbot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/rahul/pick_bot/pickbot_ws/build/pickbot_description -- -j12 -l12
+[6.280s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(pickbot_controller)
+[6.280s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/rahul/pick_bot/pickbot_ws/build/pickbot_controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/rahul/pick_bot/pickbot_ws/build/pickbot_controller
+[6.298s] Level 1:colcon.colcon_core.environment:checking '/home/rahul/pick_bot/pickbot_ws/install/pickbot_controller' for CMake module files
+[6.300s] Level 1:colcon.colcon_core.environment:checking '/home/rahul/pick_bot/pickbot_ws/install/pickbot_controller' for CMake config files
+[6.300s] Level 1:colcon.colcon_core.shell:create_environment_hook('pickbot_controller', 'cmake_prefix_path')
+[6.301s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rahul/pick_bot/pickbot_ws/install/pickbot_controller/share/pickbot_controller/hook/cmake_prefix_path.ps1'
+[6.304s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rahul/pick_bot/pickbot_ws/install/pickbot_controller/share/pickbot_controller/hook/cmake_prefix_path.dsv'
+[6.306s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rahul/pick_bot/pickbot_ws/install/pickbot_controller/share/pickbot_controller/hook/cmake_prefix_path.sh'
+[6.308s] Level 1:colcon.colcon_core.environment:checking '/home/rahul/pick_bot/pickbot_ws/install/pickbot_controller/bin'
+[6.308s] Level 1:colcon.colcon_core.environment:checking '/home/rahul/pick_bot/pickbot_ws/install/pickbot_controller/lib/pkgconfig/pickbot_controller.pc'
+[6.308s] Level 1:colcon.colcon_core.environment:checking '/home/rahul/pick_bot/pickbot_ws/install/pickbot_controller/lib/python3.10/site-packages'
+[6.309s] Level 1:colcon.colcon_core.environment:checking '/home/rahul/pick_bot/pickbot_ws/install/pickbot_controller/bin'
+[6.309s] INFO:colcon.colcon_core.shell:Creating package script '/home/rahul/pick_bot/pickbot_ws/install/pickbot_controller/share/pickbot_controller/package.ps1'
+[6.312s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/rahul/pick_bot/pickbot_ws/install/pickbot_controller/share/pickbot_controller/package.dsv'
+[6.315s] INFO:colcon.colcon_core.shell:Creating package script '/home/rahul/pick_bot/pickbot_ws/install/pickbot_controller/share/pickbot_controller/package.sh'
+[6.317s] INFO:colcon.colcon_core.shell:Creating package script '/home/rahul/pick_bot/pickbot_ws/install/pickbot_controller/share/pickbot_controller/package.bash'
+[6.320s] INFO:colcon.colcon_core.shell:Creating package script '/home/rahul/pick_bot/pickbot_ws/install/pickbot_controller/share/pickbot_controller/package.zsh'
+[6.323s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/rahul/pick_bot/pickbot_ws/install/pickbot_controller/share/colcon-core/packages/pickbot_controller)
+[6.329s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(pickbot_controller)
+[6.330s] Level 1:colcon.colcon_core.environment:checking '/home/rahul/pick_bot/pickbot_ws/install/pickbot_controller' for CMake module files
+[6.331s] Level 1:colcon.colcon_core.environment:checking '/home/rahul/pick_bot/pickbot_ws/install/pickbot_controller' for CMake config files
+[6.333s] Level 1:colcon.colcon_core.shell:create_environment_hook('pickbot_controller', 'cmake_prefix_path')
+[6.334s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rahul/pick_bot/pickbot_ws/install/pickbot_controller/share/pickbot_controller/hook/cmake_prefix_path.ps1'
+[6.336s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rahul/pick_bot/pickbot_ws/install/pickbot_controller/share/pickbot_controller/hook/cmake_prefix_path.dsv'
+[6.336s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rahul/pick_bot/pickbot_ws/install/pickbot_controller/share/pickbot_controller/hook/cmake_prefix_path.sh'
+[6.337s] Level 1:colcon.colcon_core.environment:checking '/home/rahul/pick_bot/pickbot_ws/install/pickbot_controller/bin'
+[6.337s] Level 1:colcon.colcon_core.environment:checking '/home/rahul/pick_bot/pickbot_ws/install/pickbot_controller/lib/pkgconfig/pickbot_controller.pc'
+[6.338s] Level 1:colcon.colcon_core.environment:checking '/home/rahul/pick_bot/pickbot_ws/install/pickbot_controller/lib/python3.10/site-packages'
+[6.338s] Level 1:colcon.colcon_core.environment:checking '/home/rahul/pick_bot/pickbot_ws/install/pickbot_controller/bin'
+[6.338s] INFO:colcon.colcon_core.shell:Creating package script '/home/rahul/pick_bot/pickbot_ws/install/pickbot_controller/share/pickbot_controller/package.ps1'
+[6.339s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/rahul/pick_bot/pickbot_ws/install/pickbot_controller/share/pickbot_controller/package.dsv'
+[6.339s] INFO:colcon.colcon_core.shell:Creating package script '/home/rahul/pick_bot/pickbot_ws/install/pickbot_controller/share/pickbot_controller/package.sh'
+[6.340s] INFO:colcon.colcon_core.shell:Creating package script '/home/rahul/pick_bot/pickbot_ws/install/pickbot_controller/share/pickbot_controller/package.bash'
+[6.346s] INFO:colcon.colcon_core.shell:Creating package script '/home/rahul/pick_bot/pickbot_ws/install/pickbot_controller/share/pickbot_controller/package.zsh'
+[6.347s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/rahul/pick_bot/pickbot_ws/install/pickbot_controller/share/colcon-core/packages/pickbot_controller)
+[6.352s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/rahul/pick_bot/pickbot_ws/build/pickbot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/rahul/pick_bot/pickbot_ws/build/pickbot_description
+[6.375s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(pickbot_description)
+[6.376s] Level 1:colcon.colcon_core.environment:checking '/home/rahul/pick_bot/pickbot_ws/install/pickbot_description' for CMake module files
+[6.376s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/rahul/pick_bot/pickbot_ws/build/pickbot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/rahul/pick_bot/pickbot_ws/build/pickbot_description
+[6.376s] Level 1:colcon.colcon_core.environment:checking '/home/rahul/pick_bot/pickbot_ws/install/pickbot_description' for CMake config files
+[6.377s] Level 1:colcon.colcon_core.shell:create_environment_hook('pickbot_description', 'cmake_prefix_path')
+[6.377s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rahul/pick_bot/pickbot_ws/install/pickbot_description/share/pickbot_description/hook/cmake_prefix_path.ps1'
+[6.378s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rahul/pick_bot/pickbot_ws/install/pickbot_description/share/pickbot_description/hook/cmake_prefix_path.dsv'
+[6.378s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rahul/pick_bot/pickbot_ws/install/pickbot_description/share/pickbot_description/hook/cmake_prefix_path.sh'
+[6.378s] Level 1:colcon.colcon_core.environment:checking '/home/rahul/pick_bot/pickbot_ws/install/pickbot_description/bin'
+[6.379s] Level 1:colcon.colcon_core.environment:checking '/home/rahul/pick_bot/pickbot_ws/install/pickbot_description/lib/pkgconfig/pickbot_description.pc'
+[6.379s] Level 1:colcon.colcon_core.environment:checking '/home/rahul/pick_bot/pickbot_ws/install/pickbot_description/lib/python3.10/site-packages'
+[6.379s] Level 1:colcon.colcon_core.environment:checking '/home/rahul/pick_bot/pickbot_ws/install/pickbot_description/bin'
+[6.379s] INFO:colcon.colcon_core.shell:Creating package script '/home/rahul/pick_bot/pickbot_ws/install/pickbot_description/share/pickbot_description/package.ps1'
+[6.380s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/rahul/pick_bot/pickbot_ws/install/pickbot_description/share/pickbot_description/package.dsv'
+[6.380s] INFO:colcon.colcon_core.shell:Creating package script '/home/rahul/pick_bot/pickbot_ws/install/pickbot_description/share/pickbot_description/package.sh'
+[6.382s] INFO:colcon.colcon_core.shell:Creating package script '/home/rahul/pick_bot/pickbot_ws/install/pickbot_description/share/pickbot_description/package.bash'
+[6.389s] INFO:colcon.colcon_core.shell:Creating package script '/home/rahul/pick_bot/pickbot_ws/install/pickbot_description/share/pickbot_description/package.zsh'
+[6.390s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/rahul/pick_bot/pickbot_ws/install/pickbot_description/share/colcon-core/packages/pickbot_description)
+[6.423s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(pickbot_description)
+[6.423s] Level 1:colcon.colcon_core.environment:checking '/home/rahul/pick_bot/pickbot_ws/install/pickbot_description' for CMake module files
+[6.424s] Level 1:colcon.colcon_core.environment:checking '/home/rahul/pick_bot/pickbot_ws/install/pickbot_description' for CMake config files
+[6.424s] Level 1:colcon.colcon_core.shell:create_environment_hook('pickbot_description', 'cmake_prefix_path')
+[6.425s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rahul/pick_bot/pickbot_ws/install/pickbot_description/share/pickbot_description/hook/cmake_prefix_path.ps1'
+[6.426s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rahul/pick_bot/pickbot_ws/install/pickbot_description/share/pickbot_description/hook/cmake_prefix_path.dsv'
+[6.427s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rahul/pick_bot/pickbot_ws/install/pickbot_description/share/pickbot_description/hook/cmake_prefix_path.sh'
+[6.428s] Level 1:colcon.colcon_core.environment:checking '/home/rahul/pick_bot/pickbot_ws/install/pickbot_description/bin'
+[6.428s] Level 1:colcon.colcon_core.environment:checking '/home/rahul/pick_bot/pickbot_ws/install/pickbot_description/lib/pkgconfig/pickbot_description.pc'
+[6.428s] Level 1:colcon.colcon_core.environment:checking '/home/rahul/pick_bot/pickbot_ws/install/pickbot_description/lib/python3.10/site-packages'
+[6.429s] Level 1:colcon.colcon_core.environment:checking '/home/rahul/pick_bot/pickbot_ws/install/pickbot_description/bin'
+[6.429s] INFO:colcon.colcon_core.shell:Creating package script '/home/rahul/pick_bot/pickbot_ws/install/pickbot_description/share/pickbot_description/package.ps1'
+[6.430s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/rahul/pick_bot/pickbot_ws/install/pickbot_description/share/pickbot_description/package.dsv'
+[6.430s] INFO:colcon.colcon_core.shell:Creating package script '/home/rahul/pick_bot/pickbot_ws/install/pickbot_description/share/pickbot_description/package.sh'
+[6.431s] INFO:colcon.colcon_core.shell:Creating package script '/home/rahul/pick_bot/pickbot_ws/install/pickbot_description/share/pickbot_description/package.bash'
+[6.432s] INFO:colcon.colcon_core.shell:Creating package script '/home/rahul/pick_bot/pickbot_ws/install/pickbot_description/share/pickbot_description/package.zsh'
+[6.432s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/rahul/pick_bot/pickbot_ws/install/pickbot_description/share/colcon-core/packages/pickbot_description)
+[6.693s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/rahul/pick_bot/pickbot_ws/build/pickbot_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/rahul/pick_bot/pickbot_ws/build/pickbot_msgs -- -j12 -l12
+[6.695s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/rahul/pick_bot/pickbot_ws/build/pickbot_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/rahul/pick_bot/pickbot_ws/build/pickbot_msgs
+[6.899s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(pickbot_msgs)
+[6.899s] Level 1:colcon.colcon_core.environment:checking '/home/rahul/pick_bot/pickbot_ws/install/pickbot_msgs' for CMake module files
+[6.900s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/rahul/pick_bot/pickbot_ws/build/pickbot_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/rahul/pick_bot/pickbot_ws/build/pickbot_msgs
+[6.901s] Level 1:colcon.colcon_core.environment:checking '/home/rahul/pick_bot/pickbot_ws/install/pickbot_msgs' for CMake config files
+[6.902s] Level 1:colcon.colcon_core.shell:create_environment_hook('pickbot_msgs', 'cmake_prefix_path')
+[6.903s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rahul/pick_bot/pickbot_ws/install/pickbot_msgs/share/pickbot_msgs/hook/cmake_prefix_path.ps1'
+[6.904s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rahul/pick_bot/pickbot_ws/install/pickbot_msgs/share/pickbot_msgs/hook/cmake_prefix_path.dsv'
+[6.905s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rahul/pick_bot/pickbot_ws/install/pickbot_msgs/share/pickbot_msgs/hook/cmake_prefix_path.sh'
+[6.906s] Level 1:colcon.colcon_core.environment:checking '/home/rahul/pick_bot/pickbot_ws/install/pickbot_msgs/lib'
+[6.907s] Level 1:colcon.colcon_core.shell:create_environment_hook('pickbot_msgs', 'ld_library_path_lib')
+[6.907s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rahul/pick_bot/pickbot_ws/install/pickbot_msgs/share/pickbot_msgs/hook/ld_library_path_lib.ps1'
+[6.908s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rahul/pick_bot/pickbot_ws/install/pickbot_msgs/share/pickbot_msgs/hook/ld_library_path_lib.dsv'
+[6.909s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rahul/pick_bot/pickbot_ws/install/pickbot_msgs/share/pickbot_msgs/hook/ld_library_path_lib.sh'
+[6.909s] Level 1:colcon.colcon_core.environment:checking '/home/rahul/pick_bot/pickbot_ws/install/pickbot_msgs/bin'
+[6.909s] Level 1:colcon.colcon_core.environment:checking '/home/rahul/pick_bot/pickbot_ws/install/pickbot_msgs/lib/pkgconfig/pickbot_msgs.pc'
+[6.910s] Level 1:colcon.colcon_core.environment:checking '/home/rahul/pick_bot/pickbot_ws/install/pickbot_msgs/lib/python3.10/site-packages'
+[6.910s] Level 1:colcon.colcon_core.environment:checking '/home/rahul/pick_bot/pickbot_ws/install/pickbot_msgs/bin'
+[6.911s] INFO:colcon.colcon_core.shell:Creating package script '/home/rahul/pick_bot/pickbot_ws/install/pickbot_msgs/share/pickbot_msgs/package.ps1'
+[6.912s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/rahul/pick_bot/pickbot_ws/install/pickbot_msgs/share/pickbot_msgs/package.dsv'
+[6.913s] INFO:colcon.colcon_core.shell:Creating package script '/home/rahul/pick_bot/pickbot_ws/install/pickbot_msgs/share/pickbot_msgs/package.sh'
+[6.913s] INFO:colcon.colcon_core.shell:Creating package script '/home/rahul/pick_bot/pickbot_ws/install/pickbot_msgs/share/pickbot_msgs/package.bash'
+[6.914s] INFO:colcon.colcon_core.shell:Creating package script '/home/rahul/pick_bot/pickbot_ws/install/pickbot_msgs/share/pickbot_msgs/package.zsh'
+[6.915s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/rahul/pick_bot/pickbot_ws/install/pickbot_msgs/share/colcon-core/packages/pickbot_msgs)
+[6.916s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(pickbot_msgs)
+[6.916s] Level 1:colcon.colcon_core.environment:checking '/home/rahul/pick_bot/pickbot_ws/install/pickbot_msgs' for CMake module files
+[6.918s] Level 1:colcon.colcon_core.environment:checking '/home/rahul/pick_bot/pickbot_ws/install/pickbot_msgs' for CMake config files
+[6.918s] Level 1:colcon.colcon_core.shell:create_environment_hook('pickbot_msgs', 'cmake_prefix_path')
+[6.919s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rahul/pick_bot/pickbot_ws/install/pickbot_msgs/share/pickbot_msgs/hook/cmake_prefix_path.ps1'
+[6.920s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rahul/pick_bot/pickbot_ws/install/pickbot_msgs/share/pickbot_msgs/hook/cmake_prefix_path.dsv'
+[6.922s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rahul/pick_bot/pickbot_ws/install/pickbot_msgs/share/pickbot_msgs/hook/cmake_prefix_path.sh'
+[6.924s] Level 1:colcon.colcon_core.environment:checking '/home/rahul/pick_bot/pickbot_ws/install/pickbot_msgs/lib'
+[6.924s] Level 1:colcon.colcon_core.shell:create_environment_hook('pickbot_msgs', 'ld_library_path_lib')
+[6.925s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rahul/pick_bot/pickbot_ws/install/pickbot_msgs/share/pickbot_msgs/hook/ld_library_path_lib.ps1'
+[6.926s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rahul/pick_bot/pickbot_ws/install/pickbot_msgs/share/pickbot_msgs/hook/ld_library_path_lib.dsv'
+[6.926s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rahul/pick_bot/pickbot_ws/install/pickbot_msgs/share/pickbot_msgs/hook/ld_library_path_lib.sh'
+[6.927s] Level 1:colcon.colcon_core.environment:checking '/home/rahul/pick_bot/pickbot_ws/install/pickbot_msgs/bin'
+[6.927s] Level 1:colcon.colcon_core.environment:checking '/home/rahul/pick_bot/pickbot_ws/install/pickbot_msgs/lib/pkgconfig/pickbot_msgs.pc'
+[6.928s] Level 1:colcon.colcon_core.environment:checking '/home/rahul/pick_bot/pickbot_ws/install/pickbot_msgs/lib/python3.10/site-packages'
+[6.928s] Level 1:colcon.colcon_core.environment:checking '/home/rahul/pick_bot/pickbot_ws/install/pickbot_msgs/bin'
+[6.929s] INFO:colcon.colcon_core.shell:Creating package script '/home/rahul/pick_bot/pickbot_ws/install/pickbot_msgs/share/pickbot_msgs/package.ps1'
+[6.930s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/rahul/pick_bot/pickbot_ws/install/pickbot_msgs/share/pickbot_msgs/package.dsv'
+[6.931s] INFO:colcon.colcon_core.shell:Creating package script '/home/rahul/pick_bot/pickbot_ws/install/pickbot_msgs/share/pickbot_msgs/package.sh'
+[6.932s] INFO:colcon.colcon_core.shell:Creating package script '/home/rahul/pick_bot/pickbot_ws/install/pickbot_msgs/share/pickbot_msgs/package.bash'
+[6.933s] INFO:colcon.colcon_core.shell:Creating package script '/home/rahul/pick_bot/pickbot_ws/install/pickbot_msgs/share/pickbot_msgs/package.zsh'
+[6.933s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/rahul/pick_bot/pickbot_ws/install/pickbot_msgs/share/colcon-core/packages/pickbot_msgs)
+[6.934s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/rahul/pick_bot/pickbot_ws/src/pick_bot_cpp_examples' with build type 'ament_cmake'
+[6.934s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/rahul/pick_bot/pickbot_ws/src/pick_bot_cpp_examples'
+[6.935s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[6.935s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[6.953s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/rahul/pick_bot/pickbot_ws/build/pick_bot_cpp_examples': CMAKE_PREFIX_PATH=/home/rahul/pick_bot/pickbot_ws/install/pickbot_msgs:/home/rahul/pick_bot/pickbot_ws/install/pick_bot_cpp_examples:/home/rahul/pick_bot/pickbot_ws/install/pickbot_description:/home/rahul/pick_bot/pickbot_ws/install/pickbot_controller:/opt/ros/humble /usr/bin/cmake --build /home/rahul/pick_bot/pickbot_ws/build/pick_bot_cpp_examples -- -j12 -l12
+[7.069s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/rahul/pick_bot/pickbot_ws/build/pick_bot_cpp_examples' returned '0': CMAKE_PREFIX_PATH=/home/rahul/pick_bot/pickbot_ws/install/pickbot_msgs:/home/rahul/pick_bot/pickbot_ws/install/pick_bot_cpp_examples:/home/rahul/pick_bot/pickbot_ws/install/pickbot_description:/home/rahul/pick_bot/pickbot_ws/install/pickbot_controller:/opt/ros/humble /usr/bin/cmake --build /home/rahul/pick_bot/pickbot_ws/build/pick_bot_cpp_examples -- -j12 -l12
+[7.120s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/rahul/pick_bot/pickbot_ws/build/pick_bot_cpp_examples': CMAKE_PREFIX_PATH=/home/rahul/pick_bot/pickbot_ws/install/pickbot_msgs:/home/rahul/pick_bot/pickbot_ws/install/pick_bot_cpp_examples:/home/rahul/pick_bot/pickbot_ws/install/pickbot_description:/home/rahul/pick_bot/pickbot_ws/install/pickbot_controller:/opt/ros/humble /usr/bin/cmake --install /home/rahul/pick_bot/pickbot_ws/build/pick_bot_cpp_examples
+[7.138s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(pick_bot_cpp_examples)
+[7.139s] Level 1:colcon.colcon_core.environment:checking '/home/rahul/pick_bot/pickbot_ws/install/pick_bot_cpp_examples' for CMake module files
+[7.139s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/rahul/pick_bot/pickbot_ws/build/pick_bot_cpp_examples' returned '0': CMAKE_PREFIX_PATH=/home/rahul/pick_bot/pickbot_ws/install/pickbot_msgs:/home/rahul/pick_bot/pickbot_ws/install/pick_bot_cpp_examples:/home/rahul/pick_bot/pickbot_ws/install/pickbot_description:/home/rahul/pick_bot/pickbot_ws/install/pickbot_controller:/opt/ros/humble /usr/bin/cmake --install /home/rahul/pick_bot/pickbot_ws/build/pick_bot_cpp_examples
+[7.140s] Level 1:colcon.colcon_core.environment:checking '/home/rahul/pick_bot/pickbot_ws/install/pick_bot_cpp_examples' for CMake config files
+[7.140s] Level 1:colcon.colcon_core.shell:create_environment_hook('pick_bot_cpp_examples', 'cmake_prefix_path')
+[7.140s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rahul/pick_bot/pickbot_ws/install/pick_bot_cpp_examples/share/pick_bot_cpp_examples/hook/cmake_prefix_path.ps1'
+[7.141s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rahul/pick_bot/pickbot_ws/install/pick_bot_cpp_examples/share/pick_bot_cpp_examples/hook/cmake_prefix_path.dsv'
+[7.141s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rahul/pick_bot/pickbot_ws/install/pick_bot_cpp_examples/share/pick_bot_cpp_examples/hook/cmake_prefix_path.sh'
+[7.142s] Level 1:colcon.colcon_core.environment:checking '/home/rahul/pick_bot/pickbot_ws/install/pick_bot_cpp_examples/lib'
+[7.142s] Level 1:colcon.colcon_core.environment:checking '/home/rahul/pick_bot/pickbot_ws/install/pick_bot_cpp_examples/bin'
+[7.143s] Level 1:colcon.colcon_core.environment:checking '/home/rahul/pick_bot/pickbot_ws/install/pick_bot_cpp_examples/lib/pkgconfig/pick_bot_cpp_examples.pc'
+[7.143s] Level 1:colcon.colcon_core.environment:checking '/home/rahul/pick_bot/pickbot_ws/install/pick_bot_cpp_examples/lib/python3.10/site-packages'
+[7.143s] Level 1:colcon.colcon_core.environment:checking '/home/rahul/pick_bot/pickbot_ws/install/pick_bot_cpp_examples/bin'
+[7.144s] INFO:colcon.colcon_core.shell:Creating package script '/home/rahul/pick_bot/pickbot_ws/install/pick_bot_cpp_examples/share/pick_bot_cpp_examples/package.ps1'
+[7.144s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/rahul/pick_bot/pickbot_ws/install/pick_bot_cpp_examples/share/pick_bot_cpp_examples/package.dsv'
+[7.145s] INFO:colcon.colcon_core.shell:Creating package script '/home/rahul/pick_bot/pickbot_ws/install/pick_bot_cpp_examples/share/pick_bot_cpp_examples/package.sh'
+[7.145s] INFO:colcon.colcon_core.shell:Creating package script '/home/rahul/pick_bot/pickbot_ws/install/pick_bot_cpp_examples/share/pick_bot_cpp_examples/package.bash'
+[7.145s] INFO:colcon.colcon_core.shell:Creating package script '/home/rahul/pick_bot/pickbot_ws/install/pick_bot_cpp_examples/share/pick_bot_cpp_examples/package.zsh'
+[7.146s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/rahul/pick_bot/pickbot_ws/install/pick_bot_cpp_examples/share/colcon-core/packages/pick_bot_cpp_examples)
+[7.202s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(pick_bot_cpp_examples)
+[7.203s] Level 1:colcon.colcon_core.environment:checking '/home/rahul/pick_bot/pickbot_ws/install/pick_bot_cpp_examples' for CMake module files
+[7.203s] Level 1:colcon.colcon_core.environment:checking '/home/rahul/pick_bot/pickbot_ws/install/pick_bot_cpp_examples' for CMake config files
+[7.203s] Level 1:colcon.colcon_core.shell:create_environment_hook('pick_bot_cpp_examples', 'cmake_prefix_path')
+[7.204s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rahul/pick_bot/pickbot_ws/install/pick_bot_cpp_examples/share/pick_bot_cpp_examples/hook/cmake_prefix_path.ps1'
+[7.204s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rahul/pick_bot/pickbot_ws/install/pick_bot_cpp_examples/share/pick_bot_cpp_examples/hook/cmake_prefix_path.dsv'
+[7.205s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rahul/pick_bot/pickbot_ws/install/pick_bot_cpp_examples/share/pick_bot_cpp_examples/hook/cmake_prefix_path.sh'
+[7.205s] Level 1:colcon.colcon_core.environment:checking '/home/rahul/pick_bot/pickbot_ws/install/pick_bot_cpp_examples/lib'
+[7.206s] Level 1:colcon.colcon_core.environment:checking '/home/rahul/pick_bot/pickbot_ws/install/pick_bot_cpp_examples/bin'
+[7.206s] Level 1:colcon.colcon_core.environment:checking '/home/rahul/pick_bot/pickbot_ws/install/pick_bot_cpp_examples/lib/pkgconfig/pick_bot_cpp_examples.pc'
+[7.206s] Level 1:colcon.colcon_core.environment:checking '/home/rahul/pick_bot/pickbot_ws/install/pick_bot_cpp_examples/lib/python3.10/site-packages'
+[7.206s] Level 1:colcon.colcon_core.environment:checking '/home/rahul/pick_bot/pickbot_ws/install/pick_bot_cpp_examples/bin'
+[7.206s] INFO:colcon.colcon_core.shell:Creating package script '/home/rahul/pick_bot/pickbot_ws/install/pick_bot_cpp_examples/share/pick_bot_cpp_examples/package.ps1'
+[7.207s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/rahul/pick_bot/pickbot_ws/install/pick_bot_cpp_examples/share/pick_bot_cpp_examples/package.dsv'
+[7.208s] INFO:colcon.colcon_core.shell:Creating package script '/home/rahul/pick_bot/pickbot_ws/install/pick_bot_cpp_examples/share/pick_bot_cpp_examples/package.sh'
+[7.209s] INFO:colcon.colcon_core.shell:Creating package script '/home/rahul/pick_bot/pickbot_ws/install/pick_bot_cpp_examples/share/pick_bot_cpp_examples/package.bash'
+[7.209s] INFO:colcon.colcon_core.shell:Creating package script '/home/rahul/pick_bot/pickbot_ws/install/pick_bot_cpp_examples/share/pick_bot_cpp_examples/package.zsh'
+[7.209s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/rahul/pick_bot/pickbot_ws/install/pick_bot_cpp_examples/share/colcon-core/packages/pick_bot_cpp_examples)
+[8.951s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/rahul/pick_bot/pickbot_ws/build/pickbot_utils' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/rahul/pick_bot/pickbot_ws/src/pickbot_utils -DCMAKE_INSTALL_PREFIX=/home/rahul/pick_bot/pickbot_ws/install/pickbot_utils
+[8.956s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/rahul/pick_bot/pickbot_ws/build/pickbot_utils': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/rahul/pick_bot/pickbot_ws/build/pickbot_utils -- -j12 -l12
+[9.016s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/rahul/pick_bot/pickbot_ws/build/pickbot_utils' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/rahul/pick_bot/pickbot_ws/build/pickbot_utils -- -j12 -l12
+[9.017s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/rahul/pick_bot/pickbot_ws/build/pickbot_utils': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/rahul/pick_bot/pickbot_ws/build/pickbot_utils
+[9.101s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(pickbot_utils)
+[9.102s] Level 1:colcon.colcon_core.environment:checking '/home/rahul/pick_bot/pickbot_ws/install/pickbot_utils' for CMake module files
+[9.102s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/rahul/pick_bot/pickbot_ws/build/pickbot_utils' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/rahul/pick_bot/pickbot_ws/build/pickbot_utils
+[9.103s] Level 1:colcon.colcon_core.environment:checking '/home/rahul/pick_bot/pickbot_ws/install/pickbot_utils' for CMake config files
+[9.103s] Level 1:colcon.colcon_core.shell:create_environment_hook('pickbot_utils', 'cmake_prefix_path')
+[9.104s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rahul/pick_bot/pickbot_ws/install/pickbot_utils/share/pickbot_utils/hook/cmake_prefix_path.ps1'
+[9.105s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rahul/pick_bot/pickbot_ws/install/pickbot_utils/share/pickbot_utils/hook/cmake_prefix_path.dsv'
+[9.105s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rahul/pick_bot/pickbot_ws/install/pickbot_utils/share/pickbot_utils/hook/cmake_prefix_path.sh'
+[9.106s] Level 1:colcon.colcon_core.environment:checking '/home/rahul/pick_bot/pickbot_ws/install/pickbot_utils/bin'
+[9.106s] Level 1:colcon.colcon_core.environment:checking '/home/rahul/pick_bot/pickbot_ws/install/pickbot_utils/lib/pkgconfig/pickbot_utils.pc'
+[9.107s] Level 1:colcon.colcon_core.environment:checking '/home/rahul/pick_bot/pickbot_ws/install/pickbot_utils/lib/python3.10/site-packages'
+[9.107s] Level 1:colcon.colcon_core.environment:checking '/home/rahul/pick_bot/pickbot_ws/install/pickbot_utils/bin'
+[9.108s] INFO:colcon.colcon_core.shell:Creating package script '/home/rahul/pick_bot/pickbot_ws/install/pickbot_utils/share/pickbot_utils/package.ps1'
+[9.108s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/rahul/pick_bot/pickbot_ws/install/pickbot_utils/share/pickbot_utils/package.dsv'
+[9.109s] INFO:colcon.colcon_core.shell:Creating package script '/home/rahul/pick_bot/pickbot_ws/install/pickbot_utils/share/pickbot_utils/package.sh'
+[9.110s] INFO:colcon.colcon_core.shell:Creating package script '/home/rahul/pick_bot/pickbot_ws/install/pickbot_utils/share/pickbot_utils/package.bash'
+[9.110s] INFO:colcon.colcon_core.shell:Creating package script '/home/rahul/pick_bot/pickbot_ws/install/pickbot_utils/share/pickbot_utils/package.zsh'
+[9.111s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/rahul/pick_bot/pickbot_ws/install/pickbot_utils/share/colcon-core/packages/pickbot_utils)
+[9.112s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(pickbot_utils)
+[9.113s] Level 1:colcon.colcon_core.environment:checking '/home/rahul/pick_bot/pickbot_ws/install/pickbot_utils' for CMake module files
+[9.113s] Level 1:colcon.colcon_core.environment:checking '/home/rahul/pick_bot/pickbot_ws/install/pickbot_utils' for CMake config files
+[9.114s] Level 1:colcon.colcon_core.shell:create_environment_hook('pickbot_utils', 'cmake_prefix_path')
+[9.114s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rahul/pick_bot/pickbot_ws/install/pickbot_utils/share/pickbot_utils/hook/cmake_prefix_path.ps1'
+[9.115s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rahul/pick_bot/pickbot_ws/install/pickbot_utils/share/pickbot_utils/hook/cmake_prefix_path.dsv'
+[9.116s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rahul/pick_bot/pickbot_ws/install/pickbot_utils/share/pickbot_utils/hook/cmake_prefix_path.sh'
+[9.117s] Level 1:colcon.colcon_core.environment:checking '/home/rahul/pick_bot/pickbot_ws/install/pickbot_utils/bin'
+[9.117s] Level 1:colcon.colcon_core.environment:checking '/home/rahul/pick_bot/pickbot_ws/install/pickbot_utils/lib/pkgconfig/pickbot_utils.pc'
+[9.118s] Level 1:colcon.colcon_core.environment:checking '/home/rahul/pick_bot/pickbot_ws/install/pickbot_utils/lib/python3.10/site-packages'
+[9.118s] Level 1:colcon.colcon_core.environment:checking '/home/rahul/pick_bot/pickbot_ws/install/pickbot_utils/bin'
+[9.119s] INFO:colcon.colcon_core.shell:Creating package script '/home/rahul/pick_bot/pickbot_ws/install/pickbot_utils/share/pickbot_utils/package.ps1'
+[9.122s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/rahul/pick_bot/pickbot_ws/install/pickbot_utils/share/pickbot_utils/package.dsv'
+[9.123s] INFO:colcon.colcon_core.shell:Creating package script '/home/rahul/pick_bot/pickbot_ws/install/pickbot_utils/share/pickbot_utils/package.sh'
+[9.125s] INFO:colcon.colcon_core.shell:Creating package script '/home/rahul/pick_bot/pickbot_ws/install/pickbot_utils/share/pickbot_utils/package.bash'
+[9.126s] INFO:colcon.colcon_core.shell:Creating package script '/home/rahul/pick_bot/pickbot_ws/install/pickbot_utils/share/pickbot_utils/package.zsh'
+[9.127s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/rahul/pick_bot/pickbot_ws/install/pickbot_utils/share/colcon-core/packages/pickbot_utils)
+[9.128s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[9.129s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[9.130s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[9.130s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[9.141s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[9.141s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[9.141s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[9.157s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[9.158s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/rahul/pick_bot/pickbot_ws/install/local_setup.ps1'
+[9.160s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/rahul/pick_bot/pickbot_ws/install/_local_setup_util_ps1.py'
+[9.162s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/rahul/pick_bot/pickbot_ws/install/setup.ps1'
+[9.165s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/rahul/pick_bot/pickbot_ws/install/local_setup.sh'
+[9.166s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/rahul/pick_bot/pickbot_ws/install/_local_setup_util_sh.py'
+[9.166s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/rahul/pick_bot/pickbot_ws/install/setup.sh'
+[9.167s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/rahul/pick_bot/pickbot_ws/install/local_setup.bash'
+[9.168s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/rahul/pick_bot/pickbot_ws/install/setup.bash'
+[9.169s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/rahul/pick_bot/pickbot_ws/install/local_setup.zsh'
+[9.170s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/rahul/pick_bot/pickbot_ws/install/setup.zsh'
