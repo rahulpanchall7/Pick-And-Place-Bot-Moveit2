@@ -272,7 +272,7 @@ SITE:STRING=rahul-HP-Pavilion-Gaming-Laptop-15-ec1xxx
 TinyXML2_DIR:PATH=TinyXML2_DIR-NOTFOUND
 
 //Path to a library.
-_lib:FILEPATH=/opt/ros/humble/lib/librosgraph_msgs__rosidl_typesupport_fastrtps_cpp.so
+_lib:FILEPATH=/home/rahul/pick_bot/pickbot_ws/install/pickbot_msgs/lib/libpickbot_msgs__rosidl_typesupport_fastrtps_cpp.so
 
 //The directory containing a CMake configuration file for ament_cmake.
 ament_cmake_DIR:PATH=/opt/ros/humble/share/ament_cmake/cmake
@@ -393,6 +393,9 @@ pick_bot_cpp_examples_IS_TOP_LEVEL:STATIC=ON
 
 //Value Computed by CMake
 pick_bot_cpp_examples_SOURCE_DIR:STATIC=/home/rahul/pick_bot/pickbot_ws/src/pick_bot_cpp_examples
+
+//The directory containing a CMake configuration file for pickbot_msgs.
+pickbot_msgs_DIR:PATH=/home/rahul/pick_bot/pickbot_ws/install/pickbot_msgs/share/pickbot_msgs/cmake
 
 //Path to a library.
 pkgcfg_lib__OPENSSL_crypto:FILEPATH=/usr/lib/x86_64-linux-gnu/libcrypto.so

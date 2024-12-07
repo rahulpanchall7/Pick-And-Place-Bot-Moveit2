@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "pickbot_msgs__py",
+		"source" : "/home/rahul/pick_bot/pickbot_ws/build/pickbot_msgs/pickbot_msgs__py"
+	}
+}

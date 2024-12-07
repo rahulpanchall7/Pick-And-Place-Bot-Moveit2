@@ -236,6 +236,19 @@ simple_parameter/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/simple_parameter.dir/build.make CMakeFiles/simple_parameter.dir/build
 .PHONY : simple_parameter/fast
 
+#=============================================================================
+# Target rules for targets named simple_service_server
+
+# Build rule for target.
+simple_service_server: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 simple_service_server
+.PHONY : simple_service_server
+
+# fast build rule for target.
+simple_service_server/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/simple_service_server.dir/build.make CMakeFiles/simple_service_server.dir/build
+.PHONY : simple_service_server/fast
+
 src/simple_listener.o: src/simple_listener.cpp.o
 .PHONY : src/simple_listener.o
 
@@ -308,6 +321,30 @@ src/simple_publisher.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/simple_publisher.dir/build.make CMakeFiles/simple_publisher.dir/src/simple_publisher.cpp.s
 .PHONY : src/simple_publisher.cpp.s
 
+src/simple_service_server.o: src/simple_service_server.cpp.o
+.PHONY : src/simple_service_server.o
+
+# target to build an object file
+src/simple_service_server.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/simple_service_server.dir/build.make CMakeFiles/simple_service_server.dir/src/simple_service_server.cpp.o
+.PHONY : src/simple_service_server.cpp.o
+
+src/simple_service_server.i: src/simple_service_server.cpp.i
+.PHONY : src/simple_service_server.i
+
+# target to preprocess a source file
+src/simple_service_server.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/simple_service_server.dir/build.make CMakeFiles/simple_service_server.dir/src/simple_service_server.cpp.i
+.PHONY : src/simple_service_server.cpp.i
+
+src/simple_service_server.s: src/simple_service_server.cpp.s
+.PHONY : src/simple_service_server.s
+
+# target to generate assembly for a file
+src/simple_service_server.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/simple_service_server.dir/build.make CMakeFiles/simple_service_server.dir/src/simple_service_server.cpp.s
+.PHONY : src/simple_service_server.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -326,6 +363,7 @@ help:
 	@echo "... simple_listener"
 	@echo "... simple_parameter"
 	@echo "... simple_publisher"
+	@echo "... simple_service_server"
 	@echo "... src/simple_listener.o"
 	@echo "... src/simple_listener.i"
 	@echo "... src/simple_listener.s"
@@ -335,6 +373,9 @@ help:
 	@echo "... src/simple_publisher.o"
 	@echo "... src/simple_publisher.i"
 	@echo "... src/simple_publisher.s"
+	@echo "... src/simple_service_server.o"
+	@echo "... src/simple_service_server.i"
+	@echo "... src/simple_service_server.s"
 .PHONY : help
 
 
