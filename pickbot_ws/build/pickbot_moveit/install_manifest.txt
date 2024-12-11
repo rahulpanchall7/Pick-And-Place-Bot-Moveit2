@@ -1,0 +1,15 @@
+/home/rahul/pick_bot/pickbot_ws/install/pickbot_moveit/share/ament_index/resource_index/package_run_dependencies/pickbot_moveit
+/home/rahul/pick_bot/pickbot_ws/install/pickbot_moveit/share/ament_index/resource_index/parent_prefix_path/pickbot_moveit
+/home/rahul/pick_bot/pickbot_ws/install/pickbot_moveit/share/pickbot_moveit/environment/ament_prefix_path.sh
+/home/rahul/pick_bot/pickbot_ws/install/pickbot_moveit/share/pickbot_moveit/environment/ament_prefix_path.dsv
+/home/rahul/pick_bot/pickbot_ws/install/pickbot_moveit/share/pickbot_moveit/environment/path.sh
+/home/rahul/pick_bot/pickbot_ws/install/pickbot_moveit/share/pickbot_moveit/environment/path.dsv
+/home/rahul/pick_bot/pickbot_ws/install/pickbot_moveit/share/pickbot_moveit/local_setup.bash
+/home/rahul/pick_bot/pickbot_ws/install/pickbot_moveit/share/pickbot_moveit/local_setup.sh
+/home/rahul/pick_bot/pickbot_ws/install/pickbot_moveit/share/pickbot_moveit/local_setup.zsh
+/home/rahul/pick_bot/pickbot_ws/install/pickbot_moveit/share/pickbot_moveit/local_setup.dsv
+/home/rahul/pick_bot/pickbot_ws/install/pickbot_moveit/share/pickbot_moveit/package.dsv
+/home/rahul/pick_bot/pickbot_ws/install/pickbot_moveit/share/ament_index/resource_index/packages/pickbot_moveit
+/home/rahul/pick_bot/pickbot_ws/install/pickbot_moveit/share/pickbot_moveit/cmake/pickbot_moveitConfig.cmake
+/home/rahul/pick_bot/pickbot_ws/install/pickbot_moveit/share/pickbot_moveit/cmake/pickbot_moveitConfig-version.cmake
+/home/rahul/pick_bot/pickbot_ws/install/pickbot_moveit/share/pickbot_moveit/package.xml
