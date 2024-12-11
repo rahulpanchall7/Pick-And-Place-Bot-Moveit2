@@ -53,14 +53,14 @@ def generate_launch_description():
         package="rviz2",  # RViz2 package
         executable="rviz2",  # Launch the RViz2 executable
         name="rviz2",  # Name the node "rviz2"
-        output="screen",  # Output logs to the screen
+        output="log",  # Output logs to the screen
         arguments=["-d", rviz_config],  # Load the specified RViz configuration file
         parameters=[
             moveit_config.robot_description,  # Load the robot description
             moveit_config.robot_description_semantic,  # Load the semantic description
             moveit_config.robot_description_kinematics,  # Load kinematic settings
-            moveit_config.joint_limits  # Load joint limits
-        ]
+            moveit_config.joint_limits,  # Load joint limits
+        ],
     )
     
     # Return the launch description containing the declared argument and nodes to launch
