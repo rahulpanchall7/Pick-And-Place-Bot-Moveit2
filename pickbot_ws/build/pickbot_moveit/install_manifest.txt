@@ -1,3 +1,10 @@
+/home/rahul/pick_bot/pickbot_ws/install/pickbot_moveit/share/pickbot_moveit/launch/moveit.launch.py
+/home/rahul/pick_bot/pickbot_ws/install/pickbot_moveit/share/pickbot_moveit/config/joint_limits.yaml
+/home/rahul/pick_bot/pickbot_ws/install/pickbot_moveit/share/pickbot_moveit/config/moveit_controllers.yaml
+/home/rahul/pick_bot/pickbot_ws/install/pickbot_moveit/share/pickbot_moveit/config/kinematic.yaml
+/home/rahul/pick_bot/pickbot_ws/install/pickbot_moveit/share/pickbot_moveit/config/pickbot.srdf
+/home/rahul/pick_bot/pickbot_ws/install/pickbot_moveit/share/pickbot_moveit/config/pliz_cartesian_limits.yaml
+/home/rahul/pick_bot/pickbot_ws/install/pickbot_moveit/share/pickbot_moveit/config/initial_positions.yaml
 /home/rahul/pick_bot/pickbot_ws/install/pickbot_moveit/share/ament_index/resource_index/package_run_dependencies/pickbot_moveit
 /home/rahul/pick_bot/pickbot_ws/install/pickbot_moveit/share/ament_index/resource_index/parent_prefix_path/pickbot_moveit
 /home/rahul/pick_bot/pickbot_ws/install/pickbot_moveit/share/pickbot_moveit/environment/ament_prefix_path.sh
