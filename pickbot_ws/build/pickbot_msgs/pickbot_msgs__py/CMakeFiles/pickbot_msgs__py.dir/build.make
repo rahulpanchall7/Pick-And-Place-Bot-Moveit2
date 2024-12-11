@@ -70,8 +70,12 @@ pickbot_msgs__py/CMakeFiles/pickbot_msgs__py: rosidl_generator_py/pickbot_msgs/_
 pickbot_msgs__py/CMakeFiles/pickbot_msgs__py: rosidl_generator_py/pickbot_msgs/_pickbot_msgs_s.ep.rosidl_typesupport_introspection_c.c
 pickbot_msgs__py/CMakeFiles/pickbot_msgs__py: rosidl_generator_py/pickbot_msgs/_pickbot_msgs_s.ep.rosidl_typesupport_c.c
 pickbot_msgs__py/CMakeFiles/pickbot_msgs__py: rosidl_generator_py/pickbot_msgs/srv/_add_two_ints.py
+pickbot_msgs__py/CMakeFiles/pickbot_msgs__py: rosidl_generator_py/pickbot_msgs/srv/_euler_to_quaternion.py
+pickbot_msgs__py/CMakeFiles/pickbot_msgs__py: rosidl_generator_py/pickbot_msgs/srv/_quaternion_to_euler.py
 pickbot_msgs__py/CMakeFiles/pickbot_msgs__py: rosidl_generator_py/pickbot_msgs/srv/__init__.py
 pickbot_msgs__py/CMakeFiles/pickbot_msgs__py: rosidl_generator_py/pickbot_msgs/srv/_add_two_ints_s.c
+pickbot_msgs__py/CMakeFiles/pickbot_msgs__py: rosidl_generator_py/pickbot_msgs/srv/_euler_to_quaternion_s.c
+pickbot_msgs__py/CMakeFiles/pickbot_msgs__py: rosidl_generator_py/pickbot_msgs/srv/_quaternion_to_euler_s.c
 
 rosidl_generator_py/pickbot_msgs/_pickbot_msgs_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/humble/lib/rosidl_generator_py/rosidl_generator_py
 rosidl_generator_py/pickbot_msgs/_pickbot_msgs_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_generator_py/__init__.py
@@ -87,6 +91,8 @@ rosidl_generator_py/pickbot_msgs/_pickbot_msgs_s.ep.rosidl_typesupport_fastrtps_
 rosidl_generator_py/pickbot_msgs/_pickbot_msgs_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/humble/share/rosidl_generator_py/resource/_srv_pkg_typesupport_entry_point.c.em
 rosidl_generator_py/pickbot_msgs/_pickbot_msgs_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/humble/share/rosidl_generator_py/resource/_srv.py.em
 rosidl_generator_py/pickbot_msgs/_pickbot_msgs_s.ep.rosidl_typesupport_fastrtps_c.c: rosidl_adapter/pickbot_msgs/srv/AddTwoInts.idl
+rosidl_generator_py/pickbot_msgs/_pickbot_msgs_s.ep.rosidl_typesupport_fastrtps_c.c: rosidl_adapter/pickbot_msgs/srv/EulerToQuaternion.idl
+rosidl_generator_py/pickbot_msgs/_pickbot_msgs_s.ep.rosidl_typesupport_fastrtps_c.c: rosidl_adapter/pickbot_msgs/srv/QuaternionToEuler.idl
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/rahul/pick_bot/pickbot_ws/build/pickbot_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating Python code for ROS interfaces"
 	cd /home/rahul/pick_bot/pickbot_ws/build/pickbot_msgs/pickbot_msgs__py && /usr/bin/python3 /opt/ros/humble/share/rosidl_generator_py/cmake/../../../lib/rosidl_generator_py/rosidl_generator_py --generator-arguments-file /home/rahul/pick_bot/pickbot_ws/build/pickbot_msgs/rosidl_generator_py__arguments.json --typesupport-impls "rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c;rosidl_typesupport_c"
 
@@ -99,11 +105,23 @@ rosidl_generator_py/pickbot_msgs/_pickbot_msgs_s.ep.rosidl_typesupport_c.c: rosi
 rosidl_generator_py/pickbot_msgs/srv/_add_two_ints.py: rosidl_generator_py/pickbot_msgs/_pickbot_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/pickbot_msgs/srv/_add_two_ints.py
 
+rosidl_generator_py/pickbot_msgs/srv/_euler_to_quaternion.py: rosidl_generator_py/pickbot_msgs/_pickbot_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/pickbot_msgs/srv/_euler_to_quaternion.py
+
+rosidl_generator_py/pickbot_msgs/srv/_quaternion_to_euler.py: rosidl_generator_py/pickbot_msgs/_pickbot_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/pickbot_msgs/srv/_quaternion_to_euler.py
+
 rosidl_generator_py/pickbot_msgs/srv/__init__.py: rosidl_generator_py/pickbot_msgs/_pickbot_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/pickbot_msgs/srv/__init__.py
 
 rosidl_generator_py/pickbot_msgs/srv/_add_two_ints_s.c: rosidl_generator_py/pickbot_msgs/_pickbot_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/pickbot_msgs/srv/_add_two_ints_s.c
+
+rosidl_generator_py/pickbot_msgs/srv/_euler_to_quaternion_s.c: rosidl_generator_py/pickbot_msgs/_pickbot_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/pickbot_msgs/srv/_euler_to_quaternion_s.c
+
+rosidl_generator_py/pickbot_msgs/srv/_quaternion_to_euler_s.c: rosidl_generator_py/pickbot_msgs/_pickbot_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/pickbot_msgs/srv/_quaternion_to_euler_s.c
 
 pickbot_msgs__py: pickbot_msgs__py/CMakeFiles/pickbot_msgs__py
 pickbot_msgs__py: rosidl_generator_py/pickbot_msgs/_pickbot_msgs_s.ep.rosidl_typesupport_c.c
@@ -112,6 +130,10 @@ pickbot_msgs__py: rosidl_generator_py/pickbot_msgs/_pickbot_msgs_s.ep.rosidl_typ
 pickbot_msgs__py: rosidl_generator_py/pickbot_msgs/srv/__init__.py
 pickbot_msgs__py: rosidl_generator_py/pickbot_msgs/srv/_add_two_ints.py
 pickbot_msgs__py: rosidl_generator_py/pickbot_msgs/srv/_add_two_ints_s.c
+pickbot_msgs__py: rosidl_generator_py/pickbot_msgs/srv/_euler_to_quaternion.py
+pickbot_msgs__py: rosidl_generator_py/pickbot_msgs/srv/_euler_to_quaternion_s.c
+pickbot_msgs__py: rosidl_generator_py/pickbot_msgs/srv/_quaternion_to_euler.py
+pickbot_msgs__py: rosidl_generator_py/pickbot_msgs/srv/_quaternion_to_euler_s.c
 pickbot_msgs__py: pickbot_msgs__py/CMakeFiles/pickbot_msgs__py.dir/build.make
 .PHONY : pickbot_msgs__py
 

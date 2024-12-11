@@ -3,7 +3,9 @@
   "output_dir": "/home/rahul/pick_bot/pickbot_ws/build/pickbot_msgs/rosidl_generator_py/pickbot_msgs",
   "template_dir": "/opt/ros/humble/share/rosidl_generator_py/cmake/../resource",
   "idl_tuples": [
-    "/home/rahul/pick_bot/pickbot_ws/build/pickbot_msgs/rosidl_adapter/pickbot_msgs:srv/AddTwoInts.idl"
+    "/home/rahul/pick_bot/pickbot_ws/build/pickbot_msgs/rosidl_adapter/pickbot_msgs:srv/AddTwoInts.idl",
+    "/home/rahul/pick_bot/pickbot_ws/build/pickbot_msgs/rosidl_adapter/pickbot_msgs:srv/EulerToQuaternion.idl",
+    "/home/rahul/pick_bot/pickbot_ws/build/pickbot_msgs/rosidl_adapter/pickbot_msgs:srv/QuaternionToEuler.idl"
   ],
   "target_dependencies": [
     "/opt/ros/humble/share/rosidl_generator_py/cmake/../../../lib/rosidl_generator_py/rosidl_generator_py",
@@ -19,6 +21,8 @@
     "/opt/ros/humble/share/rosidl_generator_py/cmake/../resource/_msg.py.em",
     "/opt/ros/humble/share/rosidl_generator_py/cmake/../resource/_srv_pkg_typesupport_entry_point.c.em",
     "/opt/ros/humble/share/rosidl_generator_py/cmake/../resource/_srv.py.em",
-    "/home/rahul/pick_bot/pickbot_ws/build/pickbot_msgs/rosidl_adapter/pickbot_msgs/srv/AddTwoInts.idl"
+    "/home/rahul/pick_bot/pickbot_ws/build/pickbot_msgs/rosidl_adapter/pickbot_msgs/srv/AddTwoInts.idl",
+    "/home/rahul/pick_bot/pickbot_ws/build/pickbot_msgs/rosidl_adapter/pickbot_msgs/srv/EulerToQuaternion.idl",
+    "/home/rahul/pick_bot/pickbot_ws/build/pickbot_msgs/rosidl_adapter/pickbot_msgs/srv/QuaternionToEuler.idl"
   ]
 }

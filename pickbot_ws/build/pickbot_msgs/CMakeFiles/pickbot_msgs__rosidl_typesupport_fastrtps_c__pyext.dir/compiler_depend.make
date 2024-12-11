@@ -245,8 +245,18 @@ CMakeFiles/pickbot_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generat
   rosidl_generator_c/pickbot_msgs/srv/detail/add_two_ints__type_support.h \
   rosidl_generator_c/pickbot_msgs/msg/rosidl_generator_c__visibility_control.h \
   rosidl_generator_c/pickbot_msgs/srv/detail/add_two_ints__struct.h \
-  rosidl_generator_c/pickbot_msgs/srv/detail/add_two_ints__functions.h
+  rosidl_generator_c/pickbot_msgs/srv/detail/add_two_ints__functions.h \
+  rosidl_generator_c/pickbot_msgs/srv/detail/euler_to_quaternion__type_support.h \
+  rosidl_generator_c/pickbot_msgs/srv/detail/euler_to_quaternion__struct.h \
+  rosidl_generator_c/pickbot_msgs/srv/detail/euler_to_quaternion__functions.h \
+  rosidl_generator_c/pickbot_msgs/srv/detail/quaternion_to_euler__type_support.h \
+  rosidl_generator_c/pickbot_msgs/srv/detail/quaternion_to_euler__struct.h \
+  rosidl_generator_c/pickbot_msgs/srv/detail/quaternion_to_euler__functions.h
 
+
+rosidl_generator_c/pickbot_msgs/srv/detail/quaternion_to_euler__functions.h:
+
+rosidl_generator_c/pickbot_msgs/srv/detail/euler_to_quaternion__type_support.h:
 
 rosidl_generator_c/pickbot_msgs/srv/detail/add_two_ints__functions.h:
 
@@ -274,6 +284,8 @@ rosidl_generator_c/pickbot_msgs/msg/rosidl_generator_c__visibility_control.h:
 
 /usr/include/python3.10/compile.h:
 
+rosidl_generator_c/pickbot_msgs/srv/detail/euler_to_quaternion__functions.h:
+
 /usr/include/python3.10/context.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/struct___jmp_buf_tag.h:
@@ -295,6 +307,8 @@ rosidl_generator_c/pickbot_msgs/msg/rosidl_generator_c__visibility_control.h:
 /usr/include/python3.10/genericaliasobject.h:
 
 /usr/include/python3.10/descrobject.h:
+
+rosidl_generator_c/pickbot_msgs/srv/detail/quaternion_to_euler__type_support.h:
 
 /usr/include/python3.10/pythonrun.h:
 
@@ -365,6 +379,8 @@ rosidl_generator_c/pickbot_msgs/msg/rosidl_generator_c__visibility_control.h:
 /usr/include/python3.10/bytearrayobject.h:
 
 /usr/include/python3.10/pyhash.h:
+
+rosidl_generator_c/pickbot_msgs/srv/detail/quaternion_to_euler__struct.h:
 
 /usr/include/python3.10/cpython/object.h:
 
@@ -443,6 +459,8 @@ rosidl_generator_c/pickbot_msgs/srv/detail/add_two_ints__struct.h:
 /usr/include/python3.10/cpython/pytime.h:
 
 /usr/include/features-time64.h:
+
+rosidl_generator_c/pickbot_msgs/srv/detail/euler_to_quaternion__struct.h:
 
 /usr/include/python3.10/setobject.h:
 

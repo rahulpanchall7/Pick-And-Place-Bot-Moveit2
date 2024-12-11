@@ -360,6 +360,14 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/pickbot_msgs/srv" TYPE FILE FILES "/home/rahul/pick_bot/pickbot_ws/build/pickbot_msgs/rosidl_adapter/pickbot_msgs/srv/EulerToQuaternion.idl")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/pickbot_msgs/srv" TYPE FILE FILES "/home/rahul/pick_bot/pickbot_ws/build/pickbot_msgs/rosidl_adapter/pickbot_msgs/srv/QuaternionToEuler.idl")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/pickbot_msgs/srv" TYPE FILE FILES "/home/rahul/pick_bot/pickbot_ws/src/pickbot_msgs/srv/AddTwoInts.srv")
 endif()
 
@@ -369,6 +377,30 @@ endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/pickbot_msgs/srv" TYPE FILE FILES "/home/rahul/pick_bot/pickbot_ws/build/pickbot_msgs/rosidl_cmake/srv/AddTwoInts_Response.msg")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/pickbot_msgs/srv" TYPE FILE FILES "/home/rahul/pick_bot/pickbot_ws/src/pickbot_msgs/srv/EulerToQuaternion.srv")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/pickbot_msgs/srv" TYPE FILE FILES "/home/rahul/pick_bot/pickbot_ws/build/pickbot_msgs/rosidl_cmake/srv/EulerToQuaternion_Request.msg")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/pickbot_msgs/srv" TYPE FILE FILES "/home/rahul/pick_bot/pickbot_ws/build/pickbot_msgs/rosidl_cmake/srv/EulerToQuaternion_Response.msg")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/pickbot_msgs/srv" TYPE FILE FILES "/home/rahul/pick_bot/pickbot_ws/src/pickbot_msgs/srv/QuaternionToEuler.srv")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/pickbot_msgs/srv" TYPE FILE FILES "/home/rahul/pick_bot/pickbot_ws/build/pickbot_msgs/rosidl_cmake/srv/QuaternionToEuler_Request.msg")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/pickbot_msgs/srv" TYPE FILE FILES "/home/rahul/pick_bot/pickbot_ws/build/pickbot_msgs/rosidl_cmake/srv/QuaternionToEuler_Response.msg")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)

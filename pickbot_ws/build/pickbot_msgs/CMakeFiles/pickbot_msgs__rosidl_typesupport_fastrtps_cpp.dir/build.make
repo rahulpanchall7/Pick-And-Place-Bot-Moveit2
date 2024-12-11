@@ -78,11 +78,25 @@ rosidl_typesupport_fastrtps_cpp/pickbot_msgs/srv/detail/dds_fastrtps/add_two_int
 rosidl_typesupport_fastrtps_cpp/pickbot_msgs/srv/detail/dds_fastrtps/add_two_ints__type_support.cpp: /opt/ros/humble/share/rosidl_typesupport_fastrtps_cpp/resource/srv__rosidl_typesupport_fastrtps_cpp.hpp.em
 rosidl_typesupport_fastrtps_cpp/pickbot_msgs/srv/detail/dds_fastrtps/add_two_ints__type_support.cpp: /opt/ros/humble/share/rosidl_typesupport_fastrtps_cpp/resource/srv__type_support.cpp.em
 rosidl_typesupport_fastrtps_cpp/pickbot_msgs/srv/detail/dds_fastrtps/add_two_ints__type_support.cpp: rosidl_adapter/pickbot_msgs/srv/AddTwoInts.idl
+rosidl_typesupport_fastrtps_cpp/pickbot_msgs/srv/detail/dds_fastrtps/add_two_ints__type_support.cpp: rosidl_adapter/pickbot_msgs/srv/EulerToQuaternion.idl
+rosidl_typesupport_fastrtps_cpp/pickbot_msgs/srv/detail/dds_fastrtps/add_two_ints__type_support.cpp: rosidl_adapter/pickbot_msgs/srv/QuaternionToEuler.idl
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/rahul/pick_bot/pickbot_ws/build/pickbot_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating C++ type support for eProsima Fast-RTPS"
 	/usr/bin/python3 /opt/ros/humble/lib/rosidl_typesupport_fastrtps_cpp/rosidl_typesupport_fastrtps_cpp --generator-arguments-file /home/rahul/pick_bot/pickbot_ws/build/pickbot_msgs/rosidl_typesupport_fastrtps_cpp__arguments.json
 
 rosidl_typesupport_fastrtps_cpp/pickbot_msgs/srv/detail/add_two_ints__rosidl_typesupport_fastrtps_cpp.hpp: rosidl_typesupport_fastrtps_cpp/pickbot_msgs/srv/detail/dds_fastrtps/add_two_ints__type_support.cpp
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_typesupport_fastrtps_cpp/pickbot_msgs/srv/detail/add_two_ints__rosidl_typesupport_fastrtps_cpp.hpp
+
+rosidl_typesupport_fastrtps_cpp/pickbot_msgs/srv/detail/dds_fastrtps/euler_to_quaternion__type_support.cpp: rosidl_typesupport_fastrtps_cpp/pickbot_msgs/srv/detail/dds_fastrtps/add_two_ints__type_support.cpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_typesupport_fastrtps_cpp/pickbot_msgs/srv/detail/dds_fastrtps/euler_to_quaternion__type_support.cpp
+
+rosidl_typesupport_fastrtps_cpp/pickbot_msgs/srv/detail/euler_to_quaternion__rosidl_typesupport_fastrtps_cpp.hpp: rosidl_typesupport_fastrtps_cpp/pickbot_msgs/srv/detail/dds_fastrtps/add_two_ints__type_support.cpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_typesupport_fastrtps_cpp/pickbot_msgs/srv/detail/euler_to_quaternion__rosidl_typesupport_fastrtps_cpp.hpp
+
+rosidl_typesupport_fastrtps_cpp/pickbot_msgs/srv/detail/dds_fastrtps/quaternion_to_euler__type_support.cpp: rosidl_typesupport_fastrtps_cpp/pickbot_msgs/srv/detail/dds_fastrtps/add_two_ints__type_support.cpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_typesupport_fastrtps_cpp/pickbot_msgs/srv/detail/dds_fastrtps/quaternion_to_euler__type_support.cpp
+
+rosidl_typesupport_fastrtps_cpp/pickbot_msgs/srv/detail/quaternion_to_euler__rosidl_typesupport_fastrtps_cpp.hpp: rosidl_typesupport_fastrtps_cpp/pickbot_msgs/srv/detail/dds_fastrtps/add_two_ints__type_support.cpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_typesupport_fastrtps_cpp/pickbot_msgs/srv/detail/quaternion_to_euler__rosidl_typesupport_fastrtps_cpp.hpp
 
 CMakeFiles/pickbot_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/pickbot_msgs/srv/detail/dds_fastrtps/add_two_ints__type_support.cpp.o: CMakeFiles/pickbot_msgs__rosidl_typesupport_fastrtps_cpp.dir/flags.make
 CMakeFiles/pickbot_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/pickbot_msgs/srv/detail/dds_fastrtps/add_two_ints__type_support.cpp.o: rosidl_typesupport_fastrtps_cpp/pickbot_msgs/srv/detail/dds_fastrtps/add_two_ints__type_support.cpp
@@ -98,14 +112,46 @@ CMakeFiles/pickbot_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/pickbot_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/pickbot_msgs/srv/detail/dds_fastrtps/add_two_ints__type_support.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/rahul/pick_bot/pickbot_ws/build/pickbot_msgs/rosidl_typesupport_fastrtps_cpp/pickbot_msgs/srv/detail/dds_fastrtps/add_two_ints__type_support.cpp -o CMakeFiles/pickbot_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/pickbot_msgs/srv/detail/dds_fastrtps/add_two_ints__type_support.cpp.s
 
+CMakeFiles/pickbot_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/pickbot_msgs/srv/detail/dds_fastrtps/euler_to_quaternion__type_support.cpp.o: CMakeFiles/pickbot_msgs__rosidl_typesupport_fastrtps_cpp.dir/flags.make
+CMakeFiles/pickbot_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/pickbot_msgs/srv/detail/dds_fastrtps/euler_to_quaternion__type_support.cpp.o: rosidl_typesupport_fastrtps_cpp/pickbot_msgs/srv/detail/dds_fastrtps/euler_to_quaternion__type_support.cpp
+CMakeFiles/pickbot_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/pickbot_msgs/srv/detail/dds_fastrtps/euler_to_quaternion__type_support.cpp.o: CMakeFiles/pickbot_msgs__rosidl_typesupport_fastrtps_cpp.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rahul/pick_bot/pickbot_ws/build/pickbot_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/pickbot_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/pickbot_msgs/srv/detail/dds_fastrtps/euler_to_quaternion__type_support.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/pickbot_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/pickbot_msgs/srv/detail/dds_fastrtps/euler_to_quaternion__type_support.cpp.o -MF CMakeFiles/pickbot_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/pickbot_msgs/srv/detail/dds_fastrtps/euler_to_quaternion__type_support.cpp.o.d -o CMakeFiles/pickbot_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/pickbot_msgs/srv/detail/dds_fastrtps/euler_to_quaternion__type_support.cpp.o -c /home/rahul/pick_bot/pickbot_ws/build/pickbot_msgs/rosidl_typesupport_fastrtps_cpp/pickbot_msgs/srv/detail/dds_fastrtps/euler_to_quaternion__type_support.cpp
+
+CMakeFiles/pickbot_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/pickbot_msgs/srv/detail/dds_fastrtps/euler_to_quaternion__type_support.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/pickbot_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/pickbot_msgs/srv/detail/dds_fastrtps/euler_to_quaternion__type_support.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/rahul/pick_bot/pickbot_ws/build/pickbot_msgs/rosidl_typesupport_fastrtps_cpp/pickbot_msgs/srv/detail/dds_fastrtps/euler_to_quaternion__type_support.cpp > CMakeFiles/pickbot_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/pickbot_msgs/srv/detail/dds_fastrtps/euler_to_quaternion__type_support.cpp.i
+
+CMakeFiles/pickbot_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/pickbot_msgs/srv/detail/dds_fastrtps/euler_to_quaternion__type_support.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/pickbot_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/pickbot_msgs/srv/detail/dds_fastrtps/euler_to_quaternion__type_support.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/rahul/pick_bot/pickbot_ws/build/pickbot_msgs/rosidl_typesupport_fastrtps_cpp/pickbot_msgs/srv/detail/dds_fastrtps/euler_to_quaternion__type_support.cpp -o CMakeFiles/pickbot_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/pickbot_msgs/srv/detail/dds_fastrtps/euler_to_quaternion__type_support.cpp.s
+
+CMakeFiles/pickbot_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/pickbot_msgs/srv/detail/dds_fastrtps/quaternion_to_euler__type_support.cpp.o: CMakeFiles/pickbot_msgs__rosidl_typesupport_fastrtps_cpp.dir/flags.make
+CMakeFiles/pickbot_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/pickbot_msgs/srv/detail/dds_fastrtps/quaternion_to_euler__type_support.cpp.o: rosidl_typesupport_fastrtps_cpp/pickbot_msgs/srv/detail/dds_fastrtps/quaternion_to_euler__type_support.cpp
+CMakeFiles/pickbot_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/pickbot_msgs/srv/detail/dds_fastrtps/quaternion_to_euler__type_support.cpp.o: CMakeFiles/pickbot_msgs__rosidl_typesupport_fastrtps_cpp.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rahul/pick_bot/pickbot_ws/build/pickbot_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/pickbot_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/pickbot_msgs/srv/detail/dds_fastrtps/quaternion_to_euler__type_support.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/pickbot_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/pickbot_msgs/srv/detail/dds_fastrtps/quaternion_to_euler__type_support.cpp.o -MF CMakeFiles/pickbot_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/pickbot_msgs/srv/detail/dds_fastrtps/quaternion_to_euler__type_support.cpp.o.d -o CMakeFiles/pickbot_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/pickbot_msgs/srv/detail/dds_fastrtps/quaternion_to_euler__type_support.cpp.o -c /home/rahul/pick_bot/pickbot_ws/build/pickbot_msgs/rosidl_typesupport_fastrtps_cpp/pickbot_msgs/srv/detail/dds_fastrtps/quaternion_to_euler__type_support.cpp
+
+CMakeFiles/pickbot_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/pickbot_msgs/srv/detail/dds_fastrtps/quaternion_to_euler__type_support.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/pickbot_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/pickbot_msgs/srv/detail/dds_fastrtps/quaternion_to_euler__type_support.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/rahul/pick_bot/pickbot_ws/build/pickbot_msgs/rosidl_typesupport_fastrtps_cpp/pickbot_msgs/srv/detail/dds_fastrtps/quaternion_to_euler__type_support.cpp > CMakeFiles/pickbot_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/pickbot_msgs/srv/detail/dds_fastrtps/quaternion_to_euler__type_support.cpp.i
+
+CMakeFiles/pickbot_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/pickbot_msgs/srv/detail/dds_fastrtps/quaternion_to_euler__type_support.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/pickbot_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/pickbot_msgs/srv/detail/dds_fastrtps/quaternion_to_euler__type_support.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/rahul/pick_bot/pickbot_ws/build/pickbot_msgs/rosidl_typesupport_fastrtps_cpp/pickbot_msgs/srv/detail/dds_fastrtps/quaternion_to_euler__type_support.cpp -o CMakeFiles/pickbot_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/pickbot_msgs/srv/detail/dds_fastrtps/quaternion_to_euler__type_support.cpp.s
+
 # Object files for target pickbot_msgs__rosidl_typesupport_fastrtps_cpp
 pickbot_msgs__rosidl_typesupport_fastrtps_cpp_OBJECTS = \
-"CMakeFiles/pickbot_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/pickbot_msgs/srv/detail/dds_fastrtps/add_two_ints__type_support.cpp.o"
+"CMakeFiles/pickbot_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/pickbot_msgs/srv/detail/dds_fastrtps/add_two_ints__type_support.cpp.o" \
+"CMakeFiles/pickbot_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/pickbot_msgs/srv/detail/dds_fastrtps/euler_to_quaternion__type_support.cpp.o" \
+"CMakeFiles/pickbot_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/pickbot_msgs/srv/detail/dds_fastrtps/quaternion_to_euler__type_support.cpp.o"
 
 # External object files for target pickbot_msgs__rosidl_typesupport_fastrtps_cpp
 pickbot_msgs__rosidl_typesupport_fastrtps_cpp_EXTERNAL_OBJECTS =
 
 libpickbot_msgs__rosidl_typesupport_fastrtps_cpp.so: CMakeFiles/pickbot_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/pickbot_msgs/srv/detail/dds_fastrtps/add_two_ints__type_support.cpp.o
+libpickbot_msgs__rosidl_typesupport_fastrtps_cpp.so: CMakeFiles/pickbot_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/pickbot_msgs/srv/detail/dds_fastrtps/euler_to_quaternion__type_support.cpp.o
+libpickbot_msgs__rosidl_typesupport_fastrtps_cpp.so: CMakeFiles/pickbot_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/pickbot_msgs/srv/detail/dds_fastrtps/quaternion_to_euler__type_support.cpp.o
 libpickbot_msgs__rosidl_typesupport_fastrtps_cpp.so: CMakeFiles/pickbot_msgs__rosidl_typesupport_fastrtps_cpp.dir/build.make
 libpickbot_msgs__rosidl_typesupport_fastrtps_cpp.so: /opt/ros/humble/lib/librosidl_typesupport_fastrtps_cpp.so
 libpickbot_msgs__rosidl_typesupport_fastrtps_cpp.so: /opt/ros/humble/lib/libfastcdr.so.1.0.24
@@ -113,7 +159,7 @@ libpickbot_msgs__rosidl_typesupport_fastrtps_cpp.so: /opt/ros/humble/lib/librmw.
 libpickbot_msgs__rosidl_typesupport_fastrtps_cpp.so: /opt/ros/humble/lib/librosidl_runtime_c.so
 libpickbot_msgs__rosidl_typesupport_fastrtps_cpp.so: /opt/ros/humble/lib/librcutils.so
 libpickbot_msgs__rosidl_typesupport_fastrtps_cpp.so: CMakeFiles/pickbot_msgs__rosidl_typesupport_fastrtps_cpp.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/rahul/pick_bot/pickbot_ws/build/pickbot_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX shared library libpickbot_msgs__rosidl_typesupport_fastrtps_cpp.so"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/rahul/pick_bot/pickbot_ws/build/pickbot_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX shared library libpickbot_msgs__rosidl_typesupport_fastrtps_cpp.so"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/pickbot_msgs__rosidl_typesupport_fastrtps_cpp.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -126,6 +172,10 @@ CMakeFiles/pickbot_msgs__rosidl_typesupport_fastrtps_cpp.dir/clean:
 
 CMakeFiles/pickbot_msgs__rosidl_typesupport_fastrtps_cpp.dir/depend: rosidl_typesupport_fastrtps_cpp/pickbot_msgs/srv/detail/add_two_ints__rosidl_typesupport_fastrtps_cpp.hpp
 CMakeFiles/pickbot_msgs__rosidl_typesupport_fastrtps_cpp.dir/depend: rosidl_typesupport_fastrtps_cpp/pickbot_msgs/srv/detail/dds_fastrtps/add_two_ints__type_support.cpp
+CMakeFiles/pickbot_msgs__rosidl_typesupport_fastrtps_cpp.dir/depend: rosidl_typesupport_fastrtps_cpp/pickbot_msgs/srv/detail/dds_fastrtps/euler_to_quaternion__type_support.cpp
+CMakeFiles/pickbot_msgs__rosidl_typesupport_fastrtps_cpp.dir/depend: rosidl_typesupport_fastrtps_cpp/pickbot_msgs/srv/detail/dds_fastrtps/quaternion_to_euler__type_support.cpp
+CMakeFiles/pickbot_msgs__rosidl_typesupport_fastrtps_cpp.dir/depend: rosidl_typesupport_fastrtps_cpp/pickbot_msgs/srv/detail/euler_to_quaternion__rosidl_typesupport_fastrtps_cpp.hpp
+CMakeFiles/pickbot_msgs__rosidl_typesupport_fastrtps_cpp.dir/depend: rosidl_typesupport_fastrtps_cpp/pickbot_msgs/srv/detail/quaternion_to_euler__rosidl_typesupport_fastrtps_cpp.hpp
 	cd /home/rahul/pick_bot/pickbot_ws/build/pickbot_msgs && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/rahul/pick_bot/pickbot_ws/src/pickbot_msgs /home/rahul/pick_bot/pickbot_ws/src/pickbot_msgs /home/rahul/pick_bot/pickbot_ws/build/pickbot_msgs /home/rahul/pick_bot/pickbot_ws/build/pickbot_msgs /home/rahul/pick_bot/pickbot_ws/build/pickbot_msgs/CMakeFiles/pickbot_msgs__rosidl_typesupport_fastrtps_cpp.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/pickbot_msgs__rosidl_typesupport_fastrtps_cpp.dir/depend
 

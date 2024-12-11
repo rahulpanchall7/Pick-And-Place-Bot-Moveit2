@@ -83,6 +83,8 @@ rosidl_generator_c/pickbot_msgs/srv/add_two_ints.h: /opt/ros/humble/share/rosidl
 rosidl_generator_c/pickbot_msgs/srv/add_two_ints.h: /opt/ros/humble/share/rosidl_generator_c/resource/msg__type_support.h.em
 rosidl_generator_c/pickbot_msgs/srv/add_two_ints.h: /opt/ros/humble/share/rosidl_generator_c/resource/srv__type_support.h.em
 rosidl_generator_c/pickbot_msgs/srv/add_two_ints.h: rosidl_adapter/pickbot_msgs/srv/AddTwoInts.idl
+rosidl_generator_c/pickbot_msgs/srv/add_two_ints.h: rosidl_adapter/pickbot_msgs/srv/EulerToQuaternion.idl
+rosidl_generator_c/pickbot_msgs/srv/add_two_ints.h: rosidl_adapter/pickbot_msgs/srv/QuaternionToEuler.idl
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/rahul/pick_bot/pickbot_ws/build/pickbot_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating C code for ROS interfaces"
 	/usr/bin/python3 /opt/ros/humble/share/rosidl_generator_c/cmake/../../../lib/rosidl_generator_c/rosidl_generator_c --generator-arguments-file /home/rahul/pick_bot/pickbot_ws/build/pickbot_msgs/rosidl_generator_c__arguments.json
 
@@ -95,8 +97,38 @@ rosidl_generator_c/pickbot_msgs/srv/detail/add_two_ints__struct.h: rosidl_genera
 rosidl_generator_c/pickbot_msgs/srv/detail/add_two_ints__type_support.h: rosidl_generator_c/pickbot_msgs/srv/add_two_ints.h
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/pickbot_msgs/srv/detail/add_two_ints__type_support.h
 
+rosidl_generator_c/pickbot_msgs/srv/euler_to_quaternion.h: rosidl_generator_c/pickbot_msgs/srv/add_two_ints.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/pickbot_msgs/srv/euler_to_quaternion.h
+
+rosidl_generator_c/pickbot_msgs/srv/detail/euler_to_quaternion__functions.h: rosidl_generator_c/pickbot_msgs/srv/add_two_ints.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/pickbot_msgs/srv/detail/euler_to_quaternion__functions.h
+
+rosidl_generator_c/pickbot_msgs/srv/detail/euler_to_quaternion__struct.h: rosidl_generator_c/pickbot_msgs/srv/add_two_ints.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/pickbot_msgs/srv/detail/euler_to_quaternion__struct.h
+
+rosidl_generator_c/pickbot_msgs/srv/detail/euler_to_quaternion__type_support.h: rosidl_generator_c/pickbot_msgs/srv/add_two_ints.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/pickbot_msgs/srv/detail/euler_to_quaternion__type_support.h
+
+rosidl_generator_c/pickbot_msgs/srv/quaternion_to_euler.h: rosidl_generator_c/pickbot_msgs/srv/add_two_ints.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/pickbot_msgs/srv/quaternion_to_euler.h
+
+rosidl_generator_c/pickbot_msgs/srv/detail/quaternion_to_euler__functions.h: rosidl_generator_c/pickbot_msgs/srv/add_two_ints.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/pickbot_msgs/srv/detail/quaternion_to_euler__functions.h
+
+rosidl_generator_c/pickbot_msgs/srv/detail/quaternion_to_euler__struct.h: rosidl_generator_c/pickbot_msgs/srv/add_two_ints.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/pickbot_msgs/srv/detail/quaternion_to_euler__struct.h
+
+rosidl_generator_c/pickbot_msgs/srv/detail/quaternion_to_euler__type_support.h: rosidl_generator_c/pickbot_msgs/srv/add_two_ints.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/pickbot_msgs/srv/detail/quaternion_to_euler__type_support.h
+
 rosidl_generator_c/pickbot_msgs/srv/detail/add_two_ints__functions.c: rosidl_generator_c/pickbot_msgs/srv/add_two_ints.h
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/pickbot_msgs/srv/detail/add_two_ints__functions.c
+
+rosidl_generator_c/pickbot_msgs/srv/detail/euler_to_quaternion__functions.c: rosidl_generator_c/pickbot_msgs/srv/add_two_ints.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/pickbot_msgs/srv/detail/euler_to_quaternion__functions.c
+
+rosidl_generator_c/pickbot_msgs/srv/detail/quaternion_to_euler__functions.c: rosidl_generator_c/pickbot_msgs/srv/add_two_ints.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/pickbot_msgs/srv/detail/quaternion_to_euler__functions.c
 
 CMakeFiles/pickbot_msgs__rosidl_generator_c.dir/rosidl_generator_c/pickbot_msgs/srv/detail/add_two_ints__functions.c.o: CMakeFiles/pickbot_msgs__rosidl_generator_c.dir/flags.make
 CMakeFiles/pickbot_msgs__rosidl_generator_c.dir/rosidl_generator_c/pickbot_msgs/srv/detail/add_two_ints__functions.c.o: rosidl_generator_c/pickbot_msgs/srv/detail/add_two_ints__functions.c
@@ -112,19 +144,51 @@ CMakeFiles/pickbot_msgs__rosidl_generator_c.dir/rosidl_generator_c/pickbot_msgs/
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pickbot_msgs__rosidl_generator_c.dir/rosidl_generator_c/pickbot_msgs/srv/detail/add_two_ints__functions.c.s"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/rahul/pick_bot/pickbot_ws/build/pickbot_msgs/rosidl_generator_c/pickbot_msgs/srv/detail/add_two_ints__functions.c -o CMakeFiles/pickbot_msgs__rosidl_generator_c.dir/rosidl_generator_c/pickbot_msgs/srv/detail/add_two_ints__functions.c.s
 
+CMakeFiles/pickbot_msgs__rosidl_generator_c.dir/rosidl_generator_c/pickbot_msgs/srv/detail/euler_to_quaternion__functions.c.o: CMakeFiles/pickbot_msgs__rosidl_generator_c.dir/flags.make
+CMakeFiles/pickbot_msgs__rosidl_generator_c.dir/rosidl_generator_c/pickbot_msgs/srv/detail/euler_to_quaternion__functions.c.o: rosidl_generator_c/pickbot_msgs/srv/detail/euler_to_quaternion__functions.c
+CMakeFiles/pickbot_msgs__rosidl_generator_c.dir/rosidl_generator_c/pickbot_msgs/srv/detail/euler_to_quaternion__functions.c.o: CMakeFiles/pickbot_msgs__rosidl_generator_c.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rahul/pick_bot/pickbot_ws/build/pickbot_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/pickbot_msgs__rosidl_generator_c.dir/rosidl_generator_c/pickbot_msgs/srv/detail/euler_to_quaternion__functions.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pickbot_msgs__rosidl_generator_c.dir/rosidl_generator_c/pickbot_msgs/srv/detail/euler_to_quaternion__functions.c.o -MF CMakeFiles/pickbot_msgs__rosidl_generator_c.dir/rosidl_generator_c/pickbot_msgs/srv/detail/euler_to_quaternion__functions.c.o.d -o CMakeFiles/pickbot_msgs__rosidl_generator_c.dir/rosidl_generator_c/pickbot_msgs/srv/detail/euler_to_quaternion__functions.c.o -c /home/rahul/pick_bot/pickbot_ws/build/pickbot_msgs/rosidl_generator_c/pickbot_msgs/srv/detail/euler_to_quaternion__functions.c
+
+CMakeFiles/pickbot_msgs__rosidl_generator_c.dir/rosidl_generator_c/pickbot_msgs/srv/detail/euler_to_quaternion__functions.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pickbot_msgs__rosidl_generator_c.dir/rosidl_generator_c/pickbot_msgs/srv/detail/euler_to_quaternion__functions.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/rahul/pick_bot/pickbot_ws/build/pickbot_msgs/rosidl_generator_c/pickbot_msgs/srv/detail/euler_to_quaternion__functions.c > CMakeFiles/pickbot_msgs__rosidl_generator_c.dir/rosidl_generator_c/pickbot_msgs/srv/detail/euler_to_quaternion__functions.c.i
+
+CMakeFiles/pickbot_msgs__rosidl_generator_c.dir/rosidl_generator_c/pickbot_msgs/srv/detail/euler_to_quaternion__functions.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pickbot_msgs__rosidl_generator_c.dir/rosidl_generator_c/pickbot_msgs/srv/detail/euler_to_quaternion__functions.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/rahul/pick_bot/pickbot_ws/build/pickbot_msgs/rosidl_generator_c/pickbot_msgs/srv/detail/euler_to_quaternion__functions.c -o CMakeFiles/pickbot_msgs__rosidl_generator_c.dir/rosidl_generator_c/pickbot_msgs/srv/detail/euler_to_quaternion__functions.c.s
+
+CMakeFiles/pickbot_msgs__rosidl_generator_c.dir/rosidl_generator_c/pickbot_msgs/srv/detail/quaternion_to_euler__functions.c.o: CMakeFiles/pickbot_msgs__rosidl_generator_c.dir/flags.make
+CMakeFiles/pickbot_msgs__rosidl_generator_c.dir/rosidl_generator_c/pickbot_msgs/srv/detail/quaternion_to_euler__functions.c.o: rosidl_generator_c/pickbot_msgs/srv/detail/quaternion_to_euler__functions.c
+CMakeFiles/pickbot_msgs__rosidl_generator_c.dir/rosidl_generator_c/pickbot_msgs/srv/detail/quaternion_to_euler__functions.c.o: CMakeFiles/pickbot_msgs__rosidl_generator_c.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rahul/pick_bot/pickbot_ws/build/pickbot_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/pickbot_msgs__rosidl_generator_c.dir/rosidl_generator_c/pickbot_msgs/srv/detail/quaternion_to_euler__functions.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pickbot_msgs__rosidl_generator_c.dir/rosidl_generator_c/pickbot_msgs/srv/detail/quaternion_to_euler__functions.c.o -MF CMakeFiles/pickbot_msgs__rosidl_generator_c.dir/rosidl_generator_c/pickbot_msgs/srv/detail/quaternion_to_euler__functions.c.o.d -o CMakeFiles/pickbot_msgs__rosidl_generator_c.dir/rosidl_generator_c/pickbot_msgs/srv/detail/quaternion_to_euler__functions.c.o -c /home/rahul/pick_bot/pickbot_ws/build/pickbot_msgs/rosidl_generator_c/pickbot_msgs/srv/detail/quaternion_to_euler__functions.c
+
+CMakeFiles/pickbot_msgs__rosidl_generator_c.dir/rosidl_generator_c/pickbot_msgs/srv/detail/quaternion_to_euler__functions.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pickbot_msgs__rosidl_generator_c.dir/rosidl_generator_c/pickbot_msgs/srv/detail/quaternion_to_euler__functions.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/rahul/pick_bot/pickbot_ws/build/pickbot_msgs/rosidl_generator_c/pickbot_msgs/srv/detail/quaternion_to_euler__functions.c > CMakeFiles/pickbot_msgs__rosidl_generator_c.dir/rosidl_generator_c/pickbot_msgs/srv/detail/quaternion_to_euler__functions.c.i
+
+CMakeFiles/pickbot_msgs__rosidl_generator_c.dir/rosidl_generator_c/pickbot_msgs/srv/detail/quaternion_to_euler__functions.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pickbot_msgs__rosidl_generator_c.dir/rosidl_generator_c/pickbot_msgs/srv/detail/quaternion_to_euler__functions.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/rahul/pick_bot/pickbot_ws/build/pickbot_msgs/rosidl_generator_c/pickbot_msgs/srv/detail/quaternion_to_euler__functions.c -o CMakeFiles/pickbot_msgs__rosidl_generator_c.dir/rosidl_generator_c/pickbot_msgs/srv/detail/quaternion_to_euler__functions.c.s
+
 # Object files for target pickbot_msgs__rosidl_generator_c
 pickbot_msgs__rosidl_generator_c_OBJECTS = \
-"CMakeFiles/pickbot_msgs__rosidl_generator_c.dir/rosidl_generator_c/pickbot_msgs/srv/detail/add_two_ints__functions.c.o"
+"CMakeFiles/pickbot_msgs__rosidl_generator_c.dir/rosidl_generator_c/pickbot_msgs/srv/detail/add_two_ints__functions.c.o" \
+"CMakeFiles/pickbot_msgs__rosidl_generator_c.dir/rosidl_generator_c/pickbot_msgs/srv/detail/euler_to_quaternion__functions.c.o" \
+"CMakeFiles/pickbot_msgs__rosidl_generator_c.dir/rosidl_generator_c/pickbot_msgs/srv/detail/quaternion_to_euler__functions.c.o"
 
 # External object files for target pickbot_msgs__rosidl_generator_c
 pickbot_msgs__rosidl_generator_c_EXTERNAL_OBJECTS =
 
 libpickbot_msgs__rosidl_generator_c.so: CMakeFiles/pickbot_msgs__rosidl_generator_c.dir/rosidl_generator_c/pickbot_msgs/srv/detail/add_two_ints__functions.c.o
+libpickbot_msgs__rosidl_generator_c.so: CMakeFiles/pickbot_msgs__rosidl_generator_c.dir/rosidl_generator_c/pickbot_msgs/srv/detail/euler_to_quaternion__functions.c.o
+libpickbot_msgs__rosidl_generator_c.so: CMakeFiles/pickbot_msgs__rosidl_generator_c.dir/rosidl_generator_c/pickbot_msgs/srv/detail/quaternion_to_euler__functions.c.o
 libpickbot_msgs__rosidl_generator_c.so: CMakeFiles/pickbot_msgs__rosidl_generator_c.dir/build.make
 libpickbot_msgs__rosidl_generator_c.so: /opt/ros/humble/lib/librosidl_runtime_c.so
 libpickbot_msgs__rosidl_generator_c.so: /opt/ros/humble/lib/librcutils.so
 libpickbot_msgs__rosidl_generator_c.so: CMakeFiles/pickbot_msgs__rosidl_generator_c.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/rahul/pick_bot/pickbot_ws/build/pickbot_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking C shared library libpickbot_msgs__rosidl_generator_c.so"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/rahul/pick_bot/pickbot_ws/build/pickbot_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking C shared library libpickbot_msgs__rosidl_generator_c.so"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/pickbot_msgs__rosidl_generator_c.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -140,6 +204,16 @@ CMakeFiles/pickbot_msgs__rosidl_generator_c.dir/depend: rosidl_generator_c/pickb
 CMakeFiles/pickbot_msgs__rosidl_generator_c.dir/depend: rosidl_generator_c/pickbot_msgs/srv/detail/add_two_ints__functions.h
 CMakeFiles/pickbot_msgs__rosidl_generator_c.dir/depend: rosidl_generator_c/pickbot_msgs/srv/detail/add_two_ints__struct.h
 CMakeFiles/pickbot_msgs__rosidl_generator_c.dir/depend: rosidl_generator_c/pickbot_msgs/srv/detail/add_two_ints__type_support.h
+CMakeFiles/pickbot_msgs__rosidl_generator_c.dir/depend: rosidl_generator_c/pickbot_msgs/srv/detail/euler_to_quaternion__functions.c
+CMakeFiles/pickbot_msgs__rosidl_generator_c.dir/depend: rosidl_generator_c/pickbot_msgs/srv/detail/euler_to_quaternion__functions.h
+CMakeFiles/pickbot_msgs__rosidl_generator_c.dir/depend: rosidl_generator_c/pickbot_msgs/srv/detail/euler_to_quaternion__struct.h
+CMakeFiles/pickbot_msgs__rosidl_generator_c.dir/depend: rosidl_generator_c/pickbot_msgs/srv/detail/euler_to_quaternion__type_support.h
+CMakeFiles/pickbot_msgs__rosidl_generator_c.dir/depend: rosidl_generator_c/pickbot_msgs/srv/detail/quaternion_to_euler__functions.c
+CMakeFiles/pickbot_msgs__rosidl_generator_c.dir/depend: rosidl_generator_c/pickbot_msgs/srv/detail/quaternion_to_euler__functions.h
+CMakeFiles/pickbot_msgs__rosidl_generator_c.dir/depend: rosidl_generator_c/pickbot_msgs/srv/detail/quaternion_to_euler__struct.h
+CMakeFiles/pickbot_msgs__rosidl_generator_c.dir/depend: rosidl_generator_c/pickbot_msgs/srv/detail/quaternion_to_euler__type_support.h
+CMakeFiles/pickbot_msgs__rosidl_generator_c.dir/depend: rosidl_generator_c/pickbot_msgs/srv/euler_to_quaternion.h
+CMakeFiles/pickbot_msgs__rosidl_generator_c.dir/depend: rosidl_generator_c/pickbot_msgs/srv/quaternion_to_euler.h
 	cd /home/rahul/pick_bot/pickbot_ws/build/pickbot_msgs && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/rahul/pick_bot/pickbot_ws/src/pickbot_msgs /home/rahul/pick_bot/pickbot_ws/src/pickbot_msgs /home/rahul/pick_bot/pickbot_ws/build/pickbot_msgs /home/rahul/pick_bot/pickbot_ws/build/pickbot_msgs /home/rahul/pick_bot/pickbot_ws/build/pickbot_msgs/CMakeFiles/pickbot_msgs__rosidl_generator_c.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/pickbot_msgs__rosidl_generator_c.dir/depend
 

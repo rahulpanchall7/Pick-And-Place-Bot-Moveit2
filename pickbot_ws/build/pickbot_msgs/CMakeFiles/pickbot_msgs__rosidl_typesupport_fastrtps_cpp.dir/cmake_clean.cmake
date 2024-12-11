@@ -1,10 +1,18 @@
 file(REMOVE_RECURSE
   "CMakeFiles/pickbot_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/pickbot_msgs/srv/detail/dds_fastrtps/add_two_ints__type_support.cpp.o"
   "CMakeFiles/pickbot_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/pickbot_msgs/srv/detail/dds_fastrtps/add_two_ints__type_support.cpp.o.d"
+  "CMakeFiles/pickbot_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/pickbot_msgs/srv/detail/dds_fastrtps/euler_to_quaternion__type_support.cpp.o"
+  "CMakeFiles/pickbot_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/pickbot_msgs/srv/detail/dds_fastrtps/euler_to_quaternion__type_support.cpp.o.d"
+  "CMakeFiles/pickbot_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/pickbot_msgs/srv/detail/dds_fastrtps/quaternion_to_euler__type_support.cpp.o"
+  "CMakeFiles/pickbot_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/pickbot_msgs/srv/detail/dds_fastrtps/quaternion_to_euler__type_support.cpp.o.d"
   "libpickbot_msgs__rosidl_typesupport_fastrtps_cpp.pdb"
   "libpickbot_msgs__rosidl_typesupport_fastrtps_cpp.so"
   "rosidl_typesupport_fastrtps_cpp/pickbot_msgs/srv/detail/add_two_ints__rosidl_typesupport_fastrtps_cpp.hpp"
   "rosidl_typesupport_fastrtps_cpp/pickbot_msgs/srv/detail/dds_fastrtps/add_two_ints__type_support.cpp"
+  "rosidl_typesupport_fastrtps_cpp/pickbot_msgs/srv/detail/dds_fastrtps/euler_to_quaternion__type_support.cpp"
+  "rosidl_typesupport_fastrtps_cpp/pickbot_msgs/srv/detail/dds_fastrtps/quaternion_to_euler__type_support.cpp"
+  "rosidl_typesupport_fastrtps_cpp/pickbot_msgs/srv/detail/euler_to_quaternion__rosidl_typesupport_fastrtps_cpp.hpp"
+  "rosidl_typesupport_fastrtps_cpp/pickbot_msgs/srv/detail/quaternion_to_euler__rosidl_typesupport_fastrtps_cpp.hpp"
 )
 
 # Per-language clean rules from dependency scanning.

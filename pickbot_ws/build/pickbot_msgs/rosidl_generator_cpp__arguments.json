@@ -3,7 +3,9 @@
   "output_dir": "/home/rahul/pick_bot/pickbot_ws/build/pickbot_msgs/rosidl_generator_cpp/pickbot_msgs",
   "template_dir": "/opt/ros/humble/share/rosidl_generator_cpp/cmake/../resource",
   "idl_tuples": [
-    "/home/rahul/pick_bot/pickbot_ws/build/pickbot_msgs/rosidl_adapter/pickbot_msgs:srv/AddTwoInts.idl"
+    "/home/rahul/pick_bot/pickbot_ws/build/pickbot_msgs/rosidl_adapter/pickbot_msgs:srv/AddTwoInts.idl",
+    "/home/rahul/pick_bot/pickbot_ws/build/pickbot_msgs/rosidl_adapter/pickbot_msgs:srv/EulerToQuaternion.idl",
+    "/home/rahul/pick_bot/pickbot_ws/build/pickbot_msgs/rosidl_adapter/pickbot_msgs:srv/QuaternionToEuler.idl"
   ],
   "target_dependencies": [
     "/opt/ros/humble/share/rosidl_generator_cpp/cmake/../../../lib/rosidl_generator_cpp/rosidl_generator_cpp",
@@ -21,6 +23,8 @@
     "/opt/ros/humble/share/rosidl_generator_cpp/cmake/../resource/srv__builder.hpp.em",
     "/opt/ros/humble/share/rosidl_generator_cpp/cmake/../resource/srv__struct.hpp.em",
     "/opt/ros/humble/share/rosidl_generator_cpp/cmake/../resource/srv__traits.hpp.em",
-    "/home/rahul/pick_bot/pickbot_ws/build/pickbot_msgs/rosidl_adapter/pickbot_msgs/srv/AddTwoInts.idl"
+    "/home/rahul/pick_bot/pickbot_ws/build/pickbot_msgs/rosidl_adapter/pickbot_msgs/srv/AddTwoInts.idl",
+    "/home/rahul/pick_bot/pickbot_ws/build/pickbot_msgs/rosidl_adapter/pickbot_msgs/srv/EulerToQuaternion.idl",
+    "/home/rahul/pick_bot/pickbot_ws/build/pickbot_msgs/rosidl_adapter/pickbot_msgs/srv/QuaternionToEuler.idl"
   ]
 }

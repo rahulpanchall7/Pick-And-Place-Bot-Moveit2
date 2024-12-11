@@ -15,6 +15,14 @@ set(CMAKE_MULTIPLE_OUTPUT_PAIRS
   "/home/rahul/pick_bot/pickbot_ws/build/pickbot_msgs/rosidl_generator_cpp/pickbot_msgs/srv/detail/add_two_ints__builder.hpp" "/home/rahul/pick_bot/pickbot_ws/build/pickbot_msgs/rosidl_generator_cpp/pickbot_msgs/srv/add_two_ints.hpp"
   "/home/rahul/pick_bot/pickbot_ws/build/pickbot_msgs/rosidl_generator_cpp/pickbot_msgs/srv/detail/add_two_ints__struct.hpp" "/home/rahul/pick_bot/pickbot_ws/build/pickbot_msgs/rosidl_generator_cpp/pickbot_msgs/srv/add_two_ints.hpp"
   "/home/rahul/pick_bot/pickbot_ws/build/pickbot_msgs/rosidl_generator_cpp/pickbot_msgs/srv/detail/add_two_ints__traits.hpp" "/home/rahul/pick_bot/pickbot_ws/build/pickbot_msgs/rosidl_generator_cpp/pickbot_msgs/srv/add_two_ints.hpp"
+  "/home/rahul/pick_bot/pickbot_ws/build/pickbot_msgs/rosidl_generator_cpp/pickbot_msgs/srv/detail/euler_to_quaternion__builder.hpp" "/home/rahul/pick_bot/pickbot_ws/build/pickbot_msgs/rosidl_generator_cpp/pickbot_msgs/srv/add_two_ints.hpp"
+  "/home/rahul/pick_bot/pickbot_ws/build/pickbot_msgs/rosidl_generator_cpp/pickbot_msgs/srv/detail/euler_to_quaternion__struct.hpp" "/home/rahul/pick_bot/pickbot_ws/build/pickbot_msgs/rosidl_generator_cpp/pickbot_msgs/srv/add_two_ints.hpp"
+  "/home/rahul/pick_bot/pickbot_ws/build/pickbot_msgs/rosidl_generator_cpp/pickbot_msgs/srv/detail/euler_to_quaternion__traits.hpp" "/home/rahul/pick_bot/pickbot_ws/build/pickbot_msgs/rosidl_generator_cpp/pickbot_msgs/srv/add_two_ints.hpp"
+  "/home/rahul/pick_bot/pickbot_ws/build/pickbot_msgs/rosidl_generator_cpp/pickbot_msgs/srv/detail/quaternion_to_euler__builder.hpp" "/home/rahul/pick_bot/pickbot_ws/build/pickbot_msgs/rosidl_generator_cpp/pickbot_msgs/srv/add_two_ints.hpp"
+  "/home/rahul/pick_bot/pickbot_ws/build/pickbot_msgs/rosidl_generator_cpp/pickbot_msgs/srv/detail/quaternion_to_euler__struct.hpp" "/home/rahul/pick_bot/pickbot_ws/build/pickbot_msgs/rosidl_generator_cpp/pickbot_msgs/srv/add_two_ints.hpp"
+  "/home/rahul/pick_bot/pickbot_ws/build/pickbot_msgs/rosidl_generator_cpp/pickbot_msgs/srv/detail/quaternion_to_euler__traits.hpp" "/home/rahul/pick_bot/pickbot_ws/build/pickbot_msgs/rosidl_generator_cpp/pickbot_msgs/srv/add_two_ints.hpp"
+  "/home/rahul/pick_bot/pickbot_ws/build/pickbot_msgs/rosidl_generator_cpp/pickbot_msgs/srv/euler_to_quaternion.hpp" "/home/rahul/pick_bot/pickbot_ws/build/pickbot_msgs/rosidl_generator_cpp/pickbot_msgs/srv/add_two_ints.hpp"
+  "/home/rahul/pick_bot/pickbot_ws/build/pickbot_msgs/rosidl_generator_cpp/pickbot_msgs/srv/quaternion_to_euler.hpp" "/home/rahul/pick_bot/pickbot_ws/build/pickbot_msgs/rosidl_generator_cpp/pickbot_msgs/srv/add_two_ints.hpp"
   )
 
 

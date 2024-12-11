@@ -197,6 +197,43 @@ pickbot_utils_uninstall/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/pickbot_utils_uninstall.dir/build.make CMakeFiles/pickbot_utils_uninstall.dir/build
 .PHONY : pickbot_utils_uninstall/fast
 
+#=============================================================================
+# Target rules for targets named angle_conversion
+
+# Build rule for target.
+angle_conversion: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 angle_conversion
+.PHONY : angle_conversion
+
+# fast build rule for target.
+angle_conversion/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/angle_conversion.dir/build.make CMakeFiles/angle_conversion.dir/build
+.PHONY : angle_conversion/fast
+
+src/angle_conversion.o: src/angle_conversion.cpp.o
+.PHONY : src/angle_conversion.o
+
+# target to build an object file
+src/angle_conversion.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/angle_conversion.dir/build.make CMakeFiles/angle_conversion.dir/src/angle_conversion.cpp.o
+.PHONY : src/angle_conversion.cpp.o
+
+src/angle_conversion.i: src/angle_conversion.cpp.i
+.PHONY : src/angle_conversion.i
+
+# target to preprocess a source file
+src/angle_conversion.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/angle_conversion.dir/build.make CMakeFiles/angle_conversion.dir/src/angle_conversion.cpp.i
+.PHONY : src/angle_conversion.cpp.i
+
+src/angle_conversion.s: src/angle_conversion.cpp.s
+.PHONY : src/angle_conversion.s
+
+# target to generate assembly for a file
+src/angle_conversion.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/angle_conversion.dir/build.make CMakeFiles/angle_conversion.dir/src/angle_conversion.cpp.s
+.PHONY : src/angle_conversion.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -212,6 +249,10 @@ help:
 	@echo "... test"
 	@echo "... pickbot_utils_uninstall"
 	@echo "... uninstall"
+	@echo "... angle_conversion"
+	@echo "... src/angle_conversion.o"
+	@echo "... src/angle_conversion.i"
+	@echo "... src/angle_conversion.s"
 .PHONY : help
 
 

@@ -83,14 +83,46 @@ CMakeFiles/pickbot_msgs__rosidl_generator_py.dir/rosidl_generator_py/pickbot_msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pickbot_msgs__rosidl_generator_py.dir/rosidl_generator_py/pickbot_msgs/srv/_add_two_ints_s.c.s"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/rahul/pick_bot/pickbot_ws/build/pickbot_msgs/rosidl_generator_py/pickbot_msgs/srv/_add_two_ints_s.c -o CMakeFiles/pickbot_msgs__rosidl_generator_py.dir/rosidl_generator_py/pickbot_msgs/srv/_add_two_ints_s.c.s
 
+CMakeFiles/pickbot_msgs__rosidl_generator_py.dir/rosidl_generator_py/pickbot_msgs/srv/_euler_to_quaternion_s.c.o: CMakeFiles/pickbot_msgs__rosidl_generator_py.dir/flags.make
+CMakeFiles/pickbot_msgs__rosidl_generator_py.dir/rosidl_generator_py/pickbot_msgs/srv/_euler_to_quaternion_s.c.o: rosidl_generator_py/pickbot_msgs/srv/_euler_to_quaternion_s.c
+CMakeFiles/pickbot_msgs__rosidl_generator_py.dir/rosidl_generator_py/pickbot_msgs/srv/_euler_to_quaternion_s.c.o: CMakeFiles/pickbot_msgs__rosidl_generator_py.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rahul/pick_bot/pickbot_ws/build/pickbot_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/pickbot_msgs__rosidl_generator_py.dir/rosidl_generator_py/pickbot_msgs/srv/_euler_to_quaternion_s.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pickbot_msgs__rosidl_generator_py.dir/rosidl_generator_py/pickbot_msgs/srv/_euler_to_quaternion_s.c.o -MF CMakeFiles/pickbot_msgs__rosidl_generator_py.dir/rosidl_generator_py/pickbot_msgs/srv/_euler_to_quaternion_s.c.o.d -o CMakeFiles/pickbot_msgs__rosidl_generator_py.dir/rosidl_generator_py/pickbot_msgs/srv/_euler_to_quaternion_s.c.o -c /home/rahul/pick_bot/pickbot_ws/build/pickbot_msgs/rosidl_generator_py/pickbot_msgs/srv/_euler_to_quaternion_s.c
+
+CMakeFiles/pickbot_msgs__rosidl_generator_py.dir/rosidl_generator_py/pickbot_msgs/srv/_euler_to_quaternion_s.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pickbot_msgs__rosidl_generator_py.dir/rosidl_generator_py/pickbot_msgs/srv/_euler_to_quaternion_s.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/rahul/pick_bot/pickbot_ws/build/pickbot_msgs/rosidl_generator_py/pickbot_msgs/srv/_euler_to_quaternion_s.c > CMakeFiles/pickbot_msgs__rosidl_generator_py.dir/rosidl_generator_py/pickbot_msgs/srv/_euler_to_quaternion_s.c.i
+
+CMakeFiles/pickbot_msgs__rosidl_generator_py.dir/rosidl_generator_py/pickbot_msgs/srv/_euler_to_quaternion_s.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pickbot_msgs__rosidl_generator_py.dir/rosidl_generator_py/pickbot_msgs/srv/_euler_to_quaternion_s.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/rahul/pick_bot/pickbot_ws/build/pickbot_msgs/rosidl_generator_py/pickbot_msgs/srv/_euler_to_quaternion_s.c -o CMakeFiles/pickbot_msgs__rosidl_generator_py.dir/rosidl_generator_py/pickbot_msgs/srv/_euler_to_quaternion_s.c.s
+
+CMakeFiles/pickbot_msgs__rosidl_generator_py.dir/rosidl_generator_py/pickbot_msgs/srv/_quaternion_to_euler_s.c.o: CMakeFiles/pickbot_msgs__rosidl_generator_py.dir/flags.make
+CMakeFiles/pickbot_msgs__rosidl_generator_py.dir/rosidl_generator_py/pickbot_msgs/srv/_quaternion_to_euler_s.c.o: rosidl_generator_py/pickbot_msgs/srv/_quaternion_to_euler_s.c
+CMakeFiles/pickbot_msgs__rosidl_generator_py.dir/rosidl_generator_py/pickbot_msgs/srv/_quaternion_to_euler_s.c.o: CMakeFiles/pickbot_msgs__rosidl_generator_py.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rahul/pick_bot/pickbot_ws/build/pickbot_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/pickbot_msgs__rosidl_generator_py.dir/rosidl_generator_py/pickbot_msgs/srv/_quaternion_to_euler_s.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pickbot_msgs__rosidl_generator_py.dir/rosidl_generator_py/pickbot_msgs/srv/_quaternion_to_euler_s.c.o -MF CMakeFiles/pickbot_msgs__rosidl_generator_py.dir/rosidl_generator_py/pickbot_msgs/srv/_quaternion_to_euler_s.c.o.d -o CMakeFiles/pickbot_msgs__rosidl_generator_py.dir/rosidl_generator_py/pickbot_msgs/srv/_quaternion_to_euler_s.c.o -c /home/rahul/pick_bot/pickbot_ws/build/pickbot_msgs/rosidl_generator_py/pickbot_msgs/srv/_quaternion_to_euler_s.c
+
+CMakeFiles/pickbot_msgs__rosidl_generator_py.dir/rosidl_generator_py/pickbot_msgs/srv/_quaternion_to_euler_s.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pickbot_msgs__rosidl_generator_py.dir/rosidl_generator_py/pickbot_msgs/srv/_quaternion_to_euler_s.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/rahul/pick_bot/pickbot_ws/build/pickbot_msgs/rosidl_generator_py/pickbot_msgs/srv/_quaternion_to_euler_s.c > CMakeFiles/pickbot_msgs__rosidl_generator_py.dir/rosidl_generator_py/pickbot_msgs/srv/_quaternion_to_euler_s.c.i
+
+CMakeFiles/pickbot_msgs__rosidl_generator_py.dir/rosidl_generator_py/pickbot_msgs/srv/_quaternion_to_euler_s.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pickbot_msgs__rosidl_generator_py.dir/rosidl_generator_py/pickbot_msgs/srv/_quaternion_to_euler_s.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/rahul/pick_bot/pickbot_ws/build/pickbot_msgs/rosidl_generator_py/pickbot_msgs/srv/_quaternion_to_euler_s.c -o CMakeFiles/pickbot_msgs__rosidl_generator_py.dir/rosidl_generator_py/pickbot_msgs/srv/_quaternion_to_euler_s.c.s
+
 # Object files for target pickbot_msgs__rosidl_generator_py
 pickbot_msgs__rosidl_generator_py_OBJECTS = \
-"CMakeFiles/pickbot_msgs__rosidl_generator_py.dir/rosidl_generator_py/pickbot_msgs/srv/_add_two_ints_s.c.o"
+"CMakeFiles/pickbot_msgs__rosidl_generator_py.dir/rosidl_generator_py/pickbot_msgs/srv/_add_two_ints_s.c.o" \
+"CMakeFiles/pickbot_msgs__rosidl_generator_py.dir/rosidl_generator_py/pickbot_msgs/srv/_euler_to_quaternion_s.c.o" \
+"CMakeFiles/pickbot_msgs__rosidl_generator_py.dir/rosidl_generator_py/pickbot_msgs/srv/_quaternion_to_euler_s.c.o"
 
 # External object files for target pickbot_msgs__rosidl_generator_py
 pickbot_msgs__rosidl_generator_py_EXTERNAL_OBJECTS =
 
 rosidl_generator_py/pickbot_msgs/libpickbot_msgs__rosidl_generator_py.so: CMakeFiles/pickbot_msgs__rosidl_generator_py.dir/rosidl_generator_py/pickbot_msgs/srv/_add_two_ints_s.c.o
+rosidl_generator_py/pickbot_msgs/libpickbot_msgs__rosidl_generator_py.so: CMakeFiles/pickbot_msgs__rosidl_generator_py.dir/rosidl_generator_py/pickbot_msgs/srv/_euler_to_quaternion_s.c.o
+rosidl_generator_py/pickbot_msgs/libpickbot_msgs__rosidl_generator_py.so: CMakeFiles/pickbot_msgs__rosidl_generator_py.dir/rosidl_generator_py/pickbot_msgs/srv/_quaternion_to_euler_s.c.o
 rosidl_generator_py/pickbot_msgs/libpickbot_msgs__rosidl_generator_py.so: CMakeFiles/pickbot_msgs__rosidl_generator_py.dir/build.make
 rosidl_generator_py/pickbot_msgs/libpickbot_msgs__rosidl_generator_py.so: /usr/lib/x86_64-linux-gnu/libpython3.10.so
 rosidl_generator_py/pickbot_msgs/libpickbot_msgs__rosidl_generator_py.so: libpickbot_msgs__rosidl_typesupport_c.so
@@ -98,7 +130,7 @@ rosidl_generator_py/pickbot_msgs/libpickbot_msgs__rosidl_generator_py.so: libpic
 rosidl_generator_py/pickbot_msgs/libpickbot_msgs__rosidl_generator_py.so: /opt/ros/humble/lib/librosidl_runtime_c.so
 rosidl_generator_py/pickbot_msgs/libpickbot_msgs__rosidl_generator_py.so: /opt/ros/humble/lib/librcutils.so
 rosidl_generator_py/pickbot_msgs/libpickbot_msgs__rosidl_generator_py.so: CMakeFiles/pickbot_msgs__rosidl_generator_py.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/rahul/pick_bot/pickbot_ws/build/pickbot_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C shared library rosidl_generator_py/pickbot_msgs/libpickbot_msgs__rosidl_generator_py.so"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/rahul/pick_bot/pickbot_ws/build/pickbot_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking C shared library rosidl_generator_py/pickbot_msgs/libpickbot_msgs__rosidl_generator_py.so"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/pickbot_msgs__rosidl_generator_py.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

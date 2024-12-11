@@ -6,3 +6,5 @@ pickbot_msgs.egg-info/dependency_links.txt
 pickbot_msgs.egg-info/top_level.txt
 pickbot_msgs/srv/__init__.py
 pickbot_msgs/srv/_add_two_ints.py
+pickbot_msgs/srv/_euler_to_quaternion.py
+pickbot_msgs/srv/_quaternion_to_euler.py
