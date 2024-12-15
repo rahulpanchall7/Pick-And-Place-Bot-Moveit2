@@ -5,6 +5,7 @@
 /home/rahul/pick_bot/pickbot_ws/install/pick_bot_cpp_examples/lib/pick_bot_cpp_examples/simple_parameter
 /home/rahul/pick_bot/pickbot_ws/install/pick_bot_cpp_examples/lib/pick_bot_cpp_examples/simple_service_server
 /home/rahul/pick_bot/pickbot_ws/install/pick_bot_cpp_examples/lib/pick_bot_cpp_examples/simple_service_client
+/home/rahul/pick_bot/pickbot_ws/install/pick_bot_cpp_examples/lib/pick_bot_cpp_examples/simple_moveit_interface
 /home/rahul/pick_bot/pickbot_ws/install/pick_bot_cpp_examples/lib/libsimple_action_server.so
 /home/rahul/pick_bot/pickbot_ws/install/pick_bot_cpp_examples/lib/libsimple_action_client.so
 /home/rahul/pick_bot/pickbot_ws/install/pick_bot_cpp_examples/share/ament_index/resource_index/package_run_dependencies/pick_bot_cpp_examples

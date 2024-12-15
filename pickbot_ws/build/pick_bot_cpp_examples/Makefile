@@ -314,6 +314,19 @@ simple_action_client_node/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/simple_action_client_node.dir/build.make CMakeFiles/simple_action_client_node.dir/build
 .PHONY : simple_action_client_node/fast
 
+#=============================================================================
+# Target rules for targets named simple_moveit_interface
+
+# Build rule for target.
+simple_moveit_interface: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 simple_moveit_interface
+.PHONY : simple_moveit_interface
+
+# fast build rule for target.
+simple_moveit_interface/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/simple_moveit_interface.dir/build.make CMakeFiles/simple_moveit_interface.dir/build
+.PHONY : simple_moveit_interface/fast
+
 rclcpp_components/node_main_simple_action_client_node.o: rclcpp_components/node_main_simple_action_client_node.cpp.o
 .PHONY : rclcpp_components/node_main_simple_action_client_node.o
 
@@ -434,6 +447,30 @@ src/simple_listener.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/simple_listener.dir/build.make CMakeFiles/simple_listener.dir/src/simple_listener.cpp.s
 .PHONY : src/simple_listener.cpp.s
 
+src/simple_moveit_interface.o: src/simple_moveit_interface.cpp.o
+.PHONY : src/simple_moveit_interface.o
+
+# target to build an object file
+src/simple_moveit_interface.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/simple_moveit_interface.dir/build.make CMakeFiles/simple_moveit_interface.dir/src/simple_moveit_interface.cpp.o
+.PHONY : src/simple_moveit_interface.cpp.o
+
+src/simple_moveit_interface.i: src/simple_moveit_interface.cpp.i
+.PHONY : src/simple_moveit_interface.i
+
+# target to preprocess a source file
+src/simple_moveit_interface.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/simple_moveit_interface.dir/build.make CMakeFiles/simple_moveit_interface.dir/src/simple_moveit_interface.cpp.i
+.PHONY : src/simple_moveit_interface.cpp.i
+
+src/simple_moveit_interface.s: src/simple_moveit_interface.cpp.s
+.PHONY : src/simple_moveit_interface.s
+
+# target to generate assembly for a file
+src/simple_moveit_interface.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/simple_moveit_interface.dir/build.make CMakeFiles/simple_moveit_interface.dir/src/simple_moveit_interface.cpp.s
+.PHONY : src/simple_moveit_interface.cpp.s
+
 src/simple_parameter.o: src/simple_parameter.cpp.o
 .PHONY : src/simple_parameter.o
 
@@ -550,6 +587,7 @@ help:
 	@echo "... simple_action_server"
 	@echo "... simple_action_server_node"
 	@echo "... simple_listener"
+	@echo "... simple_moveit_interface"
 	@echo "... simple_parameter"
 	@echo "... simple_publisher"
 	@echo "... simple_service_client"
@@ -569,6 +607,9 @@ help:
 	@echo "... src/simple_listener.o"
 	@echo "... src/simple_listener.i"
 	@echo "... src/simple_listener.s"
+	@echo "... src/simple_moveit_interface.o"
+	@echo "... src/simple_moveit_interface.i"
+	@echo "... src/simple_moveit_interface.s"
 	@echo "... src/simple_parameter.o"
 	@echo "... src/simple_parameter.i"
 	@echo "... src/simple_parameter.s"

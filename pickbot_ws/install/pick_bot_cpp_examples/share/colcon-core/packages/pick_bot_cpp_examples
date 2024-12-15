@@ -1,1 +1,1 @@
-pickbot_msgs:rcl_interfaces:rclcpp:rclcpp_action:rclcpp_components:std_msgs
+moveit_ros_planning_interface:pickbot_msgs:rcl_interfaces:rclcpp:rclcpp_action:rclcpp_components:std_msgs

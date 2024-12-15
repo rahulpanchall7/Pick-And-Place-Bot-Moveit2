@@ -1,0 +1,88 @@
+[0.220s] Invoking command in '/home/rahul/pick_bot/pickbot_ws/build/pick_bot_cpp_examples': CMAKE_PREFIX_PATH=/home/rahul/pick_bot/pickbot_ws/install/pickbot_msgs:/home/rahul/pick_bot/pickbot_ws/install/pickbot_utils:/home/rahul/pick_bot/pickbot_ws/install/pick_bot_cpp_examples:/home/rahul/pick_bot/pickbot_ws/install/pickbot_moveit:/home/rahul/pick_bot/pickbot_ws/install/pickbot_description:/home/rahul/pick_bot/pickbot_ws/install/pickbot_controller:/opt/ros/humble LD_LIBRARY_PATH=/home/rahul/pick_bot/pickbot_ws/install/pickbot_msgs/lib:/home/rahul/pick_bot/pickbot_ws/install/pick_bot_cpp_examples/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/rahul/pick_bot/pickbot_ws/build/pick_bot_cpp_examples -- -j12 -l12
+[1.168s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.611s] -- Found rclcpp: 16.0.11 (/opt/ros/humble/share/rclcpp/cmake)
+[1.834s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.865s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.905s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.999s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.070s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.289s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[2.303s] -- Found rmw_cyclonedds_cpp: 1.3.4 (/opt/ros/humble/share/rmw_cyclonedds_cpp/cmake)
+[2.463s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[2.787s] -- Found pickbot_msgs: 0.0.0 (/home/rahul/pick_bot/pickbot_ws/install/pickbot_msgs/share/pickbot_msgs/cmake)
+[2.873s] -- Found rclcpp_action: 16.0.11 (/opt/ros/humble/share/rclcpp_action/cmake)
+[2.906s] -- Found rclcpp_components: 16.0.11 (/opt/ros/humble/share/rclcpp_components/cmake)
+[3.052s] -- Found moveit_ros_planning_interface: 2.5.6 (/opt/ros/humble/share/moveit_ros_planning_interface/cmake)
+[3.164s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: date_time filesystem program_options system thread 
+[3.703s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: chrono date_time filesystem iostreams program_options regex serialization system thread 
+[3.910s] -- Found parameter_traits: 0.3.9 (/opt/ros/humble/share/parameter_traits/cmake)
+[4.031s] -- Found rclcpp_lifecycle: 16.0.11 (/opt/ros/humble/share/rclcpp_lifecycle/cmake)
+[4.192s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: filesystem 
+[4.467s] -- library: /usr/lib/x86_64-linux-gnu/libcurl.so
+[4.609s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[4.994s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem date_time program_options thread chrono 
+[5.052s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: thread system filesystem regex date_time program_options 
+[5.243s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem date_time program_options thread 
+[5.442s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[5.659s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[5.660s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/rahul/pick_bot/pickbot_ws/src/pick_bot_cpp_examples/include>
+[5.660s] -- Configured cppcheck exclude dirs and/or files: 
+[5.663s] -- Added test 'lint_cmake' to check CMake code style
+[5.667s] -- Added test 'uncrustify' to check C / C++ code style
+[5.667s] -- Configured uncrustify additional arguments: 
+[5.669s] -- Added test 'xmllint' to check XML markup files
+[5.674s] -- Configuring done
+[6.446s] -- Generating done
+[6.475s] -- Build files have been written to: /home/rahul/pick_bot/pickbot_ws/build/pick_bot_cpp_examples
+[6.583s] [35m[1mConsolidate compiler generated dependencies of target simple_action_client_node[0m
+[6.584s] [35m[1mConsolidate compiler generated dependencies of target simple_action_server_node[0m
+[6.598s] [35m[1mConsolidate compiler generated dependencies of target simple_listener[0m
+[6.603s] [35m[1mConsolidate compiler generated dependencies of target simple_service_client[0m
+[6.615s] [35m[1mConsolidate compiler generated dependencies of target simple_action_server[0m
+[6.628s] [35m[1mConsolidate compiler generated dependencies of target simple_parameter[0m
+[6.632s] [  5%] [32mBuilding CXX object CMakeFiles/simple_moveit_interface.dir/src/simple_moveit_interface.cpp.o[0m
+[6.636s] [35m[1mConsolidate compiler generated dependencies of target simple_service_server[0m
+[6.643s] [ 15%] Built target simple_action_client_node
+[6.644s] [35m[1mConsolidate compiler generated dependencies of target simple_action_client[0m
+[6.649s] [ 25%] Built target simple_action_server_node
+[6.651s] [ 35%] Built target simple_listener
+[6.661s] [ 45%] Built target simple_service_client
+[6.669s] [35m[1mConsolidate compiler generated dependencies of target simple_publisher[0m
+[6.690s] [ 55%] Built target simple_action_server
+[6.703s] [ 65%] Built target simple_parameter
+[6.707s] [ 75%] Built target simple_service_server
+[6.721s] [ 85%] Built target simple_action_client
+[6.721s] [ 95%] Built target simple_publisher
+[19.777s] [100%] [32m[1mLinking CXX executable simple_moveit_interface[0m
+[24.038s] [100%] Built target simple_moveit_interface
+[24.055s] Invoked command in '/home/rahul/pick_bot/pickbot_ws/build/pick_bot_cpp_examples' returned '0': CMAKE_PREFIX_PATH=/home/rahul/pick_bot/pickbot_ws/install/pickbot_msgs:/home/rahul/pick_bot/pickbot_ws/install/pickbot_utils:/home/rahul/pick_bot/pickbot_ws/install/pick_bot_cpp_examples:/home/rahul/pick_bot/pickbot_ws/install/pickbot_moveit:/home/rahul/pick_bot/pickbot_ws/install/pickbot_description:/home/rahul/pick_bot/pickbot_ws/install/pickbot_controller:/opt/ros/humble LD_LIBRARY_PATH=/home/rahul/pick_bot/pickbot_ws/install/pickbot_msgs/lib:/home/rahul/pick_bot/pickbot_ws/install/pick_bot_cpp_examples/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/rahul/pick_bot/pickbot_ws/build/pick_bot_cpp_examples -- -j12 -l12
+[24.135s] Invoking command in '/home/rahul/pick_bot/pickbot_ws/build/pick_bot_cpp_examples': CMAKE_PREFIX_PATH=/home/rahul/pick_bot/pickbot_ws/install/pickbot_msgs:/home/rahul/pick_bot/pickbot_ws/install/pickbot_utils:/home/rahul/pick_bot/pickbot_ws/install/pick_bot_cpp_examples:/home/rahul/pick_bot/pickbot_ws/install/pickbot_moveit:/home/rahul/pick_bot/pickbot_ws/install/pickbot_description:/home/rahul/pick_bot/pickbot_ws/install/pickbot_controller:/opt/ros/humble LD_LIBRARY_PATH=/home/rahul/pick_bot/pickbot_ws/install/pickbot_msgs/lib:/home/rahul/pick_bot/pickbot_ws/install/pick_bot_cpp_examples/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/rahul/pick_bot/pickbot_ws/build/pick_bot_cpp_examples
+[24.144s] -- Install configuration: ""
+[24.156s] -- Up-to-date: /home/rahul/pick_bot/pickbot_ws/install/pick_bot_cpp_examples/lib/pick_bot_cpp_examples/simple_action_server_node
+[24.167s] -- Up-to-date: /home/rahul/pick_bot/pickbot_ws/install/pick_bot_cpp_examples/lib/pick_bot_cpp_examples/simple_action_client_node
+[24.182s] -- Up-to-date: /home/rahul/pick_bot/pickbot_ws/install/pick_bot_cpp_examples/lib/pick_bot_cpp_examples/simple_publisher
+[24.203s] -- Up-to-date: /home/rahul/pick_bot/pickbot_ws/install/pick_bot_cpp_examples/lib/pick_bot_cpp_examples/simple_listener
+[24.210s] -- Up-to-date: /home/rahul/pick_bot/pickbot_ws/install/pick_bot_cpp_examples/lib/pick_bot_cpp_examples/simple_parameter
+[24.225s] -- Up-to-date: /home/rahul/pick_bot/pickbot_ws/install/pick_bot_cpp_examples/lib/pick_bot_cpp_examples/simple_service_server
+[24.242s] -- Up-to-date: /home/rahul/pick_bot/pickbot_ws/install/pick_bot_cpp_examples/lib/pick_bot_cpp_examples/simple_service_client
+[24.242s] -- Installing: /home/rahul/pick_bot/pickbot_ws/install/pick_bot_cpp_examples/lib/pick_bot_cpp_examples/simple_moveit_interface
+[24.244s] -- Set runtime path of "/home/rahul/pick_bot/pickbot_ws/install/pick_bot_cpp_examples/lib/pick_bot_cpp_examples/simple_moveit_interface" to ""
+[24.275s] -- Up-to-date: /home/rahul/pick_bot/pickbot_ws/install/pick_bot_cpp_examples/lib/libsimple_action_server.so
+[24.303s] -- Up-to-date: /home/rahul/pick_bot/pickbot_ws/install/pick_bot_cpp_examples/lib/libsimple_action_client.so
+[24.304s] -- Installing: /home/rahul/pick_bot/pickbot_ws/install/pick_bot_cpp_examples/share/ament_index/resource_index/package_run_dependencies/pick_bot_cpp_examples
+[24.318s] -- Up-to-date: /home/rahul/pick_bot/pickbot_ws/install/pick_bot_cpp_examples/share/ament_index/resource_index/parent_prefix_path/pick_bot_cpp_examples
+[24.319s] -- Up-to-date: /home/rahul/pick_bot/pickbot_ws/install/pick_bot_cpp_examples/share/pick_bot_cpp_examples/environment/ament_prefix_path.sh
+[24.319s] -- Installing: /home/rahul/pick_bot/pickbot_ws/install/pick_bot_cpp_examples/share/pick_bot_cpp_examples/environment/ament_prefix_path.dsv
+[24.319s] -- Up-to-date: /home/rahul/pick_bot/pickbot_ws/install/pick_bot_cpp_examples/share/pick_bot_cpp_examples/environment/path.sh
+[24.319s] -- Installing: /home/rahul/pick_bot/pickbot_ws/install/pick_bot_cpp_examples/share/pick_bot_cpp_examples/environment/path.dsv
+[24.320s] -- Up-to-date: /home/rahul/pick_bot/pickbot_ws/install/pick_bot_cpp_examples/share/pick_bot_cpp_examples/local_setup.bash
+[24.320s] -- Up-to-date: /home/rahul/pick_bot/pickbot_ws/install/pick_bot_cpp_examples/share/pick_bot_cpp_examples/local_setup.sh
+[24.320s] -- Up-to-date: /home/rahul/pick_bot/pickbot_ws/install/pick_bot_cpp_examples/share/pick_bot_cpp_examples/local_setup.zsh
+[24.321s] -- Installing: /home/rahul/pick_bot/pickbot_ws/install/pick_bot_cpp_examples/share/pick_bot_cpp_examples/local_setup.dsv
+[24.321s] -- Installing: /home/rahul/pick_bot/pickbot_ws/install/pick_bot_cpp_examples/share/pick_bot_cpp_examples/package.dsv
+[24.321s] -- Up-to-date: /home/rahul/pick_bot/pickbot_ws/install/pick_bot_cpp_examples/share/ament_index/resource_index/packages/pick_bot_cpp_examples
+[24.322s] -- Up-to-date: /home/rahul/pick_bot/pickbot_ws/install/pick_bot_cpp_examples/share/ament_index/resource_index/rclcpp_components/pick_bot_cpp_examples
+[24.322s] -- Up-to-date: /home/rahul/pick_bot/pickbot_ws/install/pick_bot_cpp_examples/share/pick_bot_cpp_examples/cmake/pick_bot_cpp_examplesConfig.cmake
+[24.322s] -- Up-to-date: /home/rahul/pick_bot/pickbot_ws/install/pick_bot_cpp_examples/share/pick_bot_cpp_examples/cmake/pick_bot_cpp_examplesConfig-version.cmake
+[24.322s] -- Installing: /home/rahul/pick_bot/pickbot_ws/install/pick_bot_cpp_examples/share/pick_bot_cpp_examples/package.xml
+[24.329s] Invoked command in '/home/rahul/pick_bot/pickbot_ws/build/pick_bot_cpp_examples' returned '0': CMAKE_PREFIX_PATH=/home/rahul/pick_bot/pickbot_ws/install/pickbot_msgs:/home/rahul/pick_bot/pickbot_ws/install/pickbot_utils:/home/rahul/pick_bot/pickbot_ws/install/pick_bot_cpp_examples:/home/rahul/pick_bot/pickbot_ws/install/pickbot_moveit:/home/rahul/pick_bot/pickbot_ws/install/pickbot_description:/home/rahul/pick_bot/pickbot_ws/install/pickbot_controller:/opt/ros/humble LD_LIBRARY_PATH=/home/rahul/pick_bot/pickbot_ws/install/pickbot_msgs/lib:/home/rahul/pick_bot/pickbot_ws/install/pick_bot_cpp_examples/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/rahul/pick_bot/pickbot_ws/build/pick_bot_cpp_examples
