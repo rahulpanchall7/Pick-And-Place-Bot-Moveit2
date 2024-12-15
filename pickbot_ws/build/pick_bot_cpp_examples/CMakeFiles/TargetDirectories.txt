@@ -5,6 +5,10 @@
 /home/rahul/pick_bot/pickbot_ws/build/pick_bot_cpp_examples/CMakeFiles/simple_parameter.dir
 /home/rahul/pick_bot/pickbot_ws/build/pick_bot_cpp_examples/CMakeFiles/simple_service_server.dir
 /home/rahul/pick_bot/pickbot_ws/build/pick_bot_cpp_examples/CMakeFiles/simple_service_client.dir
+/home/rahul/pick_bot/pickbot_ws/build/pick_bot_cpp_examples/CMakeFiles/simple_action_server.dir
+/home/rahul/pick_bot/pickbot_ws/build/pick_bot_cpp_examples/CMakeFiles/simple_action_server_node.dir
+/home/rahul/pick_bot/pickbot_ws/build/pick_bot_cpp_examples/CMakeFiles/simple_action_client.dir
+/home/rahul/pick_bot/pickbot_ws/build/pick_bot_cpp_examples/CMakeFiles/simple_action_client_node.dir
 /home/rahul/pick_bot/pickbot_ws/build/pick_bot_cpp_examples/CMakeFiles/test.dir
 /home/rahul/pick_bot/pickbot_ws/build/pick_bot_cpp_examples/CMakeFiles/edit_cache.dir
 /home/rahul/pick_bot/pickbot_ws/build/pick_bot_cpp_examples/CMakeFiles/rebuild_cache.dir

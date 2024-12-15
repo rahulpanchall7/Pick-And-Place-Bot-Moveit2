@@ -1,0 +1,36 @@
+[0.276s] Invoking command in '/home/rahul/pick_bot/pickbot_ws/build/pick_bot_cpp_examples': CMAKE_PREFIX_PATH=/home/rahul/pick_bot/pickbot_ws/install/pickbot_msgs:/home/rahul/pick_bot/pickbot_ws/install/pickbot_utils:/home/rahul/pick_bot/pickbot_ws/install/pick_bot_cpp_examples:/home/rahul/pick_bot/pickbot_ws/install/pickbot_moveit:/home/rahul/pick_bot/pickbot_ws/install/pickbot_description:/home/rahul/pick_bot/pickbot_ws/install/pickbot_controller:/opt/ros/humble /usr/bin/cmake --build /home/rahul/pick_bot/pickbot_ws/build/pick_bot_cpp_examples -- -j12 -l12
+[0.719s] [ 20%] Built target simple_publisher
+[0.723s] [ 40%] Built target simple_parameter
+[0.725s] [ 60%] Built target simple_listener
+[0.730s] [ 70%] [32mBuilding CXX object CMakeFiles/simple_service_server.dir/src/simple_service_server.cpp.o[0m
+[0.776s] [ 80%] [32mBuilding CXX object CMakeFiles/simple_service_client.dir/src/simple_service_client.cpp.o[0m
+[6.829s] [100%] [32m[1mLinking CXX executable simple_service_server[0m
+[6.829s] [100%] [32m[1mLinking CXX executable simple_service_client[0m
+[9.398s] [100%] Built target simple_service_client
+[9.419s] [100%] Built target simple_service_server
+[9.435s] Invoked command in '/home/rahul/pick_bot/pickbot_ws/build/pick_bot_cpp_examples' returned '0': CMAKE_PREFIX_PATH=/home/rahul/pick_bot/pickbot_ws/install/pickbot_msgs:/home/rahul/pick_bot/pickbot_ws/install/pickbot_utils:/home/rahul/pick_bot/pickbot_ws/install/pick_bot_cpp_examples:/home/rahul/pick_bot/pickbot_ws/install/pickbot_moveit:/home/rahul/pick_bot/pickbot_ws/install/pickbot_description:/home/rahul/pick_bot/pickbot_ws/install/pickbot_controller:/opt/ros/humble /usr/bin/cmake --build /home/rahul/pick_bot/pickbot_ws/build/pick_bot_cpp_examples -- -j12 -l12
+[9.494s] Invoking command in '/home/rahul/pick_bot/pickbot_ws/build/pick_bot_cpp_examples': CMAKE_PREFIX_PATH=/home/rahul/pick_bot/pickbot_ws/install/pickbot_msgs:/home/rahul/pick_bot/pickbot_ws/install/pickbot_utils:/home/rahul/pick_bot/pickbot_ws/install/pick_bot_cpp_examples:/home/rahul/pick_bot/pickbot_ws/install/pickbot_moveit:/home/rahul/pick_bot/pickbot_ws/install/pickbot_description:/home/rahul/pick_bot/pickbot_ws/install/pickbot_controller:/opt/ros/humble /usr/bin/cmake --install /home/rahul/pick_bot/pickbot_ws/build/pick_bot_cpp_examples
+[9.557s] -- Install configuration: ""
+[9.636s] -- Up-to-date: /home/rahul/pick_bot/pickbot_ws/install/pick_bot_cpp_examples/lib/pick_bot_cpp_examples/simple_publisher
+[9.687s] -- Up-to-date: /home/rahul/pick_bot/pickbot_ws/install/pick_bot_cpp_examples/lib/pick_bot_cpp_examples/simple_listener
+[9.742s] -- Up-to-date: /home/rahul/pick_bot/pickbot_ws/install/pick_bot_cpp_examples/lib/pick_bot_cpp_examples/simple_parameter
+[9.766s] -- Installing: /home/rahul/pick_bot/pickbot_ws/install/pick_bot_cpp_examples/lib/pick_bot_cpp_examples/simple_service_server
+[9.784s] -- Set runtime path of "/home/rahul/pick_bot/pickbot_ws/install/pick_bot_cpp_examples/lib/pick_bot_cpp_examples/simple_service_server" to ""
+[9.830s] -- Installing: /home/rahul/pick_bot/pickbot_ws/install/pick_bot_cpp_examples/lib/pick_bot_cpp_examples/simple_service_client
+[9.835s] -- Set runtime path of "/home/rahul/pick_bot/pickbot_ws/install/pick_bot_cpp_examples/lib/pick_bot_cpp_examples/simple_service_client" to ""
+[9.835s] -- Up-to-date: /home/rahul/pick_bot/pickbot_ws/install/pick_bot_cpp_examples/share/ament_index/resource_index/package_run_dependencies/pick_bot_cpp_examples
+[9.835s] -- Up-to-date: /home/rahul/pick_bot/pickbot_ws/install/pick_bot_cpp_examples/share/ament_index/resource_index/parent_prefix_path/pick_bot_cpp_examples
+[9.893s] -- Up-to-date: /home/rahul/pick_bot/pickbot_ws/install/pick_bot_cpp_examples/share/pick_bot_cpp_examples/environment/ament_prefix_path.sh
+[9.893s] -- Up-to-date: /home/rahul/pick_bot/pickbot_ws/install/pick_bot_cpp_examples/share/pick_bot_cpp_examples/environment/ament_prefix_path.dsv
+[9.894s] -- Up-to-date: /home/rahul/pick_bot/pickbot_ws/install/pick_bot_cpp_examples/share/pick_bot_cpp_examples/environment/path.sh
+[9.894s] -- Up-to-date: /home/rahul/pick_bot/pickbot_ws/install/pick_bot_cpp_examples/share/pick_bot_cpp_examples/environment/path.dsv
+[9.894s] -- Up-to-date: /home/rahul/pick_bot/pickbot_ws/install/pick_bot_cpp_examples/share/pick_bot_cpp_examples/local_setup.bash
+[9.894s] -- Up-to-date: /home/rahul/pick_bot/pickbot_ws/install/pick_bot_cpp_examples/share/pick_bot_cpp_examples/local_setup.sh
+[9.894s] -- Up-to-date: /home/rahul/pick_bot/pickbot_ws/install/pick_bot_cpp_examples/share/pick_bot_cpp_examples/local_setup.zsh
+[9.895s] -- Up-to-date: /home/rahul/pick_bot/pickbot_ws/install/pick_bot_cpp_examples/share/pick_bot_cpp_examples/local_setup.dsv
+[9.895s] -- Installing: /home/rahul/pick_bot/pickbot_ws/install/pick_bot_cpp_examples/share/pick_bot_cpp_examples/package.dsv
+[10.054s] -- Up-to-date: /home/rahul/pick_bot/pickbot_ws/install/pick_bot_cpp_examples/share/ament_index/resource_index/packages/pick_bot_cpp_examples
+[10.054s] -- Up-to-date: /home/rahul/pick_bot/pickbot_ws/install/pick_bot_cpp_examples/share/pick_bot_cpp_examples/cmake/pick_bot_cpp_examplesConfig.cmake
+[10.054s] -- Up-to-date: /home/rahul/pick_bot/pickbot_ws/install/pick_bot_cpp_examples/share/pick_bot_cpp_examples/cmake/pick_bot_cpp_examplesConfig-version.cmake
+[10.055s] -- Up-to-date: /home/rahul/pick_bot/pickbot_ws/install/pick_bot_cpp_examples/share/pick_bot_cpp_examples/package.xml
+[10.065s] Invoked command in '/home/rahul/pick_bot/pickbot_ws/build/pick_bot_cpp_examples' returned '0': CMAKE_PREFIX_PATH=/home/rahul/pick_bot/pickbot_ws/install/pickbot_msgs:/home/rahul/pick_bot/pickbot_ws/install/pickbot_utils:/home/rahul/pick_bot/pickbot_ws/install/pick_bot_cpp_examples:/home/rahul/pick_bot/pickbot_ws/install/pickbot_moveit:/home/rahul/pick_bot/pickbot_ws/install/pickbot_description:/home/rahul/pick_bot/pickbot_ws/install/pickbot_controller:/opt/ros/humble /usr/bin/cmake --install /home/rahul/pick_bot/pickbot_ws/build/pick_bot_cpp_examples

@@ -1,0 +1,65 @@
+[0.022s] Invoking command in '/home/rahul/pick_bot/pickbot_ws/build/pick_bot_cpp_examples': CMAKE_PREFIX_PATH=/home/rahul/pick_bot/pickbot_ws/install/pickbot_msgs:/home/rahul/pick_bot/pickbot_ws/install/pickbot_utils:/home/rahul/pick_bot/pickbot_ws/install/pick_bot_cpp_examples:/home/rahul/pick_bot/pickbot_ws/install/pickbot_moveit:/home/rahul/pick_bot/pickbot_ws/install/pickbot_description:/home/rahul/pick_bot/pickbot_ws/install/pickbot_controller:/opt/ros/humble /usr/bin/cmake --build /home/rahul/pick_bot/pickbot_ws/build/pick_bot_cpp_examples -- -j12 -l12
+[0.055s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.247s] -- Found rclcpp: 16.0.11 (/opt/ros/humble/share/rclcpp/cmake)
+[0.274s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.276s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.281s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.290s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.301s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.331s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.332s] -- Found rmw_cyclonedds_cpp: 1.3.4 (/opt/ros/humble/share/rmw_cyclonedds_cpp/cmake)
+[0.349s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[0.392s] -- Found pickbot_msgs: 0.0.0 (/home/rahul/pick_bot/pickbot_ws/install/pickbot_msgs/share/pickbot_msgs/cmake)
+[0.425s] -- Found rclcpp_action: 16.0.11 (/opt/ros/humble/share/rclcpp_action/cmake)
+[0.432s] -- Found rclcpp_components: 16.0.11 (/opt/ros/humble/share/rclcpp_components/cmake)
+[0.448s] -- Found moveit_ros_planning_interface: 2.5.6 (/opt/ros/humble/share/moveit_ros_planning_interface/cmake)
+[0.458s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: date_time filesystem program_options system thread 
+[0.582s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: chrono date_time filesystem iostreams program_options regex serialization system thread 
+[0.610s] -- Found parameter_traits: 0.3.9 (/opt/ros/humble/share/parameter_traits/cmake)
+[0.618s] -- Found rclcpp_lifecycle: 16.0.11 (/opt/ros/humble/share/rclcpp_lifecycle/cmake)
+[0.637s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: filesystem 
+[0.680s] -- library: /usr/lib/x86_64-linux-gnu/libcurl.so
+[0.705s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[0.788s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem date_time program_options thread chrono 
+[0.815s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: thread system filesystem regex date_time program_options 
+[0.841s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem date_time program_options thread 
+[0.872s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.952s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.952s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/rahul/pick_bot/pickbot_ws/src/pick_bot_cpp_examples/include>
+[0.952s] -- Configured cppcheck exclude dirs and/or files: 
+[0.953s] -- Added test 'lint_cmake' to check CMake code style
+[0.954s] -- Added test 'uncrustify' to check C / C++ code style
+[0.954s] -- Configured uncrustify additional arguments: 
+[0.954s] -- Added test 'xmllint' to check XML markup files
+[0.955s] -- Configuring done
+[0.990s] -- Generating done
+[1.071s] -- Build files have been written to: /home/rahul/pick_bot/pickbot_ws/build/pick_bot_cpp_examples
+[1.119s] [35m[1mConsolidate compiler generated dependencies of target simple_action_server_node[0m
+[1.119s] [35m[1mConsolidate compiler generated dependencies of target simple_parameter[0m
+[1.120s] [35m[1mConsolidate compiler generated dependencies of target simple_service_server[0m
+[1.120s] [35m[1mConsolidate compiler generated dependencies of target simple_service_client[0m
+[1.120s] [35m[1mConsolidate compiler generated dependencies of target simple_listener[0m
+[1.120s] [35m[1mConsolidate compiler generated dependencies of target simple_publisher[0m
+[1.137s] [  7%] [32mBuilding CXX object CMakeFiles/simple_action_server.dir/src/simple_action_server.cpp.o[0m
+[1.148s] [ 42%] [32mBuilding CXX object CMakeFiles/simple_service_server.dir/src/simple_service_server.cpp.o[0m
+[1.148s] [ 42%] Built target simple_parameter
+[1.148s] [ 42%] [32mBuilding CXX object CMakeFiles/simple_service_client.dir/src/simple_service_client.cpp.o[0m
+[1.149s] [ 50%] Built target simple_publisher
+[1.149s] [ 64%] Built target simple_listener
+[1.154s] [ 78%] Built target simple_action_server_node
+[1.485s] [01m[K/home/rahul/pick_bot/pickbot_ws/src/pick_bot_cpp_examples/src/simple_action_server.cpp:3:26:[m[K [01;31m[Kerror: [m[Kmissing terminating > character
+[1.485s]     3 | #include <pickbot_msgs/ac
+[1.485s]       |                          [01;31m[K^[m[K
+[1.485s] [01m[K/home/rahul/pick_bot/pickbot_ws/src/pick_bot_cpp_examples/src/simple_action_server.cpp:3:10:[m[K [01;31m[Kfatal error: [m[Kpickbot_msgs/ac: No such file or directory
+[1.485s]     3 | #include [01;31m[K<[m[Kpickbot_msgs/ac
+[1.485s]       |          [01;31m[K^[m[K
+[1.486s] compilation terminated.
+[1.492s] gmake[2]: *** [CMakeFiles/simple_action_server.dir/build.make:76: CMakeFiles/simple_action_server.dir/src/simple_action_server.cpp.o] Error 1
+[1.492s] gmake[1]: *** [CMakeFiles/Makefile2:279: CMakeFiles/simple_action_server.dir/all] Error 2
+[1.492s] gmake[1]: *** Waiting for unfinished jobs....
+[5.124s] [ 85%] [32m[1mLinking CXX executable simple_service_server[0m
+[5.339s] [ 92%] [32m[1mLinking CXX executable simple_service_client[0m
+[5.485s] [ 92%] Built target simple_service_server
+[5.565s] [ 92%] Built target simple_service_client
+[5.568s] gmake: *** [Makefile:146: all] Error 2
+[5.572s] Invoked command in '/home/rahul/pick_bot/pickbot_ws/build/pick_bot_cpp_examples' returned '2': CMAKE_PREFIX_PATH=/home/rahul/pick_bot/pickbot_ws/install/pickbot_msgs:/home/rahul/pick_bot/pickbot_ws/install/pickbot_utils:/home/rahul/pick_bot/pickbot_ws/install/pick_bot_cpp_examples:/home/rahul/pick_bot/pickbot_ws/install/pickbot_moveit:/home/rahul/pick_bot/pickbot_ws/install/pickbot_description:/home/rahul/pick_bot/pickbot_ws/install/pickbot_controller:/opt/ros/humble /usr/bin/cmake --build /home/rahul/pick_bot/pickbot_ws/build/pick_bot_cpp_examples -- -j12 -l12

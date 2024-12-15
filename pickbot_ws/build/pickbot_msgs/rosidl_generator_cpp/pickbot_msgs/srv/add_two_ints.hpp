@@ -7,5 +7,6 @@
 #include "pickbot_msgs/srv/detail/add_two_ints__struct.hpp"
 #include "pickbot_msgs/srv/detail/add_two_ints__builder.hpp"
 #include "pickbot_msgs/srv/detail/add_two_ints__traits.hpp"
+#include "pickbot_msgs/srv/detail/add_two_ints__type_support.hpp"
 
 #endif  // PICKBOT_MSGS__SRV__ADD_TWO_INTS_HPP_

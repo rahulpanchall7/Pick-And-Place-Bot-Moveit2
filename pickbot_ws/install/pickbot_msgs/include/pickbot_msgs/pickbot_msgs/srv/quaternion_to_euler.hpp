@@ -7,5 +7,6 @@
 #include "pickbot_msgs/srv/detail/quaternion_to_euler__struct.hpp"
 #include "pickbot_msgs/srv/detail/quaternion_to_euler__builder.hpp"
 #include "pickbot_msgs/srv/detail/quaternion_to_euler__traits.hpp"
+#include "pickbot_msgs/srv/detail/quaternion_to_euler__type_support.hpp"
 
 #endif  // PICKBOT_MSGS__SRV__QUATERNION_TO_EULER_HPP_

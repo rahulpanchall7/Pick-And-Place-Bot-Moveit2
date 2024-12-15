@@ -1,0 +1,140 @@
+[01m[K/home/rahul/pick_bot/pickbot_ws/src/pick_bot_cpp_examples/src/simple_action_server.cpp:[m[K In constructor ‘[01m[Kpick_bot_cpp_examples::SimpleActionServer::SimpleActionServer(const rclcpp::NodeOptions&)[m[K’:
+[01m[K/home/rahul/pick_bot/pickbot_ws/src/pick_bot_cpp_examples/src/simple_action_server.cpp:25:5:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[K}[m[K’ token
+   25 |     [01;31m[K}[m[K
+      |     [01;31m[K^[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/rahul/pick_bot/pickbot_ws/src/pick_bot_cpp_examples/src/simple_action_server.cpp:1[m[K:
+[01m[K/home/rahul/pick_bot/pickbot_ws/src/pick_bot_cpp_examples/src/simple_action_server.cpp:[m[K In member function ‘[01m[Krclcpp_action::GoalResponse pick_bot_cpp_examples::SimpleActionServer::goalCallback(const GoalUUID&, std::shared_ptr<const pickbot_msgs::action::Fibonacci_Goal_<std::allocator<void> > >)[m[K’:
+[01m[K/home/rahul/pick_bot/pickbot_ws/src/pick_bot_cpp_examples/src/simple_action_server.cpp:32:38:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kpick_bot_cpp_examples::SimpleActionServer::get_logger(const char [7])[m[K’
+   32 |         RCLCPP_INFO_STREAM([01;31m[Kget_logger("rclcpp")[m[K, "Received goal request with order; " <<goal->order);
+      |                            [01;31m[K~~~~~~~~~~^~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/rahul/pick_bot/pickbot_ws/src/pick_bot_cpp_examples/src/simple_action_server.cpp:1[m[K:
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:142:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Krclcpp::Logger rclcpp::Node::get_logger() const[m[K’
+  142 |   [01;36m[Kget_logger[m[K() const;
+      |   [01;36m[K^~~~~~~~~~[m[K
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:142:3:[m[K [01;36m[Knote: [m[K  candidate expects 0 arguments, 1 provided
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/rahul/pick_bot/pickbot_ws/src/pick_bot_cpp_examples/src/simple_action_server.cpp:1[m[K:
+[01m[K/home/rahul/pick_bot/pickbot_ws/src/pick_bot_cpp_examples/src/simple_action_server.cpp:32:38:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kpick_bot_cpp_examples::SimpleActionServer::get_logger(const char [7])[m[K’
+   32 |         RCLCPP_INFO_STREAM([01;31m[Kget_logger("rclcpp")[m[K, "Received goal request with order; " <<goal->order);
+      |                            [01;31m[K~~~~~~~~~~^~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/rahul/pick_bot/pickbot_ws/src/pick_bot_cpp_examples/src/simple_action_server.cpp:1[m[K:
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:142:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Krclcpp::Logger rclcpp::Node::get_logger() const[m[K’
+  142 |   [01;36m[Kget_logger[m[K() const;
+      |   [01;36m[K^~~~~~~~~~[m[K
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:142:3:[m[K [01;36m[Knote: [m[K  candidate expects 0 arguments, 1 provided
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/rahul/pick_bot/pickbot_ws/src/pick_bot_cpp_examples/src/simple_action_server.cpp:1[m[K:
+[01m[K/home/rahul/pick_bot/pickbot_ws/src/pick_bot_cpp_examples/src/simple_action_server.cpp:32:9:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   32 |         [01;31m[KRCLCPP_INFO_STREAM[m[K(get_logger("rclcpp"), "Received goal request with order; " <<goal->order);
+      |         [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/rahul/pick_bot/pickbot_ws/src/pick_bot_cpp_examples/src/simple_action_server.cpp:32:9:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   32 |         [01;31m[KRCLCPP_INFO_STREAM[m[K(get_logger("rclcpp"), "Received goal request with order; " <<goal->order);
+      |         [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/rahul/pick_bot/pickbot_ws/src/pick_bot_cpp_examples/src/simple_action_server.cpp:32:9:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   32 |         [01;31m[KRCLCPP_INFO_STREAM[m[K(get_logger("rclcpp"), "Received goal request with order; " <<goal->order);
+      |         [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/rahul/pick_bot/pickbot_ws/src/pick_bot_cpp_examples/src/simple_action_server.cpp:1[m[K:
+[01m[K/home/rahul/pick_bot/pickbot_ws/src/pick_bot_cpp_examples/src/simple_action_server.cpp:32:38:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kpick_bot_cpp_examples::SimpleActionServer::get_logger(const char [7])[m[K’
+   32 |         RCLCPP_INFO_STREAM([01;31m[Kget_logger("rclcpp")[m[K, "Received goal request with order; " <<goal->order);
+      |                            [01;31m[K~~~~~~~~~~^~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/rahul/pick_bot/pickbot_ws/src/pick_bot_cpp_examples/src/simple_action_server.cpp:1[m[K:
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:142:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Krclcpp::Logger rclcpp::Node::get_logger() const[m[K’
+  142 |   [01;36m[Kget_logger[m[K() const;
+      |   [01;36m[K^~~~~~~~~~[m[K
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:142:3:[m[K [01;36m[Knote: [m[K  candidate expects 0 arguments, 1 provided
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/rahul/pick_bot/pickbot_ws/src/pick_bot_cpp_examples/src/simple_action_server.cpp:1[m[K:
+[01m[K/home/rahul/pick_bot/pickbot_ws/src/pick_bot_cpp_examples/src/simple_action_server.cpp:32:38:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kpick_bot_cpp_examples::SimpleActionServer::get_logger(const char [7])[m[K’
+   32 |         RCLCPP_INFO_STREAM([01;31m[Kget_logger("rclcpp")[m[K, "Received goal request with order; " <<goal->order);
+      |                            [01;31m[K~~~~~~~~~~^~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/rahul/pick_bot/pickbot_ws/src/pick_bot_cpp_examples/src/simple_action_server.cpp:1[m[K:
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:142:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Krclcpp::Logger rclcpp::Node::get_logger() const[m[K’
+  142 |   [01;36m[Kget_logger[m[K() const;
+      |   [01;36m[K^~~~~~~~~~[m[K
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:142:3:[m[K [01;36m[Knote: [m[K  candidate expects 0 arguments, 1 provided
+[01m[K/home/rahul/pick_bot/pickbot_ws/src/pick_bot_cpp_examples/src/simple_action_server.cpp:30:77:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kuuid[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   30 |     rclcpp_action::GoalResponse goalCallback([01;35m[Kconst rclcpp_action::GoalUUID& uuid[m[K, std::shared_ptr<const pickbot_msgs::action::Fibonacci::Goal> goal)
+      |                                              [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~[m[K
+[01m[K/home/rahul/pick_bot/pickbot_ws/src/pick_bot_cpp_examples/src/simple_action_server.cpp:[m[K In member function ‘[01m[Kvoid pick_bot_cpp_examples::SimpleActionServer::execute(std::shared_ptr<rclcpp_action::ServerGoalHandle<pickbot_msgs::action::Fibonacci> >)[m[K’:
+[01m[K/home/rahul/pick_bot/pickbot_ws/src/pick_bot_cpp_examples/src/simple_action_server.cpp:44:31:[m[K [01;35m[Kwarning: [m[Kempty parentheses were disambiguated as a function declaration [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wvexing-parse-Wvexing-parse]8;;[m[K]
+   44 |         rclcpp::Rate loop_rate[01;35m[K()[m[K;
+      |                               [01;35m[K^~[m[K
+[01m[K/home/rahul/pick_bot/pickbot_ws/src/pick_bot_cpp_examples/src/simple_action_server.cpp:57:29:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = class rclcpp_action::ServerGoalHandle<pickbot_msgs::action::Fibonacci>[m[K’ {aka ‘[01m[Kclass rclcpp_action::ServerGoalHandle<pickbot_msgs::action::Fibonacci>[m[K’} has no member named ‘[01m[Kis_cancelling[m[K’; did you mean ‘[01m[Kis_canceling[m[K’?
+   57 |             if(goal_handle->[01;31m[Kis_cancelling[m[K())
+      |                             [01;31m[K^~~~~~~~~~~~~[m[K
+      |                             [32m[Kis_canceling[m[K
+[01m[K/home/rahul/pick_bot/pickbot_ws/src/pick_bot_cpp_examples/src/simple_action_server.cpp:60:30:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = class rclcpp_action::ServerGoalHandle<pickbot_msgs::action::Fibonacci>[m[K’ {aka ‘[01m[Kclass rclcpp_action::ServerGoalHandle<pickbot_msgs::action::Fibonacci>[m[K’} has no member named ‘[01m[Kcancelled[m[K’; did you mean ‘[01m[Kcanceled[m[K’?
+   60 |                 goal_handle->[01;31m[Kcancelled[m[K(result);
+      |                              [01;31m[K^~~~~~~~~[m[K
+      |                              [32m[Kcanceled[m[K
+[01m[K/home/rahul/pick_bot/pickbot_ws/src/pick_bot_cpp_examples/src/simple_action_server.cpp:67:23:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[Ksleep[m[K’ in ‘[01m[Kpick_bot_cpp_examples::loop_rate[m[K’, which is of non-class type ‘[01m[Krclcpp::Rate()[m[K’ {aka ‘[01m[Krclcpp::GenericRate<std::chrono::_V2::system_clock>()[m[K’}
+   67 |             loop_rate.[01;31m[Ksleep[m[K();
+      |                       [01;31m[K^~~~~[m[K
+[01m[K/home/rahul/pick_bot/pickbot_ws/src/pick_bot_cpp_examples/src/simple_action_server.cpp:[m[K In member function ‘[01m[Krclcpp_action::CancelResponse pick_bot_cpp_examples::SimpleActionServer::cancelCallback(std::shared_ptr<rclcpp_action::ServerGoalHandle<pickbot_msgs::action::Fibonacci> >)[m[K’:
+[01m[K/home/rahul/pick_bot/pickbot_ws/src/pick_bot_cpp_examples/src/simple_action_server.cpp:77:138:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kgoal_handle[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   77 |     rclcpp_action::CancelResponse cancelCallback([01;35m[Kconst std::shared_ptr<rclcpp_action::ServerGoalHandle<pickbot_msgs::action::Fibonacci>> goal_handle[m[K)
+      |                                                  [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/simple_action_server.dir/build.make:76: CMakeFiles/simple_action_server.dir/src/simple_action_server.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:279: CMakeFiles/simple_action_server.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

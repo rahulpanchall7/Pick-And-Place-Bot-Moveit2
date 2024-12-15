@@ -1,6 +1,9 @@
 source;share/pick_bot_cpp_examples/hook/cmake_prefix_path.ps1
 source;share/pick_bot_cpp_examples/hook/cmake_prefix_path.dsv
 source;share/pick_bot_cpp_examples/hook/cmake_prefix_path.sh
+source;share/pick_bot_cpp_examples/hook/ld_library_path_lib.ps1
+source;share/pick_bot_cpp_examples/hook/ld_library_path_lib.dsv
+source;share/pick_bot_cpp_examples/hook/ld_library_path_lib.sh
 source;share/pick_bot_cpp_examples/local_setup.bash
 source;share/pick_bot_cpp_examples/local_setup.dsv
 source;share/pick_bot_cpp_examples/local_setup.ps1
