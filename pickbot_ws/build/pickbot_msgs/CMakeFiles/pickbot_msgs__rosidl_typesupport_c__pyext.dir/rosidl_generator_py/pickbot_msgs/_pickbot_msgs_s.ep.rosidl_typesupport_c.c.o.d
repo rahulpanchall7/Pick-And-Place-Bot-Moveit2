@@ -216,4 +216,7 @@ CMakeFiles/pickbot_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/pic
  /opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/primitives_sequence.h \
  /opt/ros/humble/include/unique_identifier_msgs/unique_identifier_msgs/msg/detail/uuid__struct.h \
  /opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/detail/time__struct.h \
- /home/rahul/pick_bot/pickbot_ws/build/pickbot_msgs/rosidl_generator_c/pickbot_msgs/action/detail/fibonacci__functions.h
+ /home/rahul/pick_bot/pickbot_ws/build/pickbot_msgs/rosidl_generator_c/pickbot_msgs/action/detail/fibonacci__functions.h \
+ /home/rahul/pick_bot/pickbot_ws/build/pickbot_msgs/rosidl_generator_c/pickbot_msgs/action/detail/pickbot_task__type_support.h \
+ /home/rahul/pick_bot/pickbot_ws/build/pickbot_msgs/rosidl_generator_c/pickbot_msgs/action/detail/pickbot_task__struct.h \
+ /home/rahul/pick_bot/pickbot_ws/build/pickbot_msgs/rosidl_generator_c/pickbot_msgs/action/detail/pickbot_task__functions.h

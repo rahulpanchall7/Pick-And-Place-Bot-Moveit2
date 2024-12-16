@@ -1,5 +1,7 @@
 action/Fibonacci.action
 action/Fibonacci.idl
+action/PickbotTask.action
+action/PickbotTask.idl
 srv/AddTwoInts.idl
 srv/AddTwoInts.srv
 srv/AddTwoInts_Request.msg

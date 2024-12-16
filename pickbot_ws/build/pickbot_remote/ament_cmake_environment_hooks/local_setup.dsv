@@ -1,0 +1,2 @@
+source;share/pickbot_remote/environment/ament_prefix_path.sh
+source;share/pickbot_remote/environment/path.sh

@@ -372,6 +372,10 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/pickbot_msgs/action" TYPE FILE FILES "/home/rahul/pick_bot/pickbot_ws/build/pickbot_msgs/rosidl_adapter/pickbot_msgs/action/PickbotTask.idl")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/pickbot_msgs/srv" TYPE FILE FILES "/home/rahul/pick_bot/pickbot_ws/src/pickbot_msgs/srv/AddTwoInts.srv")
 endif()
 
@@ -409,6 +413,10 @@ endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/pickbot_msgs/action" TYPE FILE FILES "/home/rahul/pick_bot/pickbot_ws/src/pickbot_msgs/action/Fibonacci.action")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/pickbot_msgs/action" TYPE FILE FILES "/home/rahul/pick_bot/pickbot_ws/src/pickbot_msgs/action/PickbotTask.action")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)

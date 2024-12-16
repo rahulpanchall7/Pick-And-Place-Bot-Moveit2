@@ -73,12 +73,14 @@ pickbot_msgs__py/CMakeFiles/pickbot_msgs__py: rosidl_generator_py/pickbot_msgs/s
 pickbot_msgs__py/CMakeFiles/pickbot_msgs__py: rosidl_generator_py/pickbot_msgs/srv/_euler_to_quaternion.py
 pickbot_msgs__py/CMakeFiles/pickbot_msgs__py: rosidl_generator_py/pickbot_msgs/srv/_quaternion_to_euler.py
 pickbot_msgs__py/CMakeFiles/pickbot_msgs__py: rosidl_generator_py/pickbot_msgs/action/_fibonacci.py
+pickbot_msgs__py/CMakeFiles/pickbot_msgs__py: rosidl_generator_py/pickbot_msgs/action/_pickbot_task.py
 pickbot_msgs__py/CMakeFiles/pickbot_msgs__py: rosidl_generator_py/pickbot_msgs/srv/__init__.py
 pickbot_msgs__py/CMakeFiles/pickbot_msgs__py: rosidl_generator_py/pickbot_msgs/action/__init__.py
 pickbot_msgs__py/CMakeFiles/pickbot_msgs__py: rosidl_generator_py/pickbot_msgs/srv/_add_two_ints_s.c
 pickbot_msgs__py/CMakeFiles/pickbot_msgs__py: rosidl_generator_py/pickbot_msgs/srv/_euler_to_quaternion_s.c
 pickbot_msgs__py/CMakeFiles/pickbot_msgs__py: rosidl_generator_py/pickbot_msgs/srv/_quaternion_to_euler_s.c
 pickbot_msgs__py/CMakeFiles/pickbot_msgs__py: rosidl_generator_py/pickbot_msgs/action/_fibonacci_s.c
+pickbot_msgs__py/CMakeFiles/pickbot_msgs__py: rosidl_generator_py/pickbot_msgs/action/_pickbot_task_s.c
 
 rosidl_generator_py/pickbot_msgs/_pickbot_msgs_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/humble/lib/rosidl_generator_py/rosidl_generator_py
 rosidl_generator_py/pickbot_msgs/_pickbot_msgs_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_generator_py/__init__.py
@@ -97,6 +99,7 @@ rosidl_generator_py/pickbot_msgs/_pickbot_msgs_s.ep.rosidl_typesupport_fastrtps_
 rosidl_generator_py/pickbot_msgs/_pickbot_msgs_s.ep.rosidl_typesupport_fastrtps_c.c: rosidl_adapter/pickbot_msgs/srv/EulerToQuaternion.idl
 rosidl_generator_py/pickbot_msgs/_pickbot_msgs_s.ep.rosidl_typesupport_fastrtps_c.c: rosidl_adapter/pickbot_msgs/srv/QuaternionToEuler.idl
 rosidl_generator_py/pickbot_msgs/_pickbot_msgs_s.ep.rosidl_typesupport_fastrtps_c.c: rosidl_adapter/pickbot_msgs/action/Fibonacci.idl
+rosidl_generator_py/pickbot_msgs/_pickbot_msgs_s.ep.rosidl_typesupport_fastrtps_c.c: rosidl_adapter/pickbot_msgs/action/PickbotTask.idl
 rosidl_generator_py/pickbot_msgs/_pickbot_msgs_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/humble/share/action_msgs/msg/GoalInfo.idl
 rosidl_generator_py/pickbot_msgs/_pickbot_msgs_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/humble/share/action_msgs/msg/GoalStatus.idl
 rosidl_generator_py/pickbot_msgs/_pickbot_msgs_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/humble/share/action_msgs/msg/GoalStatusArray.idl
@@ -125,6 +128,9 @@ rosidl_generator_py/pickbot_msgs/srv/_quaternion_to_euler.py: rosidl_generator_p
 rosidl_generator_py/pickbot_msgs/action/_fibonacci.py: rosidl_generator_py/pickbot_msgs/_pickbot_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/pickbot_msgs/action/_fibonacci.py
 
+rosidl_generator_py/pickbot_msgs/action/_pickbot_task.py: rosidl_generator_py/pickbot_msgs/_pickbot_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/pickbot_msgs/action/_pickbot_task.py
+
 rosidl_generator_py/pickbot_msgs/srv/__init__.py: rosidl_generator_py/pickbot_msgs/_pickbot_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/pickbot_msgs/srv/__init__.py
 
@@ -143,6 +149,9 @@ rosidl_generator_py/pickbot_msgs/srv/_quaternion_to_euler_s.c: rosidl_generator_
 rosidl_generator_py/pickbot_msgs/action/_fibonacci_s.c: rosidl_generator_py/pickbot_msgs/_pickbot_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/pickbot_msgs/action/_fibonacci_s.c
 
+rosidl_generator_py/pickbot_msgs/action/_pickbot_task_s.c: rosidl_generator_py/pickbot_msgs/_pickbot_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/pickbot_msgs/action/_pickbot_task_s.c
+
 pickbot_msgs__py: pickbot_msgs__py/CMakeFiles/pickbot_msgs__py
 pickbot_msgs__py: rosidl_generator_py/pickbot_msgs/_pickbot_msgs_s.ep.rosidl_typesupport_c.c
 pickbot_msgs__py: rosidl_generator_py/pickbot_msgs/_pickbot_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
@@ -150,6 +159,8 @@ pickbot_msgs__py: rosidl_generator_py/pickbot_msgs/_pickbot_msgs_s.ep.rosidl_typ
 pickbot_msgs__py: rosidl_generator_py/pickbot_msgs/action/__init__.py
 pickbot_msgs__py: rosidl_generator_py/pickbot_msgs/action/_fibonacci.py
 pickbot_msgs__py: rosidl_generator_py/pickbot_msgs/action/_fibonacci_s.c
+pickbot_msgs__py: rosidl_generator_py/pickbot_msgs/action/_pickbot_task.py
+pickbot_msgs__py: rosidl_generator_py/pickbot_msgs/action/_pickbot_task_s.c
 pickbot_msgs__py: rosidl_generator_py/pickbot_msgs/srv/__init__.py
 pickbot_msgs__py: rosidl_generator_py/pickbot_msgs/srv/_add_two_ints.py
 pickbot_msgs__py: rosidl_generator_py/pickbot_msgs/srv/_add_two_ints_s.c

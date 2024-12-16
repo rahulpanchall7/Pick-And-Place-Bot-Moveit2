@@ -1,0 +1,42 @@
+[0.118s] Invoking command in '/home/rahul/pick_bot/pickbot_ws/build/pickbot_remote': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/rahul/pick_bot/pickbot_ws/src/pickbot_remote -DCMAKE_INSTALL_PREFIX=/home/rahul/pick_bot/pickbot_ws/install/pickbot_remote
+[4.343s] -- The C compiler identification is GNU 11.4.0
+[5.612s] -- The CXX compiler identification is GNU 11.4.0
+[5.698s] -- Detecting C compiler ABI info
+[5.996s] -- Detecting C compiler ABI info - done
+[6.004s] -- Check for working C compiler: /usr/bin/cc - skipped
+[6.004s] -- Detecting C compile features
+[6.025s] -- Detecting C compile features - done
+[6.035s] -- Detecting CXX compiler ABI info
+[6.195s] -- Detecting CXX compiler ABI info - done
+[6.203s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[6.204s] -- Detecting CXX compile features
+[6.204s] -- Detecting CXX compile features - done
+[6.490s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[6.960s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[7.338s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[7.715s] -- Added test 'lint_cmake' to check CMake code style
+[7.728s] -- Added test 'xmllint' to check XML markup files
+[7.734s] -- Configuring done
+[7.741s] -- Generating done
+[7.746s] -- Build files have been written to: /home/rahul/pick_bot/pickbot_ws/build/pickbot_remote
+[7.758s] Invoked command in '/home/rahul/pick_bot/pickbot_ws/build/pickbot_remote' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/rahul/pick_bot/pickbot_ws/src/pickbot_remote -DCMAKE_INSTALL_PREFIX=/home/rahul/pick_bot/pickbot_ws/install/pickbot_remote
+[7.760s] Invoking command in '/home/rahul/pick_bot/pickbot_ws/build/pickbot_remote': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/rahul/pick_bot/pickbot_ws/build/pickbot_remote -- -j12 -l12
+[7.824s] Invoked command in '/home/rahul/pick_bot/pickbot_ws/build/pickbot_remote' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/rahul/pick_bot/pickbot_ws/build/pickbot_remote -- -j12 -l12
+[7.826s] Invoking command in '/home/rahul/pick_bot/pickbot_ws/build/pickbot_remote': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/rahul/pick_bot/pickbot_ws/build/pickbot_remote
+[7.834s] -- Install configuration: ""
+[7.835s] -- Installing: /home/rahul/pick_bot/pickbot_ws/install/pickbot_remote/share/ament_index/resource_index/package_run_dependencies/pickbot_remote
+[7.835s] -- Installing: /home/rahul/pick_bot/pickbot_ws/install/pickbot_remote/share/ament_index/resource_index/parent_prefix_path/pickbot_remote
+[7.835s] -- Installing: /home/rahul/pick_bot/pickbot_ws/install/pickbot_remote/share/pickbot_remote/environment/ament_prefix_path.sh
+[7.835s] -- Installing: /home/rahul/pick_bot/pickbot_ws/install/pickbot_remote/share/pickbot_remote/environment/ament_prefix_path.dsv
+[7.835s] -- Installing: /home/rahul/pick_bot/pickbot_ws/install/pickbot_remote/share/pickbot_remote/environment/path.sh
+[7.836s] -- Installing: /home/rahul/pick_bot/pickbot_ws/install/pickbot_remote/share/pickbot_remote/environment/path.dsv
+[7.836s] -- Installing: /home/rahul/pick_bot/pickbot_ws/install/pickbot_remote/share/pickbot_remote/local_setup.bash
+[7.836s] -- Installing: /home/rahul/pick_bot/pickbot_ws/install/pickbot_remote/share/pickbot_remote/local_setup.sh
+[7.836s] -- Installing: /home/rahul/pick_bot/pickbot_ws/install/pickbot_remote/share/pickbot_remote/local_setup.zsh
+[7.836s] -- Installing: /home/rahul/pick_bot/pickbot_ws/install/pickbot_remote/share/pickbot_remote/local_setup.dsv
+[7.836s] -- Installing: /home/rahul/pick_bot/pickbot_ws/install/pickbot_remote/share/pickbot_remote/package.dsv
+[7.837s] -- Installing: /home/rahul/pick_bot/pickbot_ws/install/pickbot_remote/share/ament_index/resource_index/packages/pickbot_remote
+[7.837s] -- Installing: /home/rahul/pick_bot/pickbot_ws/install/pickbot_remote/share/pickbot_remote/cmake/pickbot_remoteConfig.cmake
+[7.837s] -- Installing: /home/rahul/pick_bot/pickbot_ws/install/pickbot_remote/share/pickbot_remote/cmake/pickbot_remoteConfig-version.cmake
+[7.837s] -- Installing: /home/rahul/pick_bot/pickbot_ws/install/pickbot_remote/share/pickbot_remote/package.xml
+[7.842s] Invoked command in '/home/rahul/pick_bot/pickbot_ws/build/pickbot_remote' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/rahul/pick_bot/pickbot_ws/build/pickbot_remote

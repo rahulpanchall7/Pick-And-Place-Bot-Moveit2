@@ -1,0 +1,4 @@
+source;share/pickbot_remote/local_setup.bash
+source;share/pickbot_remote/local_setup.dsv
+source;share/pickbot_remote/local_setup.sh
+source;share/pickbot_remote/local_setup.zsh

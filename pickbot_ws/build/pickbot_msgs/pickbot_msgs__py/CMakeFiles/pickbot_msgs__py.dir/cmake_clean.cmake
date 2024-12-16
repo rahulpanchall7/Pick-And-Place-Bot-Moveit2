@@ -5,6 +5,8 @@ file(REMOVE_RECURSE
   "../rosidl_generator_py/pickbot_msgs/action/__init__.py"
   "../rosidl_generator_py/pickbot_msgs/action/_fibonacci.py"
   "../rosidl_generator_py/pickbot_msgs/action/_fibonacci_s.c"
+  "../rosidl_generator_py/pickbot_msgs/action/_pickbot_task.py"
+  "../rosidl_generator_py/pickbot_msgs/action/_pickbot_task_s.c"
   "../rosidl_generator_py/pickbot_msgs/srv/__init__.py"
   "../rosidl_generator_py/pickbot_msgs/srv/_add_two_ints.py"
   "../rosidl_generator_py/pickbot_msgs/srv/_add_two_ints_s.c"

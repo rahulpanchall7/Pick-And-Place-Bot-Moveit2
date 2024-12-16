@@ -1,0 +1,24 @@
+[0.087s] Invoking command in '/home/rahul/pick_bot/pickbot_ws/build/pickbot_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/rahul/pick_bot/pickbot_ws/build/pickbot_controller -- -j12 -l12
+[1.439s] Invoked command in '/home/rahul/pick_bot/pickbot_ws/build/pickbot_controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/rahul/pick_bot/pickbot_ws/build/pickbot_controller -- -j12 -l12
+[1.475s] Invoking command in '/home/rahul/pick_bot/pickbot_ws/build/pickbot_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/rahul/pick_bot/pickbot_ws/build/pickbot_controller
+[1.494s] -- Install configuration: ""
+[1.494s] -- Up-to-date: /home/rahul/pick_bot/pickbot_ws/install/pickbot_controller/share/pickbot_controller/config
+[1.494s] -- Up-to-date: /home/rahul/pick_bot/pickbot_ws/install/pickbot_controller/share/pickbot_controller/config/pickbot_controllers.yaml
+[1.494s] -- Up-to-date: /home/rahul/pick_bot/pickbot_ws/install/pickbot_controller/share/pickbot_controller/launch
+[1.494s] -- Up-to-date: /home/rahul/pick_bot/pickbot_ws/install/pickbot_controller/share/pickbot_controller/launch/controller.launch.py
+[1.494s] -- Up-to-date: /home/rahul/pick_bot/pickbot_ws/install/pickbot_controller/share/ament_index/resource_index/package_run_dependencies/pickbot_controller
+[1.495s] -- Up-to-date: /home/rahul/pick_bot/pickbot_ws/install/pickbot_controller/share/ament_index/resource_index/parent_prefix_path/pickbot_controller
+[1.495s] -- Up-to-date: /home/rahul/pick_bot/pickbot_ws/install/pickbot_controller/share/pickbot_controller/environment/ament_prefix_path.sh
+[1.495s] -- Up-to-date: /home/rahul/pick_bot/pickbot_ws/install/pickbot_controller/share/pickbot_controller/environment/ament_prefix_path.dsv
+[1.495s] -- Up-to-date: /home/rahul/pick_bot/pickbot_ws/install/pickbot_controller/share/pickbot_controller/environment/path.sh
+[1.495s] -- Up-to-date: /home/rahul/pick_bot/pickbot_ws/install/pickbot_controller/share/pickbot_controller/environment/path.dsv
+[1.495s] -- Up-to-date: /home/rahul/pick_bot/pickbot_ws/install/pickbot_controller/share/pickbot_controller/local_setup.bash
+[1.514s] -- Up-to-date: /home/rahul/pick_bot/pickbot_ws/install/pickbot_controller/share/pickbot_controller/local_setup.sh
+[1.514s] -- Up-to-date: /home/rahul/pick_bot/pickbot_ws/install/pickbot_controller/share/pickbot_controller/local_setup.zsh
+[1.514s] -- Up-to-date: /home/rahul/pick_bot/pickbot_ws/install/pickbot_controller/share/pickbot_controller/local_setup.dsv
+[1.514s] -- Installing: /home/rahul/pick_bot/pickbot_ws/install/pickbot_controller/share/pickbot_controller/package.dsv
+[1.543s] -- Up-to-date: /home/rahul/pick_bot/pickbot_ws/install/pickbot_controller/share/ament_index/resource_index/packages/pickbot_controller
+[1.543s] -- Up-to-date: /home/rahul/pick_bot/pickbot_ws/install/pickbot_controller/share/pickbot_controller/cmake/pickbot_controllerConfig.cmake
+[1.544s] -- Up-to-date: /home/rahul/pick_bot/pickbot_ws/install/pickbot_controller/share/pickbot_controller/cmake/pickbot_controllerConfig-version.cmake
+[1.544s] -- Up-to-date: /home/rahul/pick_bot/pickbot_ws/install/pickbot_controller/share/pickbot_controller/package.xml
+[1.889s] Invoked command in '/home/rahul/pick_bot/pickbot_ws/build/pickbot_controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/rahul/pick_bot/pickbot_ws/build/pickbot_controller

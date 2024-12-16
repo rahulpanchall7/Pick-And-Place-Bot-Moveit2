@@ -1,0 +1,44 @@
+[0.076s] Invoking command in '/home/rahul/pick_bot/pickbot_ws/build/pickbot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/rahul/pick_bot/pickbot_ws/build/pickbot_description -- -j12 -l12
+[1.336s] Invoked command in '/home/rahul/pick_bot/pickbot_ws/build/pickbot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/rahul/pick_bot/pickbot_ws/build/pickbot_description -- -j12 -l12
+[1.394s] Invoking command in '/home/rahul/pick_bot/pickbot_ws/build/pickbot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/rahul/pick_bot/pickbot_ws/build/pickbot_description
+[1.426s] -- Install configuration: ""
+[1.428s] -- Up-to-date: /home/rahul/pick_bot/pickbot_ws/install/pickbot_description/share/pickbot_description/meshes
+[1.428s] -- Up-to-date: /home/rahul/pick_bot/pickbot_ws/install/pickbot_description/share/pickbot_description/meshes/left_finger.STL
+[1.428s] -- Up-to-date: /home/rahul/pick_bot/pickbot_ws/install/pickbot_description/share/pickbot_description/meshes/plate.STL
+[1.428s] -- Up-to-date: /home/rahul/pick_bot/pickbot_ws/install/pickbot_description/share/pickbot_description/meshes/pi_camera.STL
+[1.429s] -- Up-to-date: /home/rahul/pick_bot/pickbot_ws/install/pickbot_description/share/pickbot_description/meshes/triangular_link.STL
+[1.429s] -- Up-to-date: /home/rahul/pick_bot/pickbot_ws/install/pickbot_description/share/pickbot_description/meshes/horizontal_arm.STL
+[1.429s] -- Up-to-date: /home/rahul/pick_bot/pickbot_ws/install/pickbot_description/share/pickbot_description/meshes/round_plate.STL
+[1.429s] -- Up-to-date: /home/rahul/pick_bot/pickbot_ws/install/pickbot_description/share/pickbot_description/meshes/claw_support.STL
+[1.429s] -- Up-to-date: /home/rahul/pick_bot/pickbot_ws/install/pickbot_description/share/pickbot_description/meshes/basement.STL
+[1.430s] -- Up-to-date: /home/rahul/pick_bot/pickbot_ws/install/pickbot_description/share/pickbot_description/meshes/link.STL
+[1.430s] -- Up-to-date: /home/rahul/pick_bot/pickbot_ws/install/pickbot_description/share/pickbot_description/meshes/forward_drive_arm.STL
+[1.430s] -- Up-to-date: /home/rahul/pick_bot/pickbot_ws/install/pickbot_description/share/pickbot_description/meshes/base_plate.STL
+[1.430s] -- Up-to-date: /home/rahul/pick_bot/pickbot_ws/install/pickbot_description/share/pickbot_description/meshes/vertical_drive_arm.STL
+[1.430s] -- Up-to-date: /home/rahul/pick_bot/pickbot_ws/install/pickbot_description/share/pickbot_description/meshes/right_finger.STL
+[1.430s] -- Up-to-date: /home/rahul/pick_bot/pickbot_ws/install/pickbot_description/share/pickbot_description/meshes/servo_plate.STL
+[1.430s] -- Up-to-date: /home/rahul/pick_bot/pickbot_ws/install/pickbot_description/share/pickbot_description/urdf
+[1.430s] -- Up-to-date: /home/rahul/pick_bot/pickbot_ws/install/pickbot_description/share/pickbot_description/urdf/pickbot_gazebo.xacro
+[1.430s] -- Up-to-date: /home/rahul/pick_bot/pickbot_ws/install/pickbot_description/share/pickbot_description/urdf/pickbot_ros2_control.xacro
+[1.430s] -- Up-to-date: /home/rahul/pick_bot/pickbot_ws/install/pickbot_description/share/pickbot_description/urdf/pickbot.urdf.xacro
+[1.430s] -- Up-to-date: /home/rahul/pick_bot/pickbot_ws/install/pickbot_description/share/pickbot_description/launch
+[1.430s] -- Up-to-date: /home/rahul/pick_bot/pickbot_ws/install/pickbot_description/share/pickbot_description/launch/display.launch.py
+[1.430s] -- Up-to-date: /home/rahul/pick_bot/pickbot_ws/install/pickbot_description/share/pickbot_description/launch/gazebo.launch.py
+[1.431s] -- Up-to-date: /home/rahul/pick_bot/pickbot_ws/install/pickbot_description/share/pickbot_description/rviz
+[1.431s] -- Up-to-date: /home/rahul/pick_bot/pickbot_ws/install/pickbot_description/share/pickbot_description/rviz/display.rviz
+[1.431s] -- Up-to-date: /home/rahul/pick_bot/pickbot_ws/install/pickbot_description/share/ament_index/resource_index/package_run_dependencies/pickbot_description
+[1.431s] -- Up-to-date: /home/rahul/pick_bot/pickbot_ws/install/pickbot_description/share/ament_index/resource_index/parent_prefix_path/pickbot_description
+[1.431s] -- Up-to-date: /home/rahul/pick_bot/pickbot_ws/install/pickbot_description/share/pickbot_description/environment/ament_prefix_path.sh
+[1.431s] -- Up-to-date: /home/rahul/pick_bot/pickbot_ws/install/pickbot_description/share/pickbot_description/environment/ament_prefix_path.dsv
+[1.431s] -- Up-to-date: /home/rahul/pick_bot/pickbot_ws/install/pickbot_description/share/pickbot_description/environment/path.sh
+[1.431s] -- Up-to-date: /home/rahul/pick_bot/pickbot_ws/install/pickbot_description/share/pickbot_description/environment/path.dsv
+[1.431s] -- Up-to-date: /home/rahul/pick_bot/pickbot_ws/install/pickbot_description/share/pickbot_description/local_setup.bash
+[1.431s] -- Up-to-date: /home/rahul/pick_bot/pickbot_ws/install/pickbot_description/share/pickbot_description/local_setup.sh
+[1.431s] -- Up-to-date: /home/rahul/pick_bot/pickbot_ws/install/pickbot_description/share/pickbot_description/local_setup.zsh
+[1.431s] -- Up-to-date: /home/rahul/pick_bot/pickbot_ws/install/pickbot_description/share/pickbot_description/local_setup.dsv
+[1.431s] -- Installing: /home/rahul/pick_bot/pickbot_ws/install/pickbot_description/share/pickbot_description/package.dsv
+[1.455s] -- Up-to-date: /home/rahul/pick_bot/pickbot_ws/install/pickbot_description/share/ament_index/resource_index/packages/pickbot_description
+[1.455s] -- Up-to-date: /home/rahul/pick_bot/pickbot_ws/install/pickbot_description/share/pickbot_description/cmake/pickbot_descriptionConfig.cmake
+[1.455s] -- Up-to-date: /home/rahul/pick_bot/pickbot_ws/install/pickbot_description/share/pickbot_description/cmake/pickbot_descriptionConfig-version.cmake
+[1.455s] -- Up-to-date: /home/rahul/pick_bot/pickbot_ws/install/pickbot_description/share/pickbot_description/package.xml
+[1.483s] Invoked command in '/home/rahul/pick_bot/pickbot_ws/build/pickbot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/rahul/pick_bot/pickbot_ws/build/pickbot_description

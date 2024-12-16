@@ -86,6 +86,11 @@ CMakeFiles/pickbot_msgs__cpp: rosidl_generator_cpp/pickbot_msgs/action/detail/fi
 CMakeFiles/pickbot_msgs__cpp: rosidl_generator_cpp/pickbot_msgs/action/detail/fibonacci__struct.hpp
 CMakeFiles/pickbot_msgs__cpp: rosidl_generator_cpp/pickbot_msgs/action/detail/fibonacci__traits.hpp
 CMakeFiles/pickbot_msgs__cpp: rosidl_generator_cpp/pickbot_msgs/action/detail/fibonacci__type_support.hpp
+CMakeFiles/pickbot_msgs__cpp: rosidl_generator_cpp/pickbot_msgs/action/pickbot_task.hpp
+CMakeFiles/pickbot_msgs__cpp: rosidl_generator_cpp/pickbot_msgs/action/detail/pickbot_task__builder.hpp
+CMakeFiles/pickbot_msgs__cpp: rosidl_generator_cpp/pickbot_msgs/action/detail/pickbot_task__struct.hpp
+CMakeFiles/pickbot_msgs__cpp: rosidl_generator_cpp/pickbot_msgs/action/detail/pickbot_task__traits.hpp
+CMakeFiles/pickbot_msgs__cpp: rosidl_generator_cpp/pickbot_msgs/action/detail/pickbot_task__type_support.hpp
 CMakeFiles/pickbot_msgs__cpp: rosidl_generator_cpp/pickbot_msgs/msg/rosidl_generator_cpp__visibility_control.hpp
 
 rosidl_generator_cpp/pickbot_msgs/srv/add_two_ints.hpp: /opt/ros/humble/lib/rosidl_generator_cpp/rosidl_generator_cpp
@@ -107,6 +112,7 @@ rosidl_generator_cpp/pickbot_msgs/srv/add_two_ints.hpp: rosidl_adapter/pickbot_m
 rosidl_generator_cpp/pickbot_msgs/srv/add_two_ints.hpp: rosidl_adapter/pickbot_msgs/srv/EulerToQuaternion.idl
 rosidl_generator_cpp/pickbot_msgs/srv/add_two_ints.hpp: rosidl_adapter/pickbot_msgs/srv/QuaternionToEuler.idl
 rosidl_generator_cpp/pickbot_msgs/srv/add_two_ints.hpp: rosidl_adapter/pickbot_msgs/action/Fibonacci.idl
+rosidl_generator_cpp/pickbot_msgs/srv/add_two_ints.hpp: rosidl_adapter/pickbot_msgs/action/PickbotTask.idl
 rosidl_generator_cpp/pickbot_msgs/srv/add_two_ints.hpp: /opt/ros/humble/share/action_msgs/msg/GoalInfo.idl
 rosidl_generator_cpp/pickbot_msgs/srv/add_two_ints.hpp: /opt/ros/humble/share/action_msgs/msg/GoalStatus.idl
 rosidl_generator_cpp/pickbot_msgs/srv/add_two_ints.hpp: /opt/ros/humble/share/action_msgs/msg/GoalStatusArray.idl
@@ -174,12 +180,32 @@ rosidl_generator_cpp/pickbot_msgs/action/detail/fibonacci__traits.hpp: rosidl_ge
 rosidl_generator_cpp/pickbot_msgs/action/detail/fibonacci__type_support.hpp: rosidl_generator_cpp/pickbot_msgs/srv/add_two_ints.hpp
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/pickbot_msgs/action/detail/fibonacci__type_support.hpp
 
+rosidl_generator_cpp/pickbot_msgs/action/pickbot_task.hpp: rosidl_generator_cpp/pickbot_msgs/srv/add_two_ints.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/pickbot_msgs/action/pickbot_task.hpp
+
+rosidl_generator_cpp/pickbot_msgs/action/detail/pickbot_task__builder.hpp: rosidl_generator_cpp/pickbot_msgs/srv/add_two_ints.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/pickbot_msgs/action/detail/pickbot_task__builder.hpp
+
+rosidl_generator_cpp/pickbot_msgs/action/detail/pickbot_task__struct.hpp: rosidl_generator_cpp/pickbot_msgs/srv/add_two_ints.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/pickbot_msgs/action/detail/pickbot_task__struct.hpp
+
+rosidl_generator_cpp/pickbot_msgs/action/detail/pickbot_task__traits.hpp: rosidl_generator_cpp/pickbot_msgs/srv/add_two_ints.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/pickbot_msgs/action/detail/pickbot_task__traits.hpp
+
+rosidl_generator_cpp/pickbot_msgs/action/detail/pickbot_task__type_support.hpp: rosidl_generator_cpp/pickbot_msgs/srv/add_two_ints.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/pickbot_msgs/action/detail/pickbot_task__type_support.hpp
+
 pickbot_msgs__cpp: CMakeFiles/pickbot_msgs__cpp
 pickbot_msgs__cpp: rosidl_generator_cpp/pickbot_msgs/action/detail/fibonacci__builder.hpp
 pickbot_msgs__cpp: rosidl_generator_cpp/pickbot_msgs/action/detail/fibonacci__struct.hpp
 pickbot_msgs__cpp: rosidl_generator_cpp/pickbot_msgs/action/detail/fibonacci__traits.hpp
 pickbot_msgs__cpp: rosidl_generator_cpp/pickbot_msgs/action/detail/fibonacci__type_support.hpp
+pickbot_msgs__cpp: rosidl_generator_cpp/pickbot_msgs/action/detail/pickbot_task__builder.hpp
+pickbot_msgs__cpp: rosidl_generator_cpp/pickbot_msgs/action/detail/pickbot_task__struct.hpp
+pickbot_msgs__cpp: rosidl_generator_cpp/pickbot_msgs/action/detail/pickbot_task__traits.hpp
+pickbot_msgs__cpp: rosidl_generator_cpp/pickbot_msgs/action/detail/pickbot_task__type_support.hpp
 pickbot_msgs__cpp: rosidl_generator_cpp/pickbot_msgs/action/fibonacci.hpp
+pickbot_msgs__cpp: rosidl_generator_cpp/pickbot_msgs/action/pickbot_task.hpp
 pickbot_msgs__cpp: rosidl_generator_cpp/pickbot_msgs/srv/add_two_ints.hpp
 pickbot_msgs__cpp: rosidl_generator_cpp/pickbot_msgs/srv/detail/add_two_ints__builder.hpp
 pickbot_msgs__cpp: rosidl_generator_cpp/pickbot_msgs/srv/detail/add_two_ints__struct.hpp

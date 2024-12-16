@@ -1,6 +1,8 @@
 file(REMOVE_RECURSE
   "CMakeFiles/pickbot_msgs__rosidl_generator_py.dir/rosidl_generator_py/pickbot_msgs/action/_fibonacci_s.c.o"
   "CMakeFiles/pickbot_msgs__rosidl_generator_py.dir/rosidl_generator_py/pickbot_msgs/action/_fibonacci_s.c.o.d"
+  "CMakeFiles/pickbot_msgs__rosidl_generator_py.dir/rosidl_generator_py/pickbot_msgs/action/_pickbot_task_s.c.o"
+  "CMakeFiles/pickbot_msgs__rosidl_generator_py.dir/rosidl_generator_py/pickbot_msgs/action/_pickbot_task_s.c.o.d"
   "CMakeFiles/pickbot_msgs__rosidl_generator_py.dir/rosidl_generator_py/pickbot_msgs/srv/_add_two_ints_s.c.o"
   "CMakeFiles/pickbot_msgs__rosidl_generator_py.dir/rosidl_generator_py/pickbot_msgs/srv/_add_two_ints_s.c.o.d"
   "CMakeFiles/pickbot_msgs__rosidl_generator_py.dir/rosidl_generator_py/pickbot_msgs/srv/_euler_to_quaternion_s.c.o"
